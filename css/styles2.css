@@ -14,16 +14,29 @@
 ** Base html
 ** -----------------------------------------------------------------------------
 */
-
+:root {
+        --themecolor: #626E60;
+		--bordercolor: #343B33;
+		--Schriftfarbe: #444444;
+		--Schriftfarbe2: #f9f9f9;
+		--SchriftfarbeKategorien: #e4e4e4;
+		--backgroundcolor: #f1f1f1;
+		--backgroundcolor2: #f9f9f9;
+}
 
 /*colors
-Terracotta #945D60
-Herb #626E60
+Terracotta 	#945D60	border #613D3F
+Herb 		#626E60	border #343B33
 Chilli #AF473C
 Charcoal #3c3c3c
+Schriftfarbe: #e4e4e4 weiß/gräulich oder schwarz: #444
+Schriftfarbe2: #f9f9f9
+backgroundcolor: #444444 dunkelgrau oder weiß: #f1f1f1
+backgroundcolor2: #494949 oder weiß: #f9f9f9
 */
+
 body {
-  background-color: #945D60;
+  background-color: var(--themecolor);
   color: #666;
   font-size: 16px;
   font-family: 'Montserrat', sans-serif;
@@ -82,8 +95,8 @@ table {
   background-position: center;
   background-repeat: no-repeat;
   background-image:
-    radial-gradient(rgba(148, 93, 96, 0.15),
-    rgba(148, 93, 96, 0.75)),
+    radial-gradient(rgba(52, 59, 51, 0.15),
+    rgba(52, 59, 51, 0.75)),
     url("../images/kitchen-banner.jpg");
 }
 #logo img {
@@ -96,7 +109,7 @@ table {
   font-size: 72px;
   font-weight: normal;
   padding-top: 24px;
-  color: #f9f9f9;
+  color: var(--Schriftfarbe2);
 }
 
 /*
@@ -105,23 +118,24 @@ table {
 */
 
 #categories {
-  background-color: #f9f9f9;
+  background-color: var(--backgroundcolor);									/*changed*/
+  color: var(--SchriftfarbeKategorien);											/*changed*/
   padding-top: 12px;
   padding-bottom: 24px;
 }
 #categories h2 {
-  color: #333;
+  color: var(--SchriftfarbeKategorien);											/*changed*/
   font-family: 'Dancing Script', cursive;
   font-size: 2em;
   margin-bottom: 12px;
 }
 .category-item {
   border: 2px;
-  border-color: #613D3F;
+  border-color: var(--bordercolor);
   border-radius: 2.5px;
   border-style: solid !important;
-  background-color: #945D60;
-  color: #f9f9f9;
+  background-color: var(--themecolor);
+  color: var(--SchriftfarbeKategorien);											/*changed*/
   font-weight: bold;
   margin-top: 6px;
 }
@@ -139,24 +153,28 @@ table {
 */
 
 #items {
-  background-color: #f1f1f1;
+  background-color: var(--backgroundcolor);									/*changed*/
+  color: var(--Schriftfarbe);											/*changed*/
   padding-top: 12px;
   padding-bottom: 24px;
 }
 #items h2 {
-  color: #333;
+  background-color: var(--backgroundcolor);									/*changed*/
+  color: var(--Schriftfarbe);											/*changed*/
   font-family: 'Dancing Script', cursive;
   font-size: 2em;
   margin-bottom: 12px;
 }
 #items h3 {
+  background-color: var(--backgroundcolor);									/*changed*/
+  color: var(--Schriftfarbe);											/*changed*/
   margin-top: 12px;
-  color: #666;
 }
 .recipe-item {
+  background-color: var(--backgroundcolor);									/*changed*/
+  color: var(--Schriftfarbe);											/*changed*/
   margin-bottom: 24px;
   padding-bottom: 12px;
-  background-color: #fff;
   -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.15);
   -moz-box-shadow: 0 1px 0 rgba(0,0,0,.15);
   box-shadow: 0 1px 0 rgba(0,0,0,.15);
@@ -172,19 +190,20 @@ table {
 */
 
 #recipe {
-  background-color: #f1f1f1;
+  background-color: var(--backgroundcolor);
   padding-top: 12px;
   padding-bottom: 24px;
 }
 #recipe h2 {
-  color: #333;
+  color: var(--Schriftfarbe);
   font-family: 'Dancing Script', cursive;
   font-size: 2em;
   margin-bottom: 24px;
   margin-top: 12px;
 }
 #recipe h3 {
-  background-color: #f1f1f1;
+  color: var(--Schriftfarbe);
+  background-color: var(--backgroundcolor);
   margin-top: 24px;
 }
 .recipe-picture {
@@ -212,16 +231,16 @@ table {
   margin-top: 12px;
   padding-top: 6px;
   padding-bottom: 6px;
-  background-color: #f9f9f9;
+  background-color: var(--Schriftfarbe2);
   -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.15);
   -moz-box-shadow: 0 1px 0 rgba(0,0,0,.15);
   box-shadow: 0 1px 0 rgba(0,0,0,.15);
 }
 .recipe-info i {
-  color: #945D60;
+  color: var(--themecolor);
 }
 .recipe-ingredients {
-  background-color: #f9f9f9;
+  background-color: var(--Schriftfarbe2);
   margin-top: 24px;
 }
 .ingredients-list dl {
@@ -238,7 +257,8 @@ table {
   padding: 0 10px;
   font-size: 13px;
   line-height: 37px;
-  background: #f9f9f9;
+  color: var(--Schriftfarbe);
+  background: var(--backgroundcolor2);
   -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.15);
   -moz-box-shadow: 0 1px 0 rgba(0,0,0,.15);
   box-shadow: 0 1px 0 rgba(0,0,0,.15);
@@ -251,8 +271,8 @@ table {
   font-size: 13px;
   line-height: 37px;
   font-weight: 600;
-  background: #945D60;
-  color: #f9f9f9;
+  background: var(--themecolor);
+  color: var(--Schriftfarbe2);
   -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.15);
   -moz-box-shadow: 0 1px 0 rgba(0,0,0,.15);
   box-shadow: 0 1px 0 rgba(0,0,0,.15);
@@ -262,6 +282,7 @@ table {
     list-style: none;
     padding: 0;
     margin-bottom: 4em;
+	color: var(--Schriftfarbe);
     text-shadow: 0 1px 0 rgba(255,255,255,.5);
 }
 .recipe-directions ol ol {
@@ -273,8 +294,8 @@ table {
     padding: .4em .4em .4em .8em;
     *padding: .4em;
     margin: .5em 0 .5em 2.5em;
-    background: #f9f9f9;
-    color: #222;
+	color: var(--Schriftfarbe);
+    background: var(--backgroundcolor2);
     text-decoration: none;
     transition: all .3s ease-out;
     -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.15);
@@ -282,7 +303,7 @@ table {
     box-shadow: 0 1px 0 rgba(0,0,0,.15);
 }
 .recipe-directions li:hover{
-    background: #f1f1f1;
+    background: var(--backgroundcolor);
 }
 .recipe-directions li:before{
     content: counter(li);
@@ -291,13 +312,13 @@ table {
     left: -2.5em;
     top: 50%;
     margin-top: -1em;
-    background: #945D60;
+    background: var(--themecolor);
     height: 2em;
     width: 2em;
     line-height: 2em;
     text-align: center;
     font-weight: bold;
-    color: #f9f9f9;
+    color: var(--Schriftfarbe2);
 }
 .recipe-directions li:after{
     position: absolute;
@@ -310,7 +331,7 @@ table {
 }
 .recipe-directions li:hover:after{
     left: -.5em;
-    border-left-color: #945D60;
+    border-left-color: var(--themecolor);
 }
 
 /*
@@ -319,14 +340,18 @@ table {
 */
 
 footer {
-  background-color: #945D60;
-  color: #f9f9f9;
+  background-color: var(--themecolor);
+  color: var(--Schriftfarbe2);
   margin-bottom: 24px;
   margin-top: 24px;
 }
 .footer-about {
   margin-bottom: 24px;
   font-style: italic;
+}
+.footer-about a {
+  color: var(--Schriftfarbe2);
+  font-weight: bold;
 }
 .footer-author {
   margin: 0;
@@ -337,6 +362,6 @@ footer {
   transform: translate(-50%, -50%)
 }
 .footer-author a {
-  color: #f9f9f9;
+  color: var(--Schriftfarbe2);
   font-weight: bold;
 }

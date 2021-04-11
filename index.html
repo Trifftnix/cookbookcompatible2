@@ -7,7 +7,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Recipe Book</title>
+  <title>Kochbuch</title>
 
   <!-- Favicon
   ============ -->
@@ -31,7 +31,31 @@
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
   <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"  />
   <link rel="stylesheet" type="text/css" href="css/animate.min.css" />
-  <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    
+  <!-- according to daytime:-->
+  <script>
+	<!--
+	function getStylesheet() {
+		  var currentTime = new Date().getHours();
+		  if (0 <= currentTime&&currentTime < 8) {
+		   document.write("<link rel='stylesheet' type='text/css' href='css/stylesdark.css' type='text/css'>");
+		  }
+		  if (8 <= currentTime&&currentTime < 15) {
+		   document.write("<link rel='stylesheet' type='text/css' href='css/styles.css' type='text/css'>");
+		  }
+		  if (15 <= currentTime&&currentTime < 22) {
+		   document.write("<link rel='stylesheet' type='text/css' href='css/styles2.css' type='text/css'>");
+		  }
+		  if (22 <= currentTime&&currentTime <= 24) {
+		   document.write("<link rel='stylesheet' type='text/css' href='css/stylesdark.css' type='text/css'>");
+		  }
+	}
+
+	getStylesheet();
+	-->
+	</script>
+
+  <noscript><link href="styles.css" rel="stylesheet"></noscript>
 
   <!-- Modernizr file
   =================== -->
@@ -49,11 +73,14 @@
   ================= -->
   <section id="logo">
     <div class="container text-center wow pulse">
-      <img src="images/logo-white.svg" alt="logo" />
+      <a href="index.html"><img src="images/logo-white.svg" alt="logo" /></a>
       <br />
-      <h1>Recipe Book</h1>
+      <h1>Kochbuch</h1>
     </div>
   </section>
+  
+  
+  
 
   <!-- Recipes Categories
   ======================= -->
@@ -159,11 +186,11 @@
         <!-- Third recipe item -->
         <div class="col-lg-4 col-md-6 col-sm-12 wow fadeIn">
           <div class="recipe-item text-center">
-            <a href="index2.html">
-              <img src="images/bbq-pork-ribs.jpg" alt="bbq-pork-ribs" />
+            <a href="recipePutentopf.html">
+              <img src="images/Putentopf.jpg" alt="Putentopf" />
             </a>
             <br />
-            <h3>Testseite2</h3>
+            <h3>Putentopf</h3>
           </div>
         </div>
         <!-- Fourth recipe item -->
@@ -239,20 +266,14 @@
         <div class="col-md-6 col-sm-12 text-center">
           <h3>About</h3>
           <div class="footer-about">
-            "A recipe book is one that you use daily and what we in our family
-            call 'a living book' — a book that you use all the time,
-            not just read once and discard on the shelf.
-            Recipes are by nature derivative and meant to be shared -
-            that is how they improve, are changed, how new ideas are formed. ”
+            "Ein Kochbuch mit meinen persönlichen Favoriten - zusammengestellt aus Kochbüchern, Kochwebsiten und eigenen Rezepten. <br>Das Weblayout ist von <a href="https://jraleman.com/" target="_blank" rel="noopener noreferrer">Jose Ramon</a>”
           </div>
         </div>
         <!-- Author -->
         <div class="col-md-6 col-sm-12 text-center">
           <div class="footer-author">
-            Made with
-            <i class="fa fa-heart" aria-hidden="true"></i>
-            love by
-            <a href="https://jraleman.com/" target="_blank">Jose Ramon</a>.
+            Zusammengestellt von Trifftnix.
+			<br><a href="indexdark.html"> Dark Mode</a>
           </div>
         </div>
       </div>

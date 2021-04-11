@@ -31,7 +31,30 @@
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
   <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"  />
   <link rel="stylesheet" type="text/css" href="css/animate.min.css" />
-  <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  <!-- according to daytime:-->
+  <script>
+	<!--
+	function getStylesheet() {
+		  var currentTime = new Date().getHours();
+		  if (0 <= currentTime&&currentTime < 8) {
+		   document.write("<link rel='stylesheet' type='text/css' href='css/stylesdark.css' type='text/css'>");
+		  }
+		  if (8 <= currentTime&&currentTime < 15) {
+		   document.write("<link rel='stylesheet' type='text/css' href='css/styles.css' type='text/css'>");
+		  }
+		  if (15 <= currentTime&&currentTime < 22) {
+		   document.write("<link rel='stylesheet' type='text/css' href='css/styles2.css' type='text/css'>");
+		  }
+		  if (22 <= currentTime&&currentTime <= 24) {
+		   document.write("<link rel='stylesheet' type='text/css' href='css/stylesdark.css' type='text/css'>");
+		  }
+	}
+
+	getStylesheet();
+	-->
+	</script>
+
+  <noscript><link href="styles.css" rel="stylesheet"></noscript>
 
   <!-- Modernizr file
   =================== -->
@@ -49,7 +72,7 @@
   ================= -->
   <section id="logo">
     <div class="container text-center wow pulse">
-      <img src="images/logo-white.svg" alt="logo" />
+      <a href="index.html"><img src="images/logo-white.svg" alt="logo" /></a>
       <br />
       <h1>Kochbuch</h1>
     </div>
@@ -128,14 +151,13 @@
           <div class="recipe-directions">
             <h3>Zubereitung</h3>
             <ol>
-              <li>Die Eier trennen. </li>
-              <li>Die Zwiebel und den Knoblauch in feine Würfel schneiden und den Ofen auf 200 Grad Ober-/Unterhitze vorheizen.</li>
-              <li>Jetzt werden die Bällchen bei voller Hitze in der Pfanne kurz von allen Seiten angebraten. Sie sollen auf keinen Fall durchgaren, nur von allen Seiten ein kleines bisschen Farbe bekommen. Dann in eine Auflaufform geben.</li>
-              <li>In jetzt leeren aber noch heißen Pfanne werden die Zwiebelwürfel angebraten, ggf. etwas Öl hinzugeben. Nach 3 Minuten den Knoblauch hinzugeben, noch eine Minute weiterbraten. Jetzt das Tomatenmark in die Pfanne geben und noch ca. 2 Minuten mit anbraten, dabei immer rühren. Das fühlt sich etwas komisch an und sieht matschig aus, aber ist für den Geschmack ganz wichtig!</li>
-              <li>Nun kommen die Milch und die Sahne in die Pfanne, jetzt gut umrühren. Dazu noch die Kräuter und 2 TL Paprikapulver. Die Pfanne könnt ihr dabei schon ausschalten. Wenn alle Zutaten gut miteinander verrührt sind, wird die Soße über die Bällchen gegossen.</li>
-              <li>Den Mozzarella in dünne Scheiben schneiden und auf den Bällchen verteilen. Nun ab in den Ofen für 20-25 Minuten.</li>
-              <li>Guten Appetit! Dazu passt: gebratene Zucchini & Chiabatta.</li>
-              <li>Das Rezept stammt aus dem Hüttenkochbuch.</li>
+              <li>Teig: Die Eier trennen. Das Eigelb zum Mehl in eine Schüssel geben, mit dem Zucker (wahlweise auch etwas Vanillezucker) zusammenmixen. Nun vorsichtig eine kleine Menge an Milch hinzugeben, sodass ein geradeso <b> nicht </b> flüssiger Teig entsteht.</li>
+              <li>Teig: Das Eiweiß mit dem Rührgerät zu einem steifen Eischnee schlagen. Den Eischnee vorsichtig mit einem Kochlöffel unter die Teigmasse heben.</li>
+              <li>Pfanne: Butter in eine große Pfannne geben und erhizen. Die Teigmasse in die Pfanne geben (mehrere Zentimeter hoch), je nach Geschmack Rosinen und/oder Mandeln einstreuen und bei kleiner Hitze goldbraun anbacken.</li>
+              <li>Pfanne: Den Teigfladen in Viertel teilen und jedes Viertel umdrehen. Erneut anbacken lassen. Die Teile dabei in mittelgroße Stücke reißen.</li>
+			  <li>Pfanne: Einen Esslöffel Butter und etwas Zucker zum Schmarrn geben, es karamelisieren lassen und nochmals kurz durchrühren.</li>
+			  <li>Den Kaiserschmarrn zusammen mit Apfelmus (oder Puderzucker, Zimt und Zucker, Zwetschgenkompott, ...) servieren.</li>
+			  <li>Das Rezept stammt aus dem <a href="https://blv.de/essen-trinken/themenkochbuecher/2038/das-original-huetten-kochbuch" target="_blank" rel="noopener noreferrer">Original-Hütten-Kochbuch.</a></li>
             </ol>
           </div>
         </div>
@@ -168,7 +190,7 @@
         <div class="col-md-6 col-sm-12 text-center">
           <h3>About</h3>
           <div class="footer-about">
-            "Ein Kochbuch mit meinen persönlichen Favoriten - zusammengestellt aus Kochbüchern, Kochwebsiten und eigenen Rezepten. Das Weblayout ist von <a href="https://jraleman.com/" target="_blank">Jose Ramon</a>”
+            "Ein Kochbuch mit meinen persönlichen Favoriten - zusammengestellt aus Kochbüchern, Kochwebsiten und eigenen Rezepten. Das Weblayout ist von <a href="https://jraleman.com/" target="_blank" rel="noopener noreferrer">Jose Ramon</a>”
           </div>
         </div>
         <!-- Author -->
