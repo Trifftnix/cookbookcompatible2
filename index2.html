@@ -1,88 +1,270 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Trifftnix.github.io</title>
-	</head>
-	<body>
-		<h1>Kochbuch</h1>
-		<p>Rezepte</p>
-		
-		<p>
-			
-			<div itemtype="http://schema.org/Recipe">
+<html lang="de">
 
-			<h1 itemprop="name">Hackbällchen Toskana</h1>
+<head>
+  <!-- Basic meta info
+  ==================== -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Recipe Book</title>
 
-			<div itemprop="tagline">von feinkostpunks.de</div>
+  <!-- Favicon
+  ============ -->
+  <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="images/favicon/android-icon-192x192.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png" />
 
-			<div><span>By </span><span itemprop="author">Danja</span></div>
+  <!-- CSS files
+  ============== -->
+  <link rel="stylesheet" type="text/css" href="css/reset.css" />
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"  />
+  <link rel="stylesheet" type="text/css" href="css/animate.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/styles2.css" />
 
+  <!-- Modernizr file
+  =================== -->
+  <script charset="utf-8" type="text/javascript "src="js/modernizr.custom.js"></script>
 
+</head>
 
-			<img src="Toskana.jpg" itemprop="image"></img>
+<body>
 
-		</p>
-		
-		<p>
+  <!-- Splash Screen
+  ================== -->
+  <div id="splash"></div>
 
-			<div>
+  <!-- Website Logo
+  ================= -->
+  <section id="logo">
+    <div class="container text-center wow pulse">
+      <img src="images/logo-white.svg" alt="logo" />
+      <br />
+      <h1>Recipe Book</h1>
+    </div>
+  </section>
 
-			<span>Category: </span>
+  <!-- Recipes Categories
+  ======================= -->
+  <section id="categories">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2>Kategorien</h2>
+        </div>
+      </div>
+      <div class="row wow zoomIn">
+        <!-- Breakfast - Category Item -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+          <div class="category-item text-center">
+            <img src="images/icons/milk.png" alt="milk" width="48" height="48" />
+            <br />
+            Frühstück
+          </div>
+        </div>
+        <!-- Meat - Category Item -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+          <div class="category-item text-center">
+            <img src="images/icons/steak.png" alt="meat" width="48" height="48" />
+            <br />
+            Hauptspeise
+          </div>
+        </div>
+        <!-- Seafood - Category Item -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+          <div class="category-item text-center">
+            <img src="images/icons/fish.png" alt="fish" width="48" height="48" />
+            <br />
+            Sea food
+          </div>
+        </div>
+        <!-- Snacks- Category Item -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+          <div class="category-item text-center">
+            <img src="images/icons/peanuts.png" alt="peanuts" width="48" height="48"/>
+            <br />
+            Snacks
+          </div>
+        </div>
+        <!-- Spicy - Category Item -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+          <div class="category-item text-center">
+            <img src="images/icons/chili.png" alt="chili" width="48" height="48" />
+            <br />
+            Spicy
+          </div>
+        </div>
+        <!-- Vegetarian - Category Item -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+          <div class="category-item text-center">
+            <img src="images/icons/vegan.png" alt="vegan" width="48" height="48" />
+            <br />
+            Vegetarisch
+          </div>
+        </div>
+      </div>
+      <div class="row wow zoomIn">
+        <div class="col-12 text-center show-all">
+          <div class="category-item text-center">
+            <i class="fa fa-cutlery fa-2x" aria-hidden="true"></i>
+            <br />
+            Show All
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-			<span itemprop="recipeCategory">Italienisch</span>
+  <!-- Recipes Items
+  ================== -->
+  <section id="items">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2>Rezepte</h2>
+        </div>
+      </div>
+      <div class="row">
+        <!-- First recipe item -->
+        <div class="col-lg-4 col-md-6 col-sm-12 wow fadeIn">
+          <div class="recipe-item text-center">
+            <a href="recipe.html">
+              <img src="images/bbq-pork-ribs.jpg" alt="bbq-pork-ribs" />
+            </a>
+            <br />
+            <h3>Barbecue Pork Ribs</h3>
+          </div>
+        </div>
+        <!-- Second recipe item -->
+        <div class="col-lg-4 col-md-6 col-sm-12 wow fadeIn">
+          <div class="recipe-item text-center">
+            <a href="recipeToskana.html">
+              <img src="images/Toskana.jpg" alt="Toskana Hackbällchen" />
+            </a>
+            <br />
+            <h3>Toskana Hackbällchen</h3>
+          </div>
+        </div>
+        <!-- Third recipe item -->
+        <div class="col-lg-4 col-md-6 col-sm-12 wow fadeIn">
+          <div class="recipe-item text-center">
+            <a href="index.html">
+              <img src="images/bbq-pork-ribs.jpg" alt="bbq-pork-ribs" />
+            </a>
+            <br />
+            <h3>Testseite1</h3>
+          </div>
+        </div>
+        <!-- Fourth recipe item -->
+        <div class="col-lg-4 col-md-6 col-sm-12 wow fadeIn">
+          <div class="recipe-item text-center">
+            <a href="recipe.html">
+              <img src="images/bbq-pork-ribs.jpg" alt="bbq-pork-ribs" />
+            </a>
+            <br />
+            <h3>Barbecue Pork Ribs</h3>
+          </div>
+        </div>
+        <!-- Fifth recipe item -->
+        <div class="col-lg-4 col-md-6 col-sm-12 wow fadeIn">
+          <div class="recipe-item text-center">
+            <a href="recipe.html">
+              <img src="images/bbq-pork-ribs.jpg" alt="bbq-pork-ribs" />
+            </a>
+            <br />
+            <h3>Barbecue Pork Ribs</h3>
+          </div>
+        </div>
+        <!-- Sixth recipe item -->
+        <div class="col-lg-4 col-md-6 col-sm-12 wow fadeIn">
+          <div class="recipe-item text-center">
+            <a href="recipe.html">
+              <img src="images/bbq-pork-ribs.jpg" alt="bbq-pork-ribs" />
+            </a>
+            <br />
+            <h3>Barbecue Pork Ribs</h3>
+          </div>
+        </div>
+        <!-- Seventh recipe item -->
+        <div class="col-lg-4 col-md-6 col-sm-12 wow fadeIn">
+          <div class="recipe-item text-center">
+            <a href="recipe.html">
+              <img src="images/bbq-pork-ribs.jpg" alt="bbq-pork-ribs" />
+            </a>
+            <br />
+            <h3>Barbecue Pork Ribs</h3>
+          </div>
+        </div>
+        <!-- Eight recipe item -->
+        <div class="col-lg-4 col-md-6 col-sm-12 wow fadeIn">
+          <div class="recipe-item text-center">
+            <a href="recipe.html">
+              <img src="images/bbq-pork-ribs.jpg" alt="bbq-pork-ribs" />
+            </a>
+            <br />
+            <h3>Barbecue Pork Ribs</h3>
+          </div>
+        </div>
+        <!-- Ninth recipe item -->
+        <div class="col-lg-4 col-md-6 col-sm-12 wow fadeIn">
+          <div class="recipe-item text-center">
+            <a href="recipe.html">
+              <img src="images/bbq-pork-ribs.jpg" alt="bbq-pork-ribs" />
+            </a>
+            <br />
+            <h3>Barbecue Pork Ribs</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-			</div>
+  <!-- Website Footer
+  =================== -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <!-- About -->
+        <div class="col-md-6 col-sm-12 text-center">
+          <h3>About</h3>
+          <div class="footer-about">
+            "A recipe book is one that you use daily and what we in our family
+            call 'a living book' — a book that you use all the time,
+            not just read once and discard on the shelf.
+            Recipes are by nature derivative and meant to be shared -
+            that is how they improve, are changed, how new ideas are formed. ”
+          </div>
+        </div>
+        <!-- Author -->
+        <div class="col-md-6 col-sm-12 text-center">
+          <div class="footer-author">
+            Made with
+            <i class="fa fa-heart" aria-hidden="true"></i>
+            love by
+            <a href="https://jraleman.com/" target="_blank">Jose Ramon</a>.
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-			<div>
+  <!-- JavaScript files
+  ===================== -->
+  <script charset="utf-8" src="js/jquery-3.3.1.min.js"></script>
+  <script charset="utf-8" src="js/bootstrap.min.js"></script>
+  <script charset="utf-8" src="js/wow.min.js"></script>
+  <script charset="utf-8" src="js/scripts.js"></script>
+</body>
 
-			<span>serves: </span><span itemprop="yield">3</span>
-
-			</div>
-
-			<div>
-
-			<span>Cooking time: </span><span itemprop="prepTime">geschätzt 40min</span>
-
-			</div>
-
-		</p>
-
-		<ul>
-
-		<li itemprop="ingredients">500g Hackfleisch</li>
-
-		<li itemprop="ingredients">6 EL Tomatenmark</li>
-		
-		<li itemprop="ingredients">200ml Sahne</li>
-		
-		<li itemprop="ingredients">1 Kugel Mozarella</li>
-		
-		<li itemprop="ingredients">200ml Milch</li>
-		
-		<li itemprop="ingredients">1 Zwiebel</li>
-		
-		<li itemprop="ingredients">1 Knoblauchzehe</li>
-		
-		<li itemprop="ingredients">Italienische Kräuter</li>
-		
-		<li itemprop="ingredients">Salz, Pfeffer, Paprikapulver</li>
-		
-		
-
-		</ul>
-
-		</div>
-		</p>
-		
-		
-		
-		<p><script async="async" src="//platform.getbring.com/widgets/import.js"></script>
-
-		<div data-bring-import style="display:none">
-
-			   <a href="https://www.getbring.com">Bring! Einkaufsliste App f&uuml;r iPhone und Android</a>
-
-		</div>
-		</p>
-	</body>
 </html>

@@ -17,13 +17,13 @@
 
 
 /*colors
-Terracotta #626E60
+Terracotta #945D60
 Herb #626E60
 Chilli #AF473C
 Charcoal #3c3c3c
 */
 body {
-  background-color: #626E60;
+  background-color: #945D60;
   color: #666;
   font-size: 16px;
   font-family: 'Montserrat', sans-serif;
@@ -82,8 +82,8 @@ table {
   background-position: center;
   background-repeat: no-repeat;
   background-image:
-    radial-gradient(rgba(52, 59, 51, 0.15),
-    rgba(52, 59, 51, 0.75)),
+    radial-gradient(rgba(148, 93, 96, 0.15),
+    rgba(148, 93, 96, 0.75)),
     url("../images/kitchen-banner.jpg");
 }
 #logo img {
@@ -117,10 +117,10 @@ table {
 }
 .category-item {
   border: 2px;
-  border-color: #343B33;
+  border-color: #613D3F;
   border-radius: 2.5px;
   border-style: solid !important;
-  background-color: #626E60;
+  background-color: #945D60;
   color: #f9f9f9;
   font-weight: bold;
   margin-top: 6px;
@@ -218,7 +218,7 @@ table {
   box-shadow: 0 1px 0 rgba(0,0,0,.15);
 }
 .recipe-info i {
-  color: #626E60;
+  color: #945D60;
 }
 .recipe-ingredients {
   background-color: #f9f9f9;
@@ -251,7 +251,7 @@ table {
   font-size: 13px;
   line-height: 37px;
   font-weight: 600;
-  background: #626E60;
+  background: #945D60;
   color: #f9f9f9;
   -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.15);
   -moz-box-shadow: 0 1px 0 rgba(0,0,0,.15);
@@ -291,7 +291,7 @@ table {
     left: -2.5em;
     top: 50%;
     margin-top: -1em;
-    background: #626E60;
+    background: #945D60;
     height: 2em;
     width: 2em;
     line-height: 2em;
@@ -310,7 +310,7 @@ table {
 }
 .recipe-directions li:hover:after{
     left: -.5em;
-    border-left-color: #626E60;
+    border-left-color: #945D60;
 }
 
 /*
@@ -319,7 +319,7 @@ table {
 */
 
 footer {
-  background-color: #626E60;
+  background-color: #945D60;
   color: #f9f9f9;
   margin-bottom: 24px;
   margin-top: 24px;
