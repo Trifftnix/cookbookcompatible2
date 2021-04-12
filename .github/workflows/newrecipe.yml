@@ -1,12 +1,12 @@
 name: newrecipe
 on: [push]
 jobs:
-  check-bats-version:
+  convertrecipesintohtml:
     runs-on: ubuntu-latest
-    container: php
     steps:
       - uses: actions/checkout@v2
       - run:  php rezeptcreator.php 
+        uses: docker://php
       - uses: crazy-max/ghaction-github-pages@v2.3.0
         if: success()
         with:
