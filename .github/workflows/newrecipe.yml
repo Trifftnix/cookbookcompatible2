@@ -1,0 +1,10 @@
+name: newrecipe
+on: [push]
+jobs:
+  check-bats-version:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: nanasess/setup-php@v3.0.6
+      - run:  php rezeptcreator.php 
+      - uses: crazy-max/ghaction-github-pages@v2.3.0
