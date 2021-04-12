@@ -124,7 +124,7 @@ table {
   padding-bottom: 24px;
 }
 #categories h2 {
-  color: var(--SchriftfarbeKategorien);											/*changed*/
+  color: var(--Schriftfarbe);											/*changed*/
   font-family: 'Dancing Script', cursive;
   font-size: 2em;
   margin-bottom: 12px;
