@@ -16,6 +16,7 @@
 */
 :root {
         --themecolor: #626E60;
+		--themecolor2: #869683;
 		--bordercolor: #343B33;
 		--Schriftfarbe: #444444;
 		--Schriftfarbe2: #f9f9f9;
@@ -273,6 +274,41 @@ table {
   line-height: 37px;
   font-weight: 600;
   background: var(--themecolor);
+  color: var(--Schriftfarbe2);
+  -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.15);
+  -moz-box-shadow: 0 1px 0 rgba(0,0,0,.15);
+  box-shadow: 0 1px 0 rgba(0,0,0,.15);
+}
+.ingredients-list-minor dl {
+  display: inline-block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+.ingredients-list-minor dt {
+  width: 15%;
+  float: left;
+  margin: 0 0 8px;
+  padding: 0 10px;
+  font-size: 13px;
+  line-height: 37px;
+  text-align: right;
+  color: var(--Schriftfarbe);
+  background: var(--backgroundcolor2);
+  -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.15);
+  -moz-box-shadow: 0 1px 0 rgba(0,0,0,.15);
+  box-shadow: 0 1px 0 rgba(0,0,0,.15);
+}
+.ingredients-list-minor dd {
+  width: 85%;
+  float: left;
+  margin: 0 0 8px;
+  padding: 0 15px;
+  font-size: 13px;
+  line-height: 37px;
+  font-weight: 600;
+  background: var(--themecolor2);
   color: var(--Schriftfarbe2);
   -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.15);
   -moz-box-shadow: 0 1px 0 rgba(0,0,0,.15);
