@@ -1,6 +1,6 @@
 {
 	"Rezeptname": "Bauerntopftest",
-	"BildnamemitEndung": "Bauerntopf.jpg",
+	"BildnameohneEndung": "Bauerntopftest",
 	"Zeit": "0:45 h",
 	"Portionen": "4",
 	"ZutatenEinkaufsliste": [
