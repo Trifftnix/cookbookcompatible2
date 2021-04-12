@@ -8,7 +8,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   
-  <title>Putentop mit Frischkäse | Kochbuch</title>	<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+  <title><?php echo $Rezeptname ?> | Kochbuch</title>	<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
 
   <!-- Favicon
   ============ -->
@@ -41,7 +41,7 @@
 		   document.write("<link rel='stylesheet' type='text/css' href='css/stylesdark.css' type='text/css'>");
 		  }
 		  if (8 <= currentTime&&currentTime < 15) {
-		   document.write("<link rel='stylesheet' type='text/css' href='css/styles2.css' type='text/css'>");
+		   document.write("<link rel='stylesheet' type='text/css' href='css/styles.css' type='text/css'>");
 		  }
 		  if (15 <= currentTime&&currentTime < 22) {
 		   document.write("<link rel='stylesheet' type='text/css' href='css/styles2.css' type='text/css'>");
@@ -86,14 +86,14 @@
       <div class="row">
         <!-- Title -->
         <div class="col-12">
-          <h2 itemprop="name">Putentopf mit Frischkäse</h2>	<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+          <h2 itemprop="name"><?php echo $Rezeptname ?></h2>	<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
         </div>
       </div>
       <div class="row vertical-align">
         <div class="col-12">
           <!-- Picture -->
           <div class="col-md-8 pull-left wow swing">
-            <img src="images/Putentopf.jpg" alt="Putentopf" class="recipe-picture" itemprop="image"/>	<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+            <img src="images/<?php echo $Bildname ?>.jpg" alt="<?php echo $Bildname ?>" class="recipe-picture" itemprop="image"/>	<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
           </div>
           <!-- Info -->
           <div class="col-md-4 pull-right wow lightSpeedIn">
@@ -105,7 +105,7 @@
                   <i class="fa fa-clock-o" aria-hidden="true"></i>
                 </div>
                 <div class="col-6">Zeit</div>
-                <div class="col-4" itemprop="prepTime">? h</div>	<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+                <div class="col-4" itemprop="prepTime"><?php echo $Zeit ?></div>	<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
               </div>
               <!-- Difficulty -->
               <div class="row">
@@ -115,7 +115,7 @@
                 <div class="col-6">Schwierigkeit</div>
                 <div class="col-4">
                   <i class="fa fa-star" aria-hidden="true"></i>			<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
-                  <i class="fa fa-star-o" aria-hidden="true"></i>	<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+                  <i class="fa fa-star-half-o" aria-hidden="true"></i>	<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
                   <i class="fa fa-star-o" aria-hidden="true"></i>		<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
                 </div>
               </div>
@@ -125,7 +125,7 @@
                   <i class="fa fa-users" aria-hidden="true"></i>
                 </div>
                 <div class="col-6">Portionen</div>
-                <div class="col-4">4</div>								<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+                <div class="col-4"><?php echo $Portionen ?></div>								<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
               </div>
             </div>
           </div>
@@ -137,18 +137,19 @@
           <div class="recipe-ingredients">
             <h3>Zutaten</h3>
             <dl class="ingredients-list">
-              <div itemprop="ingredients"><dt>400g</dt> <dd>Putengeschnetzeltes</dd></div>	<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
-              <div itemprop="ingredients"><dt>300g</dt> <dd>Champignons</dd></div>
-              <div itemprop="ingredients"><dt>3 EL</dt> <dd>Frischkäse</dd></div>
-              <div itemprop="ingredients"><dt>2-3</dt>  <dd>Frühlingszwiebeln</dd></div>
-              <div itemprop="ingredients"><dt>100ml</dt><dd>Sahne</dd></div>
-			  <div itemprop="ingredients"><dt>2 EL</dt> <dd>gehackte Petersilie</dd></div>
+              <div itemprop="ingredients"><dt>500g</dt> 	<dd>Hackfleisch</dd></div>	<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+              <div itemprop="ingredients"><dt>6 EL</dt> 	<dd>Tomatenmark</dd></div>
+              <div itemprop="ingredients"><dt>200ml</dt> 	<dd>Sahne</dd></div>
+              <div itemprop="ingredients"><dt>1 Kugel</dt> 	<dd>Mozarella</dd></div>
+              <div itemprop="ingredients"><dt>200ml</dt> 	<dd>Milch</dd></div>
+			  <div itemprop="ingredients"><dt>1</dt> 		<dd>Chiabatta</dd></div>
+			  <div itemprop="ingredients"><dt>2</dt> 		<dd>Zucchini</dd></div>
             </dl>
 			<dl class="ingredients-list-minor">
-			  <dt></dt><dd>vermutlich schon vorhanden:</dd>
-			  <dt>200g</dt><dd>Nudeln</dd>
-			  <dt>500ml</dt><dd>Gemüsebrühe</dd>
-			  <dt>1</dt><dd>Zwiebel</dd>
+			  <dt></dt>		<dd>vermutlich schon vorhanden:</dd>
+			  <dt>1</dt>	<dd>Zwiebel</dd>
+			  <dt>1</dt>	<dd>Knoblauchzehe</dd>
+			  <dt> </dt>	<dd>Olivenöl, Italienische Kräuter, Salz, Pfeffer, Paprikapulver</dd>
 			</dl>
           </div>
         </div>
@@ -159,14 +160,14 @@
           <div class="recipe-directions">
             <h3>Zubereitung</h3>					<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
             <ol>
-              <li>Die Champignons in Scheiben, die Zwiebel in feine Würfel schneiden.</li>
-              <li>Die Zwiebeln in einem großen Topf in etwas Fett glasig werden lassen, dann das Geschnetzelte hinzugeben und 2 Minuten rund herum von allen Seiten Anbraten.  Damit es trotz Topf statt Pfanne brät und nicht im eigenen Saft schmort, sollte der Topf schön weit sein.</li>
-              <li>Nun die Champignons hinzugeben und nochmal 2 Minuten mitbraten.</li>
-              <li>Kräftig salzen und pfeffern, dann mit der Brühe und der Sahne/Kochsahne ablöschen. Gut umrühren, die Nudeln zugeben und bei geschlossenem Topf auf kleiner Flamme rund 15 Minuten köcheln lassen, bis die Nudeln gar sind. Dabei gelegentlich umrühren.</li>
-              <li>In der Zwischenzeit die Frühlingszwiebeln waschen , das Weiße und das Hellgrüne in feine Ringe schneiden.</li>
-              <li>Wenn die Nudeln gar sind, von der heißen Platte ziehen, Frischkäse und Frühlingszwiebeln einrühren und kurz heiß werden lassen. Wenn die Soße jetzt noch zu flüssig ist,mit 2 EL Wasser und 1 gestr. TL Speisestärke andicken und nochmal kurz erwärmen. bei kleinen Nudeln sollte das aber nicht notwendig sein.</li>
-              <li>Mit Salz, Pfeffer, Rauchsalz (ich nehme 3-4 Umdrehungen aus meiner Mühle)  und 1/2 TL Zucker abschmecken, die Petersilie einrühren, fertig!</li>
-			  <li>Guten Appetit! Das Rezept stammt aus <a href="https://feinkostpunks.de/fix-ohne-fix-puten-topf-mit-frischkase/" target="_blank" rel="noopener noreferrer">www.feinkostpunks.de/fix-ohne-fix-puten-topf-mit-frischkase/</li>
+              <li>Zuerst wird das Hackfleisch mit etwa 2 gestrichenen Teelöffeln Salz, Pfeffer und Paprikapulver verknetet und zu Bällchen geformt. Die Bällchen sollten etwas größer sein als ein Tischtennisball.</li>
+              <li>Die Zwiebel und den Knoblauch in feine Würfel schneiden und den Ofen auf 200 Grad Ober-/Unterhitze vorheizen.</li>
+              <li>Jetzt werden die Bällchen bei voller Hitze in der Pfanne kurz von allen Seiten angebraten. Sie sollen auf keinen Fall durchgaren, nur von allen Seiten ein kleines bisschen Farbe bekommen. Dann in eine Auflaufform geben.</li>
+              <li>In jetzt leeren aber noch heißen Pfanne werden die Zwiebelwürfel angebraten, ggf. etwas Öl hinzugeben. Nach 3 Minuten den Knoblauch hinzugeben, noch eine Minute weiterbraten. Jetzt das Tomatenmark in die Pfanne geben und noch ca. 2 Minuten mit anbraten, dabei immer rühren. Das fühlt sich etwas komisch an und sieht matschig aus, aber ist für den Geschmack ganz wichtig!</li>
+              <li>Nun kommen die Milch und die Sahne in die Pfanne, jetzt gut umrühren. Dazu noch die Kräuter und 2 TL Paprikapulver. Die Pfanne könnt ihr dabei schon ausschalten. Wenn alle Zutaten gut miteinander verrührt sind, wird die Soße über die Bällchen gegossen.</li>
+              <li>Den Mozzarella in dünne Scheiben schneiden und auf den Bällchen verteilen. Nun ab in den Ofen für 20-25 Minuten.</li>
+              <li>Guten Appetit! Dazu passt: gebratene Zucchini & Chiabatta.</li>
+              <li>Das Rezept stammt aus <a href="https://feinkostpunks.de/fix-ohne-fix-hackballchen-toskana/" target="_blank" rel="noopener noreferrer">www.feinkostpunks.de/fix-ohne-fix-hackballchen-toskana</li>
             </ol>
           </div>
         </div>
