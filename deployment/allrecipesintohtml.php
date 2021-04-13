@@ -1,7 +1,7 @@
 <?php
 
 
-$allrecipes= file_get_contents("deployment/allrecipes");
+$allrecipes= file_get_contents("deployment/allrecipes.html");
 
 
 
@@ -14,7 +14,8 @@ $Rezeptname = $neueVariablen->Rezeptname;
 $BildnameohneEndung 	= $neueVariablen->BildnameohneEndung;
 
 
-$neueRezeptzeile = "<div class='col-lg-4 col-md-6 col-sm-12 wow fadeIn'>
+$neueRezeptzeile = "
+		<div class='col-lg-4 col-md-6 col-sm-12 wow fadeIn'>
           <div class='recipe-item text-center'>
             <a href='recipe".$BildnameohneEndung.".html'>
               <img src='images/".$BildnameohneEndung.".jpg' alt='".$Rezeptname."' />
@@ -28,7 +29,7 @@ $neueRezeptzeile = "<div class='col-lg-4 col-md-6 col-sm-12 wow fadeIn'>
 $allrecipes= $allrecipes.$neueRezeptzeile;
 
 
-file_put_contents ("deployment/allrecipes", $allrecipes);
+file_put_contents ("deployment/allrecipes.html", $allrecipes);
 
 	
 ?>

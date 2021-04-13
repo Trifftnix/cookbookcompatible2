@@ -25,7 +25,7 @@ foreach($neueVariablen->Zubereitungsschritte as $item) {
 
 
 ob_start();
-include 'recipeTemplate.php';
+include 'deployment/recipeTemplate.php';
 $content = ob_get_contents();
 $template=  "recipes/recipe".$BildnameohneEndung.".html";
 file_put_contents ($template, $content);
