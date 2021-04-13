@@ -13,8 +13,8 @@ $Rezeptname = $neueVariablen->Rezeptname;
 $BildnameohneEndung 	= $neueVariablen->BildnameohneEndung;
 
 
-$neueRezeptzeile = "
-		<div class='col-lg-4 col-md-6 col-sm-12 wow fadeIn'>
+$neueRezeptzeile = 
+	   "<div class='col-lg-4 col-md-6 col-sm-12 wow fadeIn'>
           <div class='recipe-item text-center'>
             <a href='recipes/recipe".$BildnameohneEndung.".html'>
               <img src='recipes/images/".$BildnameohneEndung.".jpg' alt='".$Rezeptname."' />
