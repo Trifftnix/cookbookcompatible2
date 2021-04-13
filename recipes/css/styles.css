@@ -130,6 +130,12 @@ table {
   font-size: 2em;
   margin-bottom: 12px;
 }
+#categories a {
+  color: var(--Schriftfarbe);											/*changed*/
+  font-family: 'Dancing Script', cursive;
+  font-size: 2em;
+  margin-bottom: 12px;
+}
 .category-item {
   border: 2px;
   border-color: var(--bordercolor);

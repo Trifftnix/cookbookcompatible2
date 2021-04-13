@@ -95,7 +95,7 @@
         <!-- Breakfast - Category Item -->
         <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
           <div class="category-item text-center">
-			<a href="recipes/indexbacken.html">
+			<a href="indexbacken.html">
 				<img src="recipes/images/icons/cake.png" alt="cake" width="48" height="48" />
 				<br />
 				Backen
