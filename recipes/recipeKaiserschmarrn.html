@@ -7,7 +7,8 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Kaiserschmarrn | Kochbuch</title>
+  
+  <title>Kaiserschmarrn | Kochbuch</title>	<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
 
   <!-- Favicon
   ============ -->
@@ -31,29 +32,30 @@
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
   <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"  />
   <link rel="stylesheet" type="text/css" href="css/animate.min.css" />
+  <link rel='stylesheet' type='text/css' href='css/styles.css' type='text/css'>
   <!-- according to daytime:-->
-  <script>
+  <!--<script>
 	<!--
 	function getStylesheet() {
 		  var currentTime = new Date().getHours();
 		  if (0 <= currentTime&&currentTime < 8) {
-		   document.write("<link rel='stylesheet' type='text/css' href='css/styles.css' type='text/css'>");
+		   document.write("<link rel='stylesheet' type='text/css' href='css/stylesdark.css' type='text/css'>");
 		  }
 		  if (8 <= currentTime&&currentTime < 15) {
 		   document.write("<link rel='stylesheet' type='text/css' href='css/styles.css' type='text/css'>");
 		  }
 		  if (15 <= currentTime&&currentTime < 22) {
-		   document.write("<link rel='stylesheet' type='text/css' href='css/styles.css' type='text/css'>");
+		   document.write("<link rel='stylesheet' type='text/css' href='css/styles2.css' type='text/css'>");
 		  }
 		  if (22 <= currentTime&&currentTime <= 24) {
-		   document.write("<link rel='stylesheet' type='text/css' href='css/styles.css' type='text/css'>");
+		   document.write("<link rel='stylesheet' type='text/css' href='css/stylesdark.css' type='text/css'>");
 		  }
 	}
 
 	getStylesheet();
-	-->
+	
 	</script>
-
+	-->
   <noscript><link href="styles.css" rel="stylesheet"></noscript>
 
   <!-- Modernizr file
@@ -72,7 +74,7 @@
   ================= -->
   <section id="logo">
     <div class="container text-center wow pulse">
-      <a href="index.html"><img src="images/logo-white.svg" alt="logo" /></a>
+      <a href="/index.html"><img src="images/logo-white.svg" alt="logo" /></a>
       <br />
       <h1>Kochbuch</h1>
     </div>
@@ -85,14 +87,14 @@
       <div class="row">
         <!-- Title -->
         <div class="col-12">
-          <h2 itemprop="name">Kaiserschmarrn</h2>
+          <h2 itemprop="name">Kaiserschmarrn</h2>	<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
         </div>
       </div>
       <div class="row vertical-align">
         <div class="col-12">
           <!-- Picture -->
           <div class="col-md-8 pull-left wow swing">
-            <img src="images/Kaiserschmarrn.jpg" alt="Kaiserschmarrn" class="recipe-picture" itemprop="image"/>
+            <img src="images/Kaiserschmarrn.jpg" alt="Kaiserschmarrn" class="recipe-picture" itemprop="image"/>	<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
           </div>
           <!-- Info -->
           <div class="col-md-4 pull-right wow lightSpeedIn">
@@ -104,7 +106,7 @@
                   <i class="fa fa-clock-o" aria-hidden="true"></i>
                 </div>
                 <div class="col-6">Zeit</div>
-                <div class="col-4" itemprop="prepTime">? h</div>
+                <div class="col-4" itemprop="prepTime">? h</div>	<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
               </div>
               <!-- Difficulty -->
               <div class="row">
@@ -113,9 +115,9 @@
                 </div>
                 <div class="col-6">Schwierigkeit</div>
                 <div class="col-4">
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>			<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+                  <i class="fa fa-star-half-o" aria-hidden="true"></i>	<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+                  <i class="fa fa-star-o" aria-hidden="true"></i>		<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
                 </div>
               </div>
               <!-- Serves -->
@@ -124,7 +126,7 @@
                   <i class="fa fa-users" aria-hidden="true"></i>
                 </div>
                 <div class="col-6">Portionen</div>
-                <div class="col-4">2 große</div>
+                <div class="col-4">2-3</div>								<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
               </div>
             </div>
           </div>
@@ -136,19 +138,22 @@
           <div class="recipe-ingredients">
             <h3>Zutaten</h3>
             <dl class="ingredients-list">
-              <div itemprop="ingredients"><dt>6</dt> 	  <dd itemprop="ingredients">6 Eier</dd>
-              <div itemprop="ingredients"><dt>(100g)</dt> <dd itemprop="ingredients">gehobelte Mandeln</dd>
-			  <div itemprop="ingredients"><dt>(250g)</dt> <dd itemprop="ingredients">Rosinen</dd>
-			  <div itemprop="ingredients"><dt>(500g)</dt> <dd itemprop="ingredients">Apfelmus</dd>
-            </dl>
+			  	<div itemprop='ingredients'><dt>6</dt><dd>Eier</dd></div>
+				<div itemprop='ingredients'><dt>(100g)</dt><dd>gehobelte Mandeln</dd></div>
+				<div itemprop='ingredients'><dt>(250g)</dt><dd>Rosinen</dd></div>
+				<div itemprop='ingredients'><dt>(500g)</dt><dd>Apfelmus</dd></div>
+																			<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+            
+			</dl>
 			<dl class="ingredients-list-vermutlich">
 				<dt> </dt>		<dd>vermutlich schon vorhanden:</dd>
 			</dl>
 			<dl class="ingredients-list-minor">
-			  <dt>6 EL</dt>			<dd>Mehl</dd>
-			  <dt>6 EL</dt>			<dd>Zucker</dd>
-			  <dt>ein bisschen</dt>	<dd>Milch</dd>
-			  <dt>einiges an</dt>	<dd>Butter</dd>
+			  	<dt>6 EL</dt>	<dd>Mehl</dd>
+				<dt>6 EL</dt>	<dd>Zucker</dd>
+				<dt>ein bisschen</dt>	<dd>Milch</dd>
+				<dt>einiges an</dt>	<dd>Butter</dd>
+							  
 			</dl>
           </div>
         </div>
@@ -157,16 +162,17 @@
       <div class="row wow slideInUp">
         <div class="col-12">
           <div class="recipe-directions">
-            <h3>Zubereitung</h3>
+            <h3>Zubereitung</h3>					<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
             <ol>
-              <li>Teig: Die Eier trennen. Das Eigelb zum Mehl in eine Schüssel geben, mit dem Zucker (wahlweise auch etwas Vanillezucker) zusammenmixen. Nun vorsichtig eine kleine Menge an Milch hinzugeben, sodass ein geradeso <b> nicht </b> flüssiger Teig entsteht.</li>
-              <li>Teig: Das Eiweiß mit dem Rührgerät zu einem steifen Eischnee schlagen. Den Eischnee vorsichtig mit einem Kochlöffel unter die Teigmasse heben.</li>
-              <li>Pfanne: Butter in eine große Pfannne geben und erhizen. Die Teigmasse in die Pfanne geben (mehrere Zentimeter hoch), je nach Geschmack Rosinen und/oder Mandeln einstreuen und bei kleiner Hitze goldbraun anbacken.</li>
-              <li>Pfanne: Den Teigfladen in Viertel teilen und jedes Viertel umdrehen. Erneut anbacken lassen. Die Teile dabei in mittelgroße Stücke reißen.</li>
-			  <li>Pfanne: Einen Esslöffel Butter und etwas Zucker zum Schmarrn geben, es karamelisieren lassen und nochmals kurz durchrühren.</li>
-			  <li>Den Kaiserschmarrn zusammen mit Apfelmus (oder Puderzucker, Zimt und Zucker, Zwetschgenkompott, ...) servieren.</li>
-			  <li>Das Rezept stammt aus dem <a href="https://blv.de/essen-trinken/themenkochbuecher/2038/das-original-huetten-kochbuch" target="_blank" rel="noopener noreferrer">Original-Hütten-Kochbuch.</a></li>
-            </ol>
+				<li>Die Eier trennen. Das Eigelb zum Mehl in eine Schüssel geben, mit dem Zucker (wahlweise auch etwas Vanillezucker) zusammenmixen. Nun vorsichtig eine kleine Menge an Milch hinzugeben, sodass ein geradeso nicht flüssiger Teig entsteht.</li>
+				<li>Das Eiweiß mit dem Rührgerät zu einem steifen Eischnee schlagen. Den Eischnee vorsichtig mit einem Kochlöffel unter die Teigmasse heben.</li>
+				<li>Butter in eine große Pfannne geben und erhizen. Die Teigmasse in die Pfanne geben (mehrere Zentimeter hoch), je nach Geschmack Rosinen und/oder Mandeln einstreuen und bei kleiner Hitze goldbraun anbacken.</li>
+				<li>Den Teigfladen in Viertel teilen und jedes Viertel umdrehen. Erneut anbacken lassen. Die Teile dabei in mittelgroße Stücke reißen.</li>
+				<li>Einen Esslöffel Butter und etwas Zucker zum Schmarrn geben, es karamelisieren lassen und nochmals kurz durchrühren.</li>
+				<li>Den Kaiserschmarrn zusammen mit Apfelmus (oder Puderzucker, Zimt und Zucker, Zwetschgenkompott, ...) servieren.</li>
+				<li>Das Rezept stammt aus dem Original-Hütten-Kochbuch.<a href='https://blv.de/essen-trinken/themenkochbuecher/2038/das-original-huetten-kochbuch' target='_blank' rel='noopener noreferrer'>https://blv.de/essen-trinken/themenkochbuecher/2038/das-original-huetten-kochbuch</a></li>
+				            
+			</ol>
           </div>
         </div>
       </div>
@@ -180,7 +186,7 @@
       <!-- Back to recipes -->
       <div class="row wow rollIn">
         <div class="col-12 text-center">
-          <a href="index.html">
+          <a href="/index.html">
             <i class="fa fa-backward" aria-hidden="true"></i>
             Zurück zur Rezeptübersicht.
           </a>
