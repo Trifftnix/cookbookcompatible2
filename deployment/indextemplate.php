@@ -105,41 +105,51 @@
         <!-- Meat - Category Item -->
         <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
           <div class="category-item text-center">
-            <img src="recipes/images/icons/steak.png" alt="meat" width="48" height="48" />
-            <br />
-            mit Fleisch
+			<a href="indexfleisch.html">
+				<img src="recipes/images/icons/steak.png" alt="meat" width="48" height="48" />
+				<br />
+				mit Fleisch
+			</a>
           </div>
         </div>
         <!-- Seafood - Category Item -->
         <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
           <div class="category-item text-center">
-            <img src="recipes/images/icons/fish.png" alt="fish" width="48" height="48" />
-            <br />
-            mit Fisch
+            <a href="indexfisch.html">
+				<img src="recipes/images/icons/fish.png" alt="fish" width="48" height="48" />
+				<br />
+				mit Fisch
+			</a>
           </div>
         </div>
         <!-- Snacks- Category Item -->
         <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
           <div class="category-item text-center">
-            <img src="recipes/images/icons/peanuts.png" alt="peanuts" width="48" height="48"/>
-            <br />
-            Snacks
+            <a href="indexsnacks.html">
+				<img src="recipes/images/icons/peanuts.png" alt="peanuts" width="48" height="48"/>
+				<br />
+				Snacks
+			</a>
           </div>
         </div>
         <!-- Spicy - Category Item -->
         <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
           <div class="category-item text-center">
-            <img src="recipes/images/icons/chili.png" alt="chili" width="48" height="48" />
-            <br />
-            Spicy
+            <a href="indexspicy.html">
+				<img src="recipes/images/icons/chili.png" alt="chili" width="48" height="48" />
+				<br />
+				Spicy
+			</a>
           </div>
         </div>
         <!-- Vegetarian - Category Item -->
         <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
           <div class="category-item text-center">
-            <img src="recipes/images/icons/vegan.png" alt="vegan" width="48" height="48" />
-            <br />
-            Vegetarisch
+			<a href="indexvegetarisch.html">
+				<img src="recipes/images/icons/vegetarisch.png" alt="vegetarisch" width="48" height="48" />
+				<br />
+				Vegetarisch
+			</a>
           </div>
         </div>
       </div>
