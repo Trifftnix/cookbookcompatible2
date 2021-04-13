@@ -37,16 +37,16 @@
 	function getStylesheet() {
 		  var currentTime = new Date().getHours();
 		  if (0 <= currentTime&&currentTime < 8) {
-		   document.write("<link rel='stylesheet' type='text/css' href='css/stylesdark.css' type='text/css'>");
+		   document.write("<link rel='stylesheet' type='text/css' href='css/styles.css' type='text/css'>");
 		  }
 		  if (8 <= currentTime&&currentTime < 15) {
 		   document.write("<link rel='stylesheet' type='text/css' href='css/styles.css' type='text/css'>");
 		  }
 		  if (15 <= currentTime&&currentTime < 22) {
-		   document.write("<link rel='stylesheet' type='text/css' href='css/styles2.css' type='text/css'>");
+		   document.write("<link rel='stylesheet' type='text/css' href='css/styles.css' type='text/css'>");
 		  }
 		  if (22 <= currentTime&&currentTime <= 24) {
-		   document.write("<link rel='stylesheet' type='text/css' href='css/stylesdark.css' type='text/css'>");
+		   document.write("<link rel='stylesheet' type='text/css' href='css/styles.css' type='text/css'>");
 		  }
 	}
 
@@ -141,8 +141,10 @@
 			  <div itemprop="ingredients"><dt>(250g)</dt> <dd itemprop="ingredients">Rosinen</dd>
 			  <div itemprop="ingredients"><dt>(500g)</dt> <dd itemprop="ingredients">Apfelmus</dd>
             </dl>
+			<dl class="ingredients-list-vermutlich">
+				<dt> </dt>		<dd>vermutlich schon vorhanden:</dd>
+			</dl>
 			<dl class="ingredients-list-minor">
-			  <dt></dt>				<dd>vermutlich schon vorhanden:</dd>
 			  <dt>6 EL</dt>			<dd>Mehl</dd>
 			  <dt>6 EL</dt>			<dd>Zucker</dd>
 			  <dt>ein bisschen</dt>	<dd>Milch</dd>

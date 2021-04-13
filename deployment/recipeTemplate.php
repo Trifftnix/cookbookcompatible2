@@ -32,8 +32,9 @@
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
   <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"  />
   <link rel="stylesheet" type="text/css" href="css/animate.min.css" />
+  <link rel='stylesheet' type='text/css' href='css/styles.css' type='text/css'>
   <!-- according to daytime:-->
-  <script>
+  <!--<script>
 	<!--
 	function getStylesheet() {
 		  var currentTime = new Date().getHours();
@@ -52,9 +53,9 @@
 	}
 
 	getStylesheet();
-	-->
+	
 	</script>
-
+	-->
   <noscript><link href="styles.css" rel="stylesheet"></noscript>
 
   <!-- Modernizr file
@@ -140,8 +141,10 @@
 			  <?php echo $Zutaten ?>															<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
             
 			</dl>
+			<dl class="ingredients-list-vermutlich">
+				<dt> </dt>		<dd>vermutlich schon vorhanden:</dd>
+			</dl>
 			<dl class="ingredients-list-minor">
-				<dt></dt>		<dd>vermutlich schon vorhanden:</dd>
 			  <?php echo $Zutaten2 ?>
 			  
 			</dl>

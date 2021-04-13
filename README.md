@@ -25,7 +25,7 @@ Recipe book is a collection of several recipes made to be easily integrable with
   - [Logo (chef hat)](https://www.zazzle.com/cook_chef_hat_icon_postcard-239361171046549479)
   - [Banner](https://fgparker.s3.amazonaws.com/assets/43dcaf6c80cdbc1cbccffb8f718d0952b7f34bf8/kitchen-banner.full.jpg?1425296988)
   - [Icons](https://icons8.com/icon/set/food)
-  - [Template] (https://github.com/jraleman/recipe-book-html-template)
+  - [Template](https://github.com/jraleman/recipe-book-html-template)
 
 ## License
 
