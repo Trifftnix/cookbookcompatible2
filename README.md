@@ -1,6 +1,6 @@
 # Recipe Book - HTML5 
 
-Recipe book is a responsive Bootstrap 4 template.
+Recipe book is a collection of several recipes made to be easily integrable with the bring app. (https://www.getbring.com/)
 
 ![screenshot](recipes/images/screenshot.png)
 
@@ -25,8 +25,7 @@ Recipe book is a responsive Bootstrap 4 template.
   - [Logo (chef hat)](https://www.zazzle.com/cook_chef_hat_icon_postcard-239361171046549479)
   - [Banner](https://fgparker.s3.amazonaws.com/assets/43dcaf6c80cdbc1cbccffb8f718d0952b7f34bf8/kitchen-banner.full.jpg?1425296988)
   - [Icons](https://icons8.com/icon/set/food)
-  - [BBQ Pork Ribs](http://wandering-wino.com/site_media/uploads/food/bbq_pork_ribs.jpg)
-  - [Footer Quote - Molly Wizenberg](https://www.goodreads.com/author/show/1321968.Molly_Wizenberg)
+  - [Template] (https://github.com/jraleman/recipe-book-html-template)
 
 ## License
 

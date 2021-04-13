@@ -1,6 +1,5 @@
 <?php
 
-
 $allrecipes= file_get_contents("deployment/allrecipes.html");
 
 
@@ -31,5 +30,4 @@ $allrecipes= $allrecipes.$neueRezeptzeile;
 
 file_put_contents ("deployment/allrecipes.html", $allrecipes);
 
-	
 ?>

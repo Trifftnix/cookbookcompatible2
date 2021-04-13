@@ -1,0 +1,40 @@
+{
+	"Rezeptname": "Köttbullar",
+	"BildnameohneEndung": "Koetbullar",
+	"Zeit": "0:35 h",
+	"Portionen": "4",
+	"ZutatenEinkaufsliste": [
+		{	"Menge":"500g",
+			"Zutat":"Hackfleisch"},
+		{	"Menge":"1",
+			"Zutat":"Ei"},
+		{	"Menge":"200ml",
+			"Zutat":"Sahne"},	
+		{	"Menge":"1 Bund",
+			"Zutat":"Schnittlauch"},
+		{	"Menge":"125g",
+			"Zutat":"Preiselbeeren"}
+		],
+	"Zutatenschonvorhanden": [
+		{	"Menge":"2",
+			"Zutat":"Zwiebeln"},
+		{	"Menge":"250ml",
+			"Zutat":"Gemüsebrühe"},
+		{	"Menge":"1 EL",
+			"Zutat":"Butter"},
+		{	"Menge":"3 EL",
+			"Zutat":"Paniermehl"},
+		{	"Menge":"5 EL",
+			"Zutat":"Milch"},
+		{	"Menge":"etwas",
+			"Zutat":"Salz, Öl, Pfeffer"}
+		],
+	"Zubereitungsschritte": [
+			"Zwiebeln schälen, fein würfeln. Butter in einer Pfanne erhitzen und die Hälfte der Zwiebeln darin glasig dünsten. Hack, Ei, Paniermehl, Milch, gedünstete Zwiebeln und 1 gestrichenen TL Salz verkneten.",
+			"Mit angefeuchteten Händen kleine Bällchen formen.",
+			"Öl in einer Pfanne erhitzen. Die Hälfte der Bällchen unter Wenden rundherum 8–10 Minuten braun braten. Fertige Bällchen warm stellen, die restlichen Bällchen ebenso braten. Restliche Zwiebeln im heißen Bratfett andünsten, mit Salz und Pfeffer würzen.",
+			"Mit Brühe und Kochsahne ablöschen, aufkochen und den Soßenbinder einrühren. Nochmals kurz aufkochen. Mit Salz und Pfeffer abschmecken.",
+			"Schnittlauch waschen, trocken schütteln, in feine Ringe schneiden. Schnittlauch, bis auf etwas zum Bestreuen, in die Soße rühren. Fleischbällchen, Soße und etwas Preiselbeeren auf einer Platte anrichten, mit Schnittlauch bestreuen.",
+			"Guten Appetit!. Das Rezept stammt aus <a href='https://www.lecker.de/schwedische-koettbullar-48226.html' target='_blank' rel='noopener noreferrer'>https://www.lecker.de/schwedische-koettbullar-48226.html</a>"
+		]
+}
