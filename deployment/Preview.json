@@ -1,0 +1,39 @@
+{
+	"Rezeptname": "",
+	"BildnameohneEndung": "",
+	"Zeit": " h",
+	"Portionen": "",
+	"ZutatenEinkaufsliste": [
+		{	"Menge":"",
+			"Zutat":""},
+		{	"Menge":"",
+			"Zutat":""},
+		{	"Menge":"",
+			"Zutat":""},	
+		{	"Menge":"",
+			"Zutat":""}
+		],
+	"Zutatenschonvorhanden": [
+		{	"Menge":"",
+			"Zutat":""},
+		{	"Menge":"",
+			"Zutat":""},
+		{	"Menge":"",
+			"Zutat":""},
+		{	"Menge":"",
+			"Zutat":""}
+		],
+	"Zubereitungsschritte": [
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"<a href='Link' target='_blank' rel='noopener noreferrer'>Link</a>"
+		]
+}

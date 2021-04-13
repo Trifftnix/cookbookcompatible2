@@ -73,7 +73,7 @@
   ================= -->
   <section id="logo">
     <div class="container text-center wow pulse">
-      <a href="index.html"><img src="images/logo-white.svg" alt="logo" /></a>
+      <a href="/index.html"><img src="images/logo-white.svg" alt="logo" /></a>
       <br />
       <h1>Kochbuch</h1>
     </div>
@@ -170,7 +170,7 @@
       <!-- Back to recipes -->
       <div class="row wow rollIn">
         <div class="col-12 text-center">
-          <a href="index.html">
+          <a href="/index.html">
             <i class="fa fa-backward" aria-hidden="true"></i>
             Zurück zur Rezeptübersicht.
           </a>

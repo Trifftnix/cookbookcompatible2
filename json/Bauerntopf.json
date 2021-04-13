@@ -1,11 +1,11 @@
 {
-	"Rezeptname": "Bauerntopftest",
-	"BildnameohneEndung": "Bauerntopftest",
-	"Zeit": "0:45 h",
+	"Rezeptname": "Bauerntopf",
+	"BildnameohneEndung": "Bauerntopf",
+	"Zeit": "? h",
 	"Portionen": "4",
 	"ZutatenEinkaufsliste": [
 		{	"Menge":"300g",
-			"Zutat":"Haggfleisch"},
+			"Zutat":"Hackfleisch"},
 		{	"Menge":"2",
 			"Zutat":"Paprika"},
 		{	"Menge":"500g",
@@ -22,7 +22,7 @@
 			"Zutat":"Majoran"},
 		{	"Menge":"1 TL",
 			"Zutat":"Zucker"},
-		{	"Menge":"1/2 TL",
+		{	"Menge":"1/2",
 			"Zutat":"Paprikapulver"}
 		],
 	"Zubereitungsschritte": [
@@ -30,9 +30,9 @@
 			"In einem großen Topf Öl erhitzen. Die Zwiebelwürfelchen und den Knobi darin bei mittlerer Hitze etwa 1 Minute glasig braten, dann das Hackfleisch hinzugeben und die Temperatur erhöhen. Das Hackfleisch solange unter rühren krümelig anbraten, bis es gerade gar ist.",
 			"Nun die Kartoffel- und Paprikawürfel hinzugeben, 1-2 Minuten mitbraten.",
 			"Nun das Tomatenmark und den Zucker zufügen. beides sehr gut unterrühren und ebenfalls 1-2 Minuten mit anrösten. Dann mit der Gemüsebrühe ablöschen.",
-			"Thymian, Majoran, Paprika sowie eine gute Portion Salz und Pfeffer zugeben und umrühren. Alles etwa 25 Minuten kochen lassen. davon die ersten 15 Minuten bei geschlossenem, dann die letzten Minuten bei offenem Deckel. Immer mal zwischendurch umrühren.  Die Kochzeit hängt davon ab, wie groß eure Kartoffelwürfel waren, also ruhig nach 20 Minuten mal einen probieren. wenn die Kartoffeln gar sind, ist der Bauerntopf fertig.",
+			"Thymian, Majoran, Paprika sowie eine gute Portion Salz und Pfeffer zugeben und umrühren. Alles etwa 25 Minuten kochen lassen. davon die ersten 15 Minuten bei geschlossenem, dann die letzten Minuten bei offenem Deckel. Immer mal zwischendurch umrühren. Die Kochzeit hängt davon ab, wie groß eure Kartoffelwürfel waren, also ruhig nach 20 Minuten mal einen probieren. wenn die Kartoffeln gar sind, ist der Bauerntopf fertig.",
 			"Durch das offene Kochen reduziert die Flüssigkeit etwas ein und dadurch, dass wir keine festkochenden Kartoffeln nehmen, geben sie etwas Stärke ab und die Soße müsste automatisch etwas binden. Falls das mit euren Kartoffeln nicht so gut klappt, könnt ihr 1 TL Speisestärke in 2 EL Wasser auflösen und zum Schluss in die Soße rühren. dann einfach nochmal aufkochen lassen.",
 			"Mit Salz, Pfeffer und nach Belieben Paprika pikant abschmecken und wer will kann noch ein saure Sahne-Häubchen hinzufügen- fertig!",
-			"Guten Appetit! Das Rezept stammt aus <a href='https://feinkostpunks.de/fix-ohne-fix-bauerntopf-mit-hackfleisch/' target='_blank' rel='noopener noreferrer'>www.feinkostpunks.de/fix-ohne-fix-bauerntopf-mit-hackfleisch/</a>"
+			"Guten Appetit! Das Rezept stammt aus <a href='https://feinkostpunks.de/fix-ohne-fix-bauerntopf-mit-hackfleisch/' target='_blank' rel='noopener noreferrer'>https://feinkostpunks.de/fix-ohne-fix-bauerntopf-mit-hackfleisch/</a>"
 		]
 }
