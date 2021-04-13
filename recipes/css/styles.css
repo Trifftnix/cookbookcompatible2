@@ -131,10 +131,10 @@ table {
   margin-bottom: 12px;
 }
 #categories a {
-  color: var(--Schriftfarbe);											/*changed*/
-  font-family: 'Dancing Script', cursive;
-  font-size: 2em;
-  margin-bottom: 12px;
+							/*changed*/
+  color: var(--SchriftfarbeKategorien);											/*changed*/
+  padding-top: 12px;
+  padding-bottom: 24px;
 }
 .category-item {
   border: 2px;
