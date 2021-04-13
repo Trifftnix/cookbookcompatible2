@@ -95,9 +95,9 @@
         <!-- Breakfast - Category Item -->
         <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
           <div class="category-item text-center">
-            <img src="recipes/images/icons/milk.png" alt="milk" width="48" height="48" />
+            <img src="recipes/images/icons/cake.png" alt="cake" width="48" height="48" />
             <br />
-            Frühstück
+            Backen
           </div>
         </div>
         <!-- Meat - Category Item -->
@@ -105,7 +105,7 @@
           <div class="category-item text-center">
             <img src="recipes/images/icons/steak.png" alt="meat" width="48" height="48" />
             <br />
-            Hauptspeise
+            mit Fleisch
           </div>
         </div>
         <!-- Seafood - Category Item -->
@@ -113,7 +113,7 @@
           <div class="category-item text-center">
             <img src="recipes/images/icons/fish.png" alt="fish" width="48" height="48" />
             <br />
-            Sea food
+            mit Fisch
           </div>
         </div>
         <!-- Snacks- Category Item -->
