@@ -156,9 +156,11 @@
       <div class="row wow zoomIn">
         <div class="col-12 text-center show-all">
           <div class="category-item text-center">
-            <i class="fa fa-cutlery fa-2x" aria-hidden="true"></i>
-            <br />
-            Show All
+            <a href="index.html">
+              <i class="fa fa-cutlery fa-2x" aria-hidden="true"></i>
+              <br />
+              Show All
+            </a>
           </div>
         </div>
       </div>
