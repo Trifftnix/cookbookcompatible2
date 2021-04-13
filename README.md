@@ -1,10 +1,8 @@
-# Recipe Book - HTML5 Template
+# Recipe Book - HTML5 
 
 Recipe book is a responsive Bootstrap 4 template.
 
-![screenshot](resources/screenshot.png)
-
-[Click here for the demo](https://jraleman.com/recipe-book-html-template)
+![screenshot](recipes/images/screenshot.png)
 
 ## Dependencies
 
@@ -15,7 +13,9 @@ Recipe book is a responsive Bootstrap 4 template.
   - [Modernizr](https://github.com/Modernizr/Modernizr)
   - [reset.css](https://meyerweb.com/eric/tools/css/reset/index.html)
   - [WOW.js](https://github.com/matthieua/WOW)
-
+  - [github-actions] (https://github.com/crazy-max/ghaction-github-pages)
+  - [setup-php] (https://github.com/nanasess/setup-php)
+  
 ## Fonts
 
   - [Quirlycues](http://www.1001fonts.com/quirlycues-font.html)
