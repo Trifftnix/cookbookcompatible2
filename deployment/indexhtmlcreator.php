@@ -9,4 +9,14 @@ file_put_contents ($template, $content);
 
 ob_end_clean();	
 	
+$backenrecipes = file_get_contents("deployment/backenrecipes.html");
+ob_start();
+include 'deployment/indextemplate.php';
+$content = ob_get_contents();
+$template=  "indexbacken.html";
+file_put_contents ($template, $content);
+
+ob_end_clean();	
+	
+	
 ?>

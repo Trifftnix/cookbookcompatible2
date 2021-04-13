@@ -30,4 +30,35 @@ $allrecipes= $allrecipes.$neueRezeptzeile;
 
 file_put_contents ("deployment/allrecipes.html", $allrecipes);
 
+if ($neueVariablen->backen = "ja") {
+	$backenrecipes= file_get_contents("deployment/backenrecipes.html");
+	$backenrecipes= $backenrecipes.$neueRezeptzeile;
+	file_put_contents ("deployment/backenrecipes.html", $backenrecipes);
+}
+if ($neueVariablen->fleisch = "ja") {
+	$fleischrecipes= file_get_contents("deployment/fleischrecipes.html");
+	$fleischrecipes= $fleischrecipes.$neueRezeptzeile;
+	file_put_contents ("deployment/fleischrecipes.html", $fleischrecipes);
+}
+if ($neueVariablen->fisch = "ja") {
+	$fischrecipes= file_get_contents("deployment/fischrecipes.html");
+	$fischrecipes= $fischrecipes.$neueRezeptzeile;
+	file_put_contents ("deployment/fischrecipes.html", $fischrecipes);
+}
+if ($neueVariablen->snacks = "ja") {
+	$snacksrecipes= file_get_contents("deployment/snacksrecipes.html");
+	$snacksrecipes= $snacksrecipes.$neueRezeptzeile;
+	file_put_contents ("deployment/snacksrecipes.html", $snacksrecipes);
+}
+if ($neueVariablen->spicy = "ja") {
+	$spicyrecipes= file_get_contents("deployment/spicyrecipes.html");
+	$spicyrecipes= $spicyrecipes.$neueRezeptzeile;
+	file_put_contents ("deployment/spicyrecipes.html", $spicyrecipes);
+}
+if ($neueVariablen->vegetarisch = "ja") {
+	$vegetarischrecipes= file_get_contents("deployment/vegetarischrecipes.html");
+	$vegetarischrecipes= $vegetarischrecipes.$neueRezeptzeile;
+	file_put_contents ("deployment/vegetarischrecipes.html", $vegetarischrecipes);
+}
+
 ?>

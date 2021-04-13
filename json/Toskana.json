@@ -1,6 +1,12 @@
 {
 	"Rezeptname": "Toskana Hackbällchen",
 	"BildnameohneEndung": "Toskana",
+	"backen"	: "nein",
+	"fleisch"	: "ja",
+	"fisch"		: "nein",
+	"snacks"	: "nein",
+	"spicy"		: "nein",
+	"vegetarisch":"nein",
 	"Zeit": "0:45 h",
 	"Portionen": "3",
 	"ZutatenEinkaufsliste": [

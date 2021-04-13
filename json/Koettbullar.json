@@ -1,6 +1,12 @@
 {
 	"Rezeptname": "Köttbullar",
 	"BildnameohneEndung": "Koetbullar",
+	"backen"	: "nein",
+	"fleisch"	: "ja",
+	"fisch"		: "nein",
+	"snacks"	: "nein",
+	"spicy"		: "nein",
+	"vegetarisch":"nein",
 	"Zeit": "0:35 h",
 	"Portionen": "4",
 	"ZutatenEinkaufsliste": [

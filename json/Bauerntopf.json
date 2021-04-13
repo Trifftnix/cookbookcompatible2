@@ -1,6 +1,12 @@
 {
 	"Rezeptname": "Bauerntopf",
 	"BildnameohneEndung": "Bauerntopf",
+	"backen"	: "nein",
+	"fleisch"	: "ja",
+	"fisch"		: "nein",
+	"snacks"	: "nein",
+	"spicy"		: "nein",
+	"vegetarisch":"nein",
 	"Zeit": "? h",
 	"Portionen": "4",
 	"ZutatenEinkaufsliste": [

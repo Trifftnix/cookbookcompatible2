@@ -1,6 +1,12 @@
 {
 	"Rezeptname": "Kaiserschmarrn",
 	"BildnameohneEndung": "Putentopf",
+	"backen"	: "nein",
+	"fleisch"	: "nein",
+	"fisch"		: "nein",
+	"snacks"	: "nein",
+	"spicy"		: "nein",
+	"vegetarisch":"ja",
 	"Zeit": "? h",
 	"Portionen": "2-3",
 	"ZutatenEinkaufsliste": [

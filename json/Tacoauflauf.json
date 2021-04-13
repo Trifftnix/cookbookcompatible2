@@ -1,6 +1,12 @@
 {
 	"Rezeptname": "Tacoauflauf",
 	"BildnameohneEndung": "Tacoauflauf",
+	"backen"	: "nein",
+	"fleisch"	: "ja",
+	"fisch"		: "nein",
+	"snacks"	: "nein",
+	"spicy"		: "ja",
+	"vegetarisch":"nein",
 	"Zeit": "0:30 h",
 	"Portionen": "3-4",
 	"ZutatenEinkaufsliste": [

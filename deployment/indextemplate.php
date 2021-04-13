@@ -31,9 +31,9 @@
   <link rel="stylesheet" type="text/css" href="recipes/css/bootstrap.min.css" />
   <link rel="stylesheet" type="text/css" href="recipes/css/font-awesome.min.css"  />
   <link rel="stylesheet" type="text/css" href="recipes/css/animate.min.css" />
-    
+  <link rel='stylesheet' type='text/css' href='recipes/css/styles.css' type='text/css'>
   <!-- according to daytime:-->
-  <script>
+  <!--<script>
 	<!--
 	function getStylesheet() {
 		  var currentTime = new Date().getHours();
@@ -52,9 +52,9 @@
 	}
 
 	getStylesheet();
-	-->
+	
 	</script>
-
+	-->
   <noscript><link href="styles.css" rel="stylesheet"></noscript>
 
   <!-- Modernizr file
@@ -95,9 +95,11 @@
         <!-- Breakfast - Category Item -->
         <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
           <div class="category-item text-center">
-            <img src="recipes/images/icons/cake.png" alt="cake" width="48" height="48" />
-            <br />
-            Backen
+			<a href="recipes/indexbacken.html">
+				<img src="recipes/images/icons/cake.png" alt="cake" width="48" height="48" />
+				<br />
+				Backen
+			</a>
           </div>
         </div>
         <!-- Meat - Category Item -->

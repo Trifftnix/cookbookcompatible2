@@ -1,6 +1,12 @@
 {
 	"Rezeptname": "Griechischer Feta-Hackauflauf",
 	"BildnameohneEndung": "FetaHackAuflauf",
+	"backen"	: "nein",
+	"fleisch"	: "ja",
+	"fisch"		: "nein",
+	"snacks"	: "nein",
+	"spicy"		: "nein",
+	"vegetarisch":"nein",
 	"Zeit": "? h",
 	"Portionen": "3",
 	"ZutatenEinkaufsliste": [
