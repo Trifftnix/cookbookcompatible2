@@ -1,5 +1,5 @@
 <?php
-$allrecipes = file_get_contents("deployment/allrecipes.html")
+$allrecipes = file_get_contents("deployment/allrecipes.html");
 ob_start();
 include 'deployment/indexTemplate.php';
 $content = ob_get_contents();
