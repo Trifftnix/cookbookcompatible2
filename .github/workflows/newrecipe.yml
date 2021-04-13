@@ -11,6 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: nanasess/setup-php@master
+      - run : php deployment/emptythefile.php
       - run: for file_name in json/*.json; do php deployment/rezeptcreator.php "$file_name"; done
       - uses: crazy-max/ghaction-github-pages@v2.3.0
         if: success()
