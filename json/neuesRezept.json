@@ -1,11 +1,11 @@
 {
-	"Rezeptname": "Griechischer Feta-Hackauflauf",
-	"BildnameohneEndung": "Fetahackauflauf",
+	"Rezeptname": "Apfelkuchen",
+	"BildnameohneEndung": "Apfelkuchen",
 	"Zeit": "0:45 h",
 	"Portionen": "4",
 	"ZutatenEinkaufsliste": [
 		{	"Menge":"300g",
-			"Zutat":"Haggfleisch"},
+			"Zutat":"Äpfel"},
 		{	"Menge":"400g",
 			"Zutat":"Zucchini"},
 		{	"Menge":"150g",
