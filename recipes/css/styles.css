@@ -258,7 +258,7 @@ table {
   overflow: hidden;
 }
 .ingredients-list dt {
-  width: 15%;
+  width: 20%;
   float: left;
   margin: 0 0 8px;
   padding: 0 10px;
@@ -272,7 +272,7 @@ table {
   box-shadow: 0 1px 0 rgba(0,0,0,.15);
 }
 .ingredients-list dd {
-  width: 85%;
+  width: 80%;
   float: left;
   margin: 0 0 8px;
   padding: 0 15px;
@@ -293,7 +293,7 @@ table {
   overflow: hidden;
 }
 .ingredients-list-vermutlich dt {
-  width: 15%;
+  width: 20%;
   float: left;
   margin: 0 0 8px;
   padding: 0 10px;
@@ -307,7 +307,7 @@ table {
   box-shadow: 0 1px 0 rgba(0,0,0,.15);
 }
 .ingredients-list-vermutlich dd {
-  width: 85%;
+  width: 80%;
   float: left;
   margin: 0 0 8px;
   padding: 0 15px;
@@ -328,7 +328,7 @@ table {
   overflow: hidden;
 }
 .ingredients-list-minor dt {
-  width: 15%;
+  width: 20%;
   float: left;
   margin: 0 0 8px;
   padding: 0 10px;
@@ -342,7 +342,7 @@ table {
   box-shadow: 0 1px 0 rgba(0,0,0,.15);
 }
 .ingredients-list-minor dd {
-  width: 85%;
+  width: 80%;
   float: left;
   margin: 0 0 8px;
   padding: 0 15px;
