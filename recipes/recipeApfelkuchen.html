@@ -32,8 +32,9 @@
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
   <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"  />
   <link rel="stylesheet" type="text/css" href="css/animate.min.css" />
+  <link rel='stylesheet' type='text/css' href='css/styles.css' type='text/css'>
   <!-- according to daytime:-->
-  <script>
+  <!--<script>
 	<!--
 	function getStylesheet() {
 		  var currentTime = new Date().getHours();
@@ -52,9 +53,9 @@
 	}
 
 	getStylesheet();
-	-->
+	
 	</script>
-
+	-->
   <noscript><link href="styles.css" rel="stylesheet"></noscript>
 
   <!-- Modernizr file
@@ -73,7 +74,7 @@
   ================= -->
   <section id="logo">
     <div class="container text-center wow pulse">
-      <a href="index.html"><img src="images/logo-white.svg" alt="logo" /></a>
+      <a href="/index.html"><img src="images/logo-white.svg" alt="logo" /></a>
       <br />
       <h1>Kochbuch</h1>
     </div>
@@ -105,7 +106,7 @@
                   <i class="fa fa-clock-o" aria-hidden="true"></i>
                 </div>
                 <div class="col-6">Zeit</div>
-                <div class="col-4" itemprop="prepTime">0:45 h</div>	<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+                <div class="col-4" itemprop="prepTime">0:50 h</div>	<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
               </div>
               <!-- Difficulty -->
               <div class="row">
@@ -137,19 +138,21 @@
           <div class="recipe-ingredients">
             <h3>Zutaten</h3>
             <dl class="ingredients-list">
-			  	<div itemprop='ingredients'><dt>300g</dt><dd>Äpfel</dd></div>
-				<div itemprop='ingredients'><dt>400g</dt><dd>Zucchini</dd></div>
-				<div itemprop='ingredients'><dt>150g</dt><dd>Feta</dd></div>
-				<div itemprop='ingredients'><dt>halbe</dt><dd>Tomatenmark</dd></div>
+			  	<div itemprop='ingredients'><dt>125g</dt><dd>Butter</dd></div>
+				<div itemprop='ingredients'><dt>3</dt><dd>Eier</dd></div>
+				<div itemprop='ingredients'><dt>750g</dt><dd>Äpfel Gala/ Jonagold</dd></div>
 																			<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
             
 			</dl>
+			<dl class="ingredients-list-vermutlich">
+				<dt> </dt>		<dd>vermutlich schon vorhanden:</dd>
+			</dl>
 			<dl class="ingredients-list-minor">
-				<dt></dt>		<dd>vermutlich schon vorhanden:</dd>
-			  	<dt>200g</dt>	<dd>Nudeln</dd>
-				<dt>1 TL</dt>	<dd>Majoran</dd>
-				<dt>1 TL</dt>	<dd>Zucker</dd>
-				<dt>1/2 TL</dt>	<dd>Paprikapulver</dd>
+			  	<dt>125g</dt>	<dd>Zucker</dd>
+				<dt>1</dt>	<dd>Vanillinzucker</dd>
+				<dt>200g</dt>	<dd>Mehl</dd>
+				<dt>1</dt>	<dd>Backpulver</dd>
+				<dt>2 EL</dt>	<dd>Milch</dd>
 							  
 			</dl>
           </div>
@@ -161,14 +164,12 @@
           <div class="recipe-directions">
             <h3>Zubereitung</h3>					<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
             <ol>
-				<li>Die Kartoffeln schälen und in Würfel schneiden, ca. 1 cm groß. Die Paprikaschoten waschen und ebenfalls würfeln, etwa in der gleichen Größe. Zwiebel und Knoblauch schälen und fein hacken.</li>
-				<li>In einem großen Topf Öl erhitzen. Die Zwiebelwürfelchen und den Knobi darin bei mittlerer Hitze etwa 1 Minute glasig braten, dann das Hackfleisch hinzugeben und die Temperatur erhöhen. Das Hackfleisch solange unter rühren krümelig anbraten, bis es gerade gar ist.</li>
-				<li>Nun die Kartoffel- und Paprikawürfel hinzugeben, 1-2 Minuten mitbraten.</li>
-				<li>Nun das Tomatenmark und den Zucker zufügen. beides sehr gut unterrühren und ebenfalls 1-2 Minuten mit anrösten. Dann mit der Gemüsebrühe ablöschen.</li>
-				<li>Thymian, Majoran, Paprika sowie eine gute Portion Salz und Pfeffer zugeben und umrühren. Alles etwa 25 Minuten kochen lassen. davon die ersten 15 Minuten bei geschlossenem, dann die letzten Minuten bei offenem Deckel. Immer mal zwischendurch umrühren.  Die Kochzeit hängt davon ab, wie groß eure Kartoffelwürfel waren, also ruhig nach 20 Minuten mal einen probieren. wenn die Kartoffeln gar sind, ist der Bauerntopf fertig.</li>
-				<li>Durch das offene Kochen reduziert die Flüssigkeit etwas ein und dadurch, dass wir keine festkochenden Kartoffeln nehmen, geben sie etwas Stärke ab und die Soße müsste automatisch etwas binden. Falls das mit euren Kartoffeln nicht so gut klappt, könnt ihr 1 TL Speisestärke in 2 EL Wasser auflösen und zum Schluss in die Soße rühren. dann einfach nochmal aufkochen lassen.</li>
-				<li>Mit Salz, Pfeffer und nach Belieben Paprika pikant abschmecken und wer will kann noch ein saure Sahne-Häubchen hinzufügen- fertig!</li>
-				<li>Guten Appetit! Das Rezept stammt aus <a href='https://feinkostpunks.de/fix-ohne-fix-bauerntopf-mit-hackfleisch/' target='_blank' rel='noopener noreferrer'>www.feinkostpunks.de/fix-ohne-fix-bauerntopf-mit-hackfleisch/</a></li>
+				<li>Mit einem Rührgerät 125g Butter auf höchster Stufe etwa 1/2 Minute geschmeidig rühren, nach und nach 125g Zucker, 1 Päckchen Vanillinzucker und etwas Salz unterrühren, bis eine gebundene Masse entstanden ist.</li>
+				<li>Die 3 Eier nach und nach unterrühren und mit 200g Weizenmehl und 2 gestrichenen Teelöffel Backpulver mischen. Anschließend noch 1-2 EL Milch dazugeben, sodass der Teig schwer - reißend - von einem Löffel fällt.</li>
+				<li>Den Boden und die Wände einer Springform (28cm Durchmesser) mit Butter einfetten und den Teig nun dorthinein füllen und glattstreichen.</li>
+				<li>Für den Belag 750g Äpfel schälen, vierteln, entkernen und mehrmals der Länge nach einritzen. Danach die Äpfelstücke kranzförmig auf den Teig legen.</li>
+				<li>Das ganze nun bei 180°C im Ofen für 40 Minuten backen (ich glaube die Zeit ist zu lang!) Ob der Kuchen fertig ist, kann man mit einem Schaschlikstab testen und wenn keine Teigreste mehr an ihm hängen bleiben, ist er fertig. </li>
+				<li>Guten Appetit! Das Rezept stammt von <a href='https://www.oetker.at/at-de/rezepte/r/apfelkuchen' target='_blank' rel='noopener noreferrer'>Dr. Oetker.</a></li>
 				            
 			</ol>
           </div>
@@ -184,7 +185,7 @@
       <!-- Back to recipes -->
       <div class="row wow rollIn">
         <div class="col-12 text-center">
-          <a href="index.html">
+          <a href="/index.html">
             <i class="fa fa-backward" aria-hidden="true"></i>
             Zurück zur Rezeptübersicht.
           </a>
