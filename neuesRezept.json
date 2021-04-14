@@ -1,0 +1,45 @@
+{
+	"Rezeptname": "",
+	"BildnameohneEndung": "",
+	"backen"	: "ja",
+	"fleisch"	: "nein",
+	"fisch"		: "nein",
+	"snacks"	: "nein",
+	"spicy"		: "nein",
+	"vegetarisch":"nein",
+	"Zeit": " h",
+	"Portionen": "",
+	"ZutatenEinkaufsliste": [
+		{	"Menge":"",
+			"Zutat":""},
+		{	"Menge":"",
+			"Zutat":""},
+		{	"Menge":"",
+			"Zutat":""},	
+		{	"Menge":"",
+			"Zutat":""}
+		],
+	"Zutatenschonvorhanden": [
+		{	"Menge":"",
+			"Zutat":""},
+		{	"Menge":"",
+			"Zutat":""},
+		{	"Menge":"",
+			"Zutat":""},
+		{	"Menge":"",
+			"Zutat":""}
+		],
+	"Zubereitungsschritte": [
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"<a href='HIER EINEN LINK EINFÜGEN!' target='_blank' rel='noopener noreferrer'>HIER EINEN LINK EINFÜGEN!</a>"
+		]
+}
