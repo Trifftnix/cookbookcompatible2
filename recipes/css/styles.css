@@ -125,7 +125,8 @@ table {
   background-position: center;
   background-repeat: no-repeat;
   background-image:
-    radial-gradient(var(--themecolortransp1), var(--themecolortransp2)), url("../images/kitchen-banner.jpg");
+    radial-gradient(var(--themecolortransp1), var(--themecolortransp2)), 
+	url("../images/kitchen-banner.jpg");
 }
 #logo img {
   height: 100px;

@@ -55,7 +55,7 @@
 	-->
   </script>
 	
-  <noscript><link href="styles.css" rel="stylesheet"></noscript>
+  <noscript><link href="recipes/css/styles.css" rel="stylesheet"></noscript>
 
   <!-- Modernizr file
   =================== -->
