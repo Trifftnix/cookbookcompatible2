@@ -17,17 +17,17 @@ $Sterne = "";
 
 //alle vollen Sterne
 for ($i = $Schwierigkeit; $i>=1; $i--) {
-	$Sterne = $Sterne."<i class='fa fa-star' aria-hidden='true'></i>/n";
+	$Sterne = $Sterne."<i class='fa fa-star' aria-hidden='true'></i>\n";
 } 
 
 //gibt es einen halben Stern?
 if ($i == .5) {
-	$Sterne = $Sterne."<i class='fa fa-star-half-o' aria-hidden='true'></i>/n";
+	$Sterne = $Sterne."<i class='fa fa-star-half-o' aria-hidden='true'></i>\n";
 }
 
 //leere Sterne auffüllen
-for ($i = (3-$Schwierigkeit); $i; $i--) {
-	$Sterne = $Sterne."<i class='fa fa-star-o' aria-hidden='true'></i>/n";
+for ($i = (3-$Schwierigkeit); $i>=1; $i--) {
+	$Sterne = $Sterne."<i class='fa fa-star-o' aria-hidden='true'></i>\n";
 }
 
 //Schwierigkeit ist noch nicht umgesetzt
