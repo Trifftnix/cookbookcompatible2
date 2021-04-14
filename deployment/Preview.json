@@ -1,6 +1,12 @@
 {
 	"Rezeptname": "",
 	"BildnameohneEndung": "",
+	"backen"	: "ja",
+	"fleisch"	: "nein",
+	"fisch"		: "nein",
+	"snacks"	: "nein",
+	"spicy"		: "nein",
+	"vegetarisch":"nein",
 	"Zeit": " h",
 	"Portionen": "",
 	"ZutatenEinkaufsliste": [
@@ -34,6 +40,6 @@
 			"",
 			"",
 			"",
-			"<a href='Link' target='_blank' rel='noopener noreferrer'>Link</a>"
+			"<a href='HIER EINEN LINK EINFÜGEN!' target='_blank' rel='noopener noreferrer'>HIER EINEN LINK EINFÜGEN!</a>"
 		]
 }
