@@ -112,9 +112,12 @@
                 </div>
                 <div class="col-6">Schwierigkeit</div>
                 <div class="col-4">
-                  <i class="fa fa-star" aria-hidden="true"></i>			<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
-                  <i class="fa fa-star-half-o" aria-hidden="true"></i>	<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
-                  <i class="fa fa-star-o" aria-hidden="true"></i>		<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+                  <?php echo $Sterne ?>
+				  <!--
+				  <i class="fa fa-star" aria-hidden="true"></i>			
+                  <i class="fa fa-star-half-o" aria-hidden="true"></i>	
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+					-->
                 </div>
               </div>
               <!-- Serves -->

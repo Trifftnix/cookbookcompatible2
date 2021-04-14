@@ -14,8 +14,8 @@
 ** Base html
 ** -----------------------------------------------------------------------------
 */
-:root {
-	/*Herb
+:root {	
+	/*Herb*/
 		--themecolor: #626E60;
 		--themecolor2: #869683;
 		--themecolortransp1: #626E6026;
@@ -26,8 +26,8 @@
 		--SchriftfarbeKategorien: #e4e4e4;
 		--backgroundcolor: #f1f1f1;
 		--backgroundcolor2: #f9f9f9;
-	*/
-	/*Herbdark*/
+	
+	/*Herbdark
 		--themecolor: #626E60;
 		--themecolor2: #869683;
 		--themecolortransp1: #626E6026;
@@ -38,7 +38,7 @@
 		--SchriftfarbeKategorien: #e4e4e4;
 		--backgroundcolor: #444444;
 		--backgroundcolor2: #494949;
-		
+	*/	
 	
 	/*Terracotta
 		--themecolor: #945D60;

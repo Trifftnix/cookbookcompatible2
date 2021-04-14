@@ -8,6 +8,7 @@
 	"spicy"		: "nein",
 	"vegetarisch":"nein",
 	"Zeit": "0:45 h",
+	"Schwierigkeit": "1,5",
 	"Portionen": "3",
 	"ZutatenEinkaufsliste": [
 		{	"Menge":"500g",

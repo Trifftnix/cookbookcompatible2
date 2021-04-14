@@ -8,8 +8,29 @@ var_dump($neueVariablen);
 $Rezeptname = $neueVariablen->Rezeptname;
 $BildnameohneEndung 	= $neueVariablen->BildnameohneEndung;
 $Zeit 		= $neueVariablen->Zeit;
+$Schwierigkeit = $neueVariablen->Schwierigkeit;
+$Schwierigkeit = str_replace (",", ".", $Schwierigkeit);
+$Schwierigkeit = Math.round($Schwierigkeit*2)/2;
+$Portionen = $Schwierigkeit;
+$Sterne = "";
+
+//alle vollen Sterne
+for (var i = $Schwierigkeit; i>=1; i--) {
+	$Sterne = $Sterne."<i class='fa fa-star' aria-hidden='true'></i>/n";
+} 
+
+//gibt es einen halben Stern?
+if (i == .5) {
+	$Sterne = $Sterne."<i class='fa fa-star-half-o' aria-hidden='true'></i>/n";
+}
+
+//leere Sterne auffüllen
+for (var i = (3-$Schwierigkeit); i; i--) {
+	$Sterne = $Sterne."<i class='fa fa-star-o' aria-hidden='true'></i>/n";
+}
+
 //Schwierigkeit ist noch nicht umgesetzt
-$Portionen 	= $neueVariablen->Portionen;
+//$Portionen 	= $neueVariablen->Portionen;
 $Zutaten = "\t";
 foreach($neueVariablen->ZutatenEinkaufsliste as $item) {
 	$Zutaten = $Zutaten."<div itemprop='ingredients'><dt>".$item->Menge."</dt><dd>".$item->Zutat."</dd></div>\n\t\t\t\t";
