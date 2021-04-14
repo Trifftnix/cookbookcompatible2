@@ -12,10 +12,11 @@ $Schwierigkeit = $neueVariablen->Schwierigkeit;
 $Schwierigkeit = str_replace (",", ".", $Schwierigkeit);
 $Schwierigkeit = Math.round($Schwierigkeit*2)/2;
 $Portionen = $Schwierigkeit;
+//$Schwierigkeit = 1.5;
 $Sterne = "";
 
 //alle vollen Sterne
-for (var i = $Schwierigkeit; i>=1; i--) {
+for (i = $Schwierigkeit; i>=1; i--) {
 	$Sterne = $Sterne."<i class='fa fa-star' aria-hidden='true'></i>/n";
 } 
 
@@ -25,7 +26,7 @@ if (i == .5) {
 }
 
 //leere Sterne auffüllen
-for (var i = (3-$Schwierigkeit); i; i--) {
+for (i = (3-$Schwierigkeit); i; i--) {
 	$Sterne = $Sterne."<i class='fa fa-star-o' aria-hidden='true'></i>/n";
 }
 
