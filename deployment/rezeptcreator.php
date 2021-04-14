@@ -11,8 +11,7 @@ $Zeit 		= $neueVariablen->Zeit;
 $Schwierigkeit = $neueVariablen->Schwierigkeit;
 $Schwierigkeit = str_replace (",", ".", $Schwierigkeit);
 $Schwierigkeit = round($Schwierigkeit*2)/2;
-$Portionen = $Schwierigkeit;
-//$Schwierigkeit = 1.5;
+
 $Sterne = "";
 
 //alle vollen Sterne
@@ -30,8 +29,7 @@ for ($i = (3-$Schwierigkeit); $i>=1; $i--) {
 	$Sterne = $Sterne."<i class='fa fa-star-o' aria-hidden='true'></i>\n";
 }
 
-//Schwierigkeit ist noch nicht umgesetzt
-//$Portionen 	= $neueVariablen->Portionen;
+$Portionen 	= $neueVariablen->Portionen;
 $Zutaten = "\t";
 foreach($neueVariablen->ZutatenEinkaufsliste as $item) {
 	$Zutaten = $Zutaten."<div itemprop='ingredients'><dt>".$item->Menge."</dt><dd>".$item->Zutat."</dd></div>\n\t\t\t\t";
