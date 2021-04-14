@@ -15,19 +15,48 @@
 ** -----------------------------------------------------------------------------
 */
 :root {
-        --themecolor: #626E60;
+	/*Herb*/
+		--themecolor: #626E60;
 		--themecolor2: #869683;
+		--themecolortransp1: #626E6026;
+		--themecolortransp2: #626E60C0;
 		--bordercolor: #343B33;
 		--Schriftfarbe: #444444;
 		--Schriftfarbe2: #f9f9f9;
 		--SchriftfarbeKategorien: #e4e4e4;
 		--backgroundcolor: #f1f1f1;
 		--backgroundcolor2: #f9f9f9;
+	
+	/*Herbdark
+		--themecolor: #626E60;
+		--themecolor2: #869683;
+		--themecolortransp1: #626E6026;
+		--themecolortransp2: #626E60C0;
+		--bordercolor: #343B33;
+		--Schriftfarbe: #e4e4e4;
+		--Schriftfarbe2: #f9f9f9;
+		--SchriftfarbeKategorien: #e4e4e4;
+		--backgroundcolor: #444444;
+		--backgroundcolor2: #494949;
+		
+	
+	/*Terracotta
+		--themecolor: #945D60;
+		--themecolor2: #BA826C;
+		--themecolortransp1: #945D6026;
+		--themecolortransp2: #945D60C0;
+		--bordercolor: #613D3F;
+		--Schriftfarbe: #444444;
+		--Schriftfarbe2: #f9f9f9;
+		--SchriftfarbeKategorien: #e4e4e4;
+		--backgroundcolor: #f1f1f1;
+		--backgroundcolor2: #f9f9f9;
+	*/	
 }
 
 /*colors
-Terracotta 	#945D60	border #613D3F
-Herb 		#626E60	border #343B33
+Terracotta 	#945D60 themecolor2 BA826C themecolortransp1 #945D6026 themecolortransp2 #945D60C0 border #613D3F 
+Herb 		#626E60	themecolor2 #869683 themecolortransp1 #626E6026 themecolortransp2 #626E60C0 border #343B33 
 Chilli #AF473C
 Charcoal #3c3c3c
 Schriftfarbe: #e4e4e4 weiß/gräulich oder schwarz: #444
@@ -96,9 +125,7 @@ table {
   background-position: center;
   background-repeat: no-repeat;
   background-image:
-    radial-gradient(rgba(52, 59, 51, 0.15),
-    rgba(52, 59, 51, 0.75)),
-    url("../images/kitchen-banner.jpg");
+    radial-gradient(var(--themecolortransp1), var(--themecolortransp2)), url("../images/kitchen-banner.jpg");
 }
 #logo img {
   height: 100px;

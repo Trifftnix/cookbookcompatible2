@@ -16,8 +16,8 @@ Recipe book is a collection of several recipes made to be easily integrable with
   - [Modernizr](https://github.com/Modernizr/Modernizr)
   - [reset.css](https://meyerweb.com/eric/tools/css/reset/index.html)
   - [WOW.js](https://github.com/matthieua/WOW)
-  - [github-actions] (https://github.com/crazy-max/ghaction-github-pages)
-  - [setup-php] (https://github.com/nanasess/setup-php)
+  - [github-actions](https://github.com/crazy-max/ghaction-github-pages)
+  - [setup-php](https://github.com/nanasess/setup-php)
   
 ## Fonts
 
