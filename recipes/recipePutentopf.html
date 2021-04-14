@@ -32,31 +32,32 @@
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
   <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"  />
   <link rel="stylesheet" type="text/css" href="css/animate.min.css" />
-  <link rel='stylesheet' type='text/css' href='css/styles.css' type='text/css'>
+  
   <!-- according to daytime:-->
-  <!--<script>
+  <script>
 	<!--
 	function getStylesheet() {
 		  var currentTime = new Date().getHours();
 		  if (0 <= currentTime&&currentTime < 8) {
-		   document.write("<link rel='stylesheet' type='text/css' href='css/stylesdark.css' type='text/css'>");
+		   document.write("<link rel='stylesheet' type='text/css' href='recipes/css/stylesdark.css' type='text/css'>");
 		  }
 		  if (8 <= currentTime&&currentTime < 15) {
-		   document.write("<link rel='stylesheet' type='text/css' href='css/styles.css' type='text/css'>");
+		   document.write("<link rel='stylesheet' type='text/css' href='recipes/css/styles.css' type='text/css'>");
 		  }
 		  if (15 <= currentTime&&currentTime < 22) {
-		   document.write("<link rel='stylesheet' type='text/css' href='css/styles2.css' type='text/css'>");
+		   document.write("<link rel='stylesheet' type='text/css' href='recipes/css/styles.css' type='text/css'>");
 		  }
 		  if (22 <= currentTime&&currentTime <= 24) {
-		   document.write("<link rel='stylesheet' type='text/css' href='css/stylesdark.css' type='text/css'>");
+		   document.write("<link rel='stylesheet' type='text/css' href='recipes/css/stylesdark.css' type='text/css'>");
 		  }
 	}
 
 	getStylesheet();
 	
-	</script>
-	-->
+  </script>
+	
   <noscript><link href="styles.css" rel="stylesheet"></noscript>
+  
 
   <!-- Modernizr file
   =================== -->
