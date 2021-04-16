@@ -1,0 +1,50 @@
+{
+	"Rezeptname": "Champignoncurry",
+	"BildnameohneEndung": "Champignoncurry",
+	"backen"	: "nein",
+	"fleisch"	: "nein",
+	"fisch"		: "nein",
+	"snacks"	: "nein",
+	"spicy"		: "ja",
+	"vegetarisch":"ja",
+	"Zeit": "0:35 h",
+	"Schwierigkeit": "1",
+	"Portionen": "3",
+	"ZutatenEinkaufsliste": [
+		{	"Menge":"4",
+			"Zutat":"Tomaten"},
+		{	"Menge":"400g",
+			"Zutat":"Champignons"},
+		{	"Menge":"5cm",
+			"Zutat":"Ingwer"},	
+		{	"Menge":"250g",
+			"Zutat":"Erbsen TK"},
+		{	"Menge":"400g",
+			"Zutat":"Schafskäse"},
+		{	"Menge":"200g",
+			"Zutat":"Cashewkerne"},
+		{	"Menge":"1 TL",
+			"Zutat":"Garam Masala"},
+		{	"Menge":"4",
+			"Zutat":"Nelken"},
+		{	"Menge":"1",
+			"Zutat":"Lorbeerblatt"}
+		],
+	"Zutatenschonvorhanden": [
+		{	"Menge":"1",
+			"Zutat":"Zwiebel"},
+		{	"Menge":"1 TL",
+			"Zutat":"Kreuzkümmel, Kardamom"},
+		{	"Menge":"1 TL",
+			"Zutat":"Paprika, Kurkuma, Chilipulver"},	
+		{	"Menge":"5 EL",
+			"Zutat":"Öl"}
+		],
+	"Zubereitungsschritte": [
+			"Tipp: Wenn du nicht alle diese Gewürze hast, kannst du auch lediglich mit Garam Masala abschmecken.",
+			"Die Zwiebel schälen und hacken. Die Tomaten waschen, Stielansätze entfernen und die Tomaten klein schneiden. Die Champignons mit Küchenkrepp abreiben, die Stielenden abschneiden und die Pilze, je nach Größe, halbieren bzw. vierteln. Den Ingwer schälen und fein hacken.",
+			"Das Öl in einem schweren Topf erhitzen und die Zwiebeln darin kurz anschwitzen. Tomaten, Champignons und Erbsen hinzufügen. Den Ingwer und die sonstigen Gewürze dazugeben und alles unter gelegentlichem Rühren 10 Minuten köcheln lassen.",
+			"Den Schafskäse in Würfel schneiden. Zusammen mit den Cashewkernen in den Topf geben und alles 5 Minuten weitergaren. Mit Salz und Pfeffer abschmecken.",
+			"Guten Appetit! Das Rezept stammt aus <a href='https://www.naumann-goebel.de/produkt-details/das-ultimative-studentenkochbuch-9783815582138/show/' target='_blank' rel='noopener noreferrer'>https://www.naumann-goebel.de/produkt-details/das-ultimative-studentenkochbuch-9783815582138/show/</a>"
+		]
+}
