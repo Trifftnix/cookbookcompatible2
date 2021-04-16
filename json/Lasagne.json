@@ -1,0 +1,47 @@
+{
+	"Rezeptname": "Lasagne",
+	"BildnameohneEndung": "Lasagne",
+	"backen"	: "nein",
+	"fleisch"	: "ja",
+	"fisch"		: "nein",
+	"snacks"	: "nein",
+	"spicy"		: "nein",
+	"vegetarisch":"nein",
+	"Zeit": "1:10 h",
+	"Schwierigkeit": "2,5",
+	"Portionen": "4",
+	"ZutatenEinkaufsliste": [
+		{	"Menge":"1",
+			"Zutat":"Karotte"},
+		{	"Menge":"400g",
+			"Zutat":"Hackfleisch"},
+		{	"Menge":"600g",
+			"Zutat":"Tomatenstücke"},	
+		{	"Menge":"500ml",
+			"Zutat":" Weißwein"},
+		{	"Menge":"500g",
+			"Zutat":"Lasagneblätter"},
+		{	"Menge":"300g",
+			"Zutat":"geriebener Cheddar o. Käse"}
+		],
+	"Zutatenschonvorhanden": [
+		{	"Menge":"1",
+			"Zutat":"Zwiebel"},
+		{	"Menge":"2 EL",
+			"Zutat":"Olivenöl"},
+		{	"Menge":"1 TL",
+			"Zutat":"Thymian"},
+		{	"Menge":"2 EL",
+			"Zutat":"Butter"},
+		{	"Menge":"4 EL",
+			"Zutat":"Mehl"},
+		{	"Menge":"150ml",
+			"Zutat":"Milch"}
+		],
+	"Zubereitungsschritte": [
+			"Zwiebel und Möhre schälen und hacken bzw. würfeln. Das Öl in einer Pfanne erhitzen und die Zwiebel darin glasig dünsten. Möhre und Hack hinzufügen und gut anbraten, bis das Fleisch krümelig wird. Thymian und Tomaten unterrühren und mit Salz und Pfeffer abschmecken.",
+			"Die Butter in einem kleinen Topf erhitzen, das Mehl hinzufügen und unter ständigem Rühren anschwitzen. Mit dem Weißwein ablöschen und alles sämig einkochen lassen. Dann die Milch unterrühren und mit Salz abschmecken. Den Backofen auf 200°C (Umluft 180 °C) vorheizen.",
+			"Eine Auflaufform einfetten. Etwas von der Sauce hineingeben, darauf eine Lage Lasagneblätter legen und diese mit Hackfleischsauce bestreichen. Mit etwas Käse bestreuen. So weiterschichten, bis alle Zutaten aufgebraucht sind. Die letzte Schicht sollte aus Sauce und darauf Käse bestehen. Die Lasagne im Ofen etwa 40 Minuten goldbraun backen.",
+			"Guten Appetit! Das Rezept stammt aus <a href='https://www.naumann-goebel.de/produkt-details/das-ultimative-studentenkochbuch-9783815582138/show/' target='_blank' rel='noopener noreferrer'>https://www.naumann-goebel.de/produkt-details/das-ultimative-studentenkochbuch-9783815582138/show/</a>"
+		]
+}
