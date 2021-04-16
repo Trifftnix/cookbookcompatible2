@@ -181,7 +181,9 @@ table {
 .show-all {
   margin-top: 12px;
 }
-
+.div marked {
+	background-color: var(--themecolor2);
+}
 /*
 ** Recipes Items
 ** -----------------------------------------------------------------------------
