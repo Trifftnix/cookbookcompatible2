@@ -95,7 +95,14 @@ table {
   display: flex;
   align-items: center;
 }
-
+a {
+  color: var(--themecolor2);
+  text-shadow: 0 1px 0 var(--themecolortransp1);
+}
+a:hover {
+  color: var(--themecolor);
+  text-decoration: underline;
+}
 /*
 ** Splash Screen
 ** -----------------------------------------------------------------------------
@@ -133,12 +140,22 @@ table {
   width: auto;
   margin-top: 24px;
 }
+#logo img:hover {
+	color: var(--themecolor2);
+	margin-top: 16px;
+	height: 108px;
+}
 #logo h1 {
   font-family: 'Quirlycues';
   font-size: 72px;
   font-weight: normal;
   padding-top: 24px;
   color: var(--Schriftfarbe2);
+}
+#logo a {
+  color: var(--Schriftfarbe2);
+  position: relative;
+  display: inline-block;
 }
 
 /*
