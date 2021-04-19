@@ -73,7 +73,7 @@
     <div class="container text-center wow pulse">
       <a href="/index.html"><img src="images/logo-white.svg" alt="logo" /></a>
       <br />
-      <h1>Kochbuch</h1>
+      <h1><a href="/index.html">Kochbuch</a></h1>
     </div>
   </section>
 
