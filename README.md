@@ -2,7 +2,7 @@
 
 Recipe book is a collection of several recipes made to be easily integrable with the bring app. (https://www.getbring.com/)
 
-![screenshot](recipes/images/screenshot.png)
+![screenshot](recipes/images/icons/screenshot.png)
 
 ## Neues Rezept Json Template
   - [neuesRezept.json](https://github.com/Trifftnix/Trifftnix.github.io/blob/gh-pages/neuesRezept.json)

@@ -133,7 +133,7 @@ a:hover {
   background-repeat: no-repeat;
   background-image:
     radial-gradient(var(--themecolortransp1), var(--themecolortransp2)), 
-	url("../images/kitchen-banner.jpg");
+	url("../images/icons/kitchen-banner.jpg");
 }
 #logo img {
   height: 100px;
