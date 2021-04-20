@@ -157,6 +157,9 @@ a:hover {
   position: relative;
   display: inline-block;
 }
+#logo a:hover {
+	text-decoration: none;
+}
 
 /*
 ** Recipes Categories

@@ -14,8 +14,8 @@ jobs:
       - run : for file_name in hochgeladeneBilder/*.jpg; do convert -auto-orient -resize '640x378^' -gravity Center -crop 640x378+0+0 "$file_name" -set filename:f '%t' "recipes/images/%[filename:f]resized.jpg"; done
       - uses: nanasess/setup-php@master
       - run : php deployment/emptythefile.php
-      - run: for file_name in json/*.json; do php deployment/rezeptcreator.php "$file_name"; done
-      - run: for file_name in json/*.json; do php deployment/allrecipesintohtml.php "$file_name"; done
+      - run: for file_name in neueRezepte/*.json; do php deployment/rezeptcreator.php "$file_name"; done
+      - run: for file_name in neueRezepte/*.json; do php deployment/allrecipesintohtml.php "$file_name"; done
       - run: php deployment/indexhtmlcreator.php
       - uses: crazy-max/ghaction-github-pages@v2.3.0
         if: success()
