@@ -5,7 +5,7 @@ Recipe book is a collection of several recipes made to be easily integrable with
 ![screenshot](recipes/images/icons/screenshot.png)
 
 ## Neues Rezept Json Template
-  - [neuesRezept.json](https://github.com/Trifftnix/Trifftnix.github.io/blob/gh-pages/neuesRezept.json)
+  - [neuesRezept.json](Rezepte/neuesRezept.json)
 
 ## Dependencies
 

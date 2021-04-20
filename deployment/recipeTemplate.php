@@ -141,12 +141,8 @@
 			  <?php echo $Zutaten ?>															<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
             
 			</dl>
-			<dl class="ingredients-list-vermutlich">
-				<dt> </dt>		<dd>vermutlich schon vorhanden:</dd>
-			</dl>
-			<dl class="ingredients-list-minor">
-			  <?php echo $Zutaten2 ?>
-			  
+			<?php echo $Zutaten2 ?>
+						  
 			</dl>
           </div>
         </div>

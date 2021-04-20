@@ -39,6 +39,9 @@ if ($Rezeptname != "") {
 	foreach($neueVariablen->Zutatenschonvorhanden as $item) {
 		$Zutaten2 = $Zutaten2."<dt>".$item->Menge."</dt>	<dd>".$item->Zutat."</dd>\n\t\t\t\t";
 	};
+	if ($Zutaten2 != "\t") {
+		$Zutaten2 = "<dl class='ingredients-list-vermutlich'>\n\t\t\t\t	<dt> </dt>		<dd>vermutlich schon vorhanden:</dd>\n\t\t\t</dl>\n<dl class='ingredients-list-minor'>".$Zutaten."\n\t\t\t</dl>"
+	}
 	$Zubereitungsschritte ="";
 	foreach($neueVariablen->Zubereitungsschritte as $item) {
 		$Zubereitungsschritte = $Zubereitungsschritte."<li>".$item."</li>\n\t\t\t\t";
