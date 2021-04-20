@@ -2,6 +2,29 @@
 
 $neuesRezept = $argv[1];
 $neueVariablen = file_get_contents($neuesRezept);
+
+$jsontofix = $neueVariablen;
+$jsonarray = str_split($jsontofix);
+$comma = false;
+$index = 0;
+$indexcomma = 0;
+
+foreach($jsonarray as $character) {
+	if($character == ",") {
+		$comma = true;
+		$indexcomma = $index;
+	} elseif(($character == "\"") and ($comma==true)) {
+		$comma = false;
+	} elseif(($character == "]") and ($comma==true)) {
+		$jsonarray[$indexcomma] = ""; //if they are commas before an [ remove them, so it is json-correct-formatting
+	}
+	$index = $index+1;
+}
+$neueVariablen = implode("", $jsonarray);
+
+
+
+
 $neueVariablen= json_decode ($neueVariablen);
 //var_dump($neueVariablen);
 //Variablen
