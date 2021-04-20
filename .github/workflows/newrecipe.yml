@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: mfinelli/setup-imagemagick@v1
-      - run: convert recipes/images/Champignoncurry.jpg -resize '378x640^' recipes/images/Champignoncurryneu.jpg
+      - run: convert recipes/images/Champignoncurry.jpg -resize '378x640^' -crop 378x640 recipes/images/Champignoncurryneu.jpg
       #- run: for file_name in recipes/images/*.jpg; do magick input.jp -resize 640x378 output.jpg
       #- uses: nanasess/setup-php@master
       #- run : php deployment/emptythefile.php
