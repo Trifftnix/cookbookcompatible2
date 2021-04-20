@@ -10,11 +10,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: nanasess/setup-php@master
-      - run : php deployment/emptythefile.php
-      - run: for file_name in json/*.json; do php deployment/rezeptcreator.php "$file_name"; done
-      - run: for file_name in json/*.json; do php deployment/allrecipesintohtml.php "$file_name"; done
-      - run: php deployment/indexhtmlcreator.php
+      - uses: mfinelli/setup-imagemagick@v1
+      - run: convert Champignoncurry.jpg -resize 640x378 \ -gravity Center -crop 640x378 Champignoncurryneu.jpg
+      #- run: for file_name in recipes/images/*.jpg; do magick input.jp -resize 640x378 output.jpg
+      #- uses: nanasess/setup-php@master
+      #- run : php deployment/emptythefile.php
+      #- run: for file_name in json/*.json; do php deployment/rezeptcreator.php "$file_name"; done
+      #- run: for file_name in json/*.json; do php deployment/allrecipesintohtml.php "$file_name"; done
+      #- run: php deployment/indexhtmlcreator.php
       - uses: crazy-max/ghaction-github-pages@v2.3.0
         if: success()
         with:
