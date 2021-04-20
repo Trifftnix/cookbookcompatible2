@@ -13,5 +13,5 @@ file_put_contents ("deployment/spicyrecipes.html", "");
 file_put_contents ("deployment/vegetarischrecipes.html", "");
 
 $neuesRezept = file_get_contents ("deployment/neuesRezept.json");
-file_put_contents ("/Rezepte/neuesRezept.json", $neuesRezept);
+file_put_contents ("Rezepte/neuesRezept.json", $neuesRezept);
 ?>
