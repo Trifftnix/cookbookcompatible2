@@ -10,7 +10,7 @@ $neueVariablen= json_decode ($neueVariablen);
 //var_dump($neueVariablen);
 //Variablen
 $Rezeptname = $neueVariablen->Rezeptname;
-if $Rezeptname != "" {
+if ($Rezeptname != "") {
 	$BildnameohneEndung 	= $neueVariablen->BildnameohneEndung;
 
 
