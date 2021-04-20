@@ -17,7 +17,7 @@ $neueRezeptzeile =
 	   "<div class='col-lg-4 col-md-6 col-sm-12 wow fadeIn'>
           <div class='recipe-item text-center'>
             <a href='recipes/recipe".$BildnameohneEndung.".html'>
-              <img src='recipes/images/".$BildnameohneEndung.".jpg' alt='".$Rezeptname."' />
+              <img src='recipes/images/".$BildnameohneEndung."resized.jpg' alt='".$Rezeptname."' />
             </a>
             <br />
             <h3>".$Rezeptname."</h3>
