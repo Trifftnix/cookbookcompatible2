@@ -91,7 +91,7 @@
         <div class="col-12">
           <!-- Picture -->
           <div class="col-md-8 pull-left wow swing">
-            <img src="images/<?php echo $BildnameohneEndung ?>.jpg" alt="<?php echo $Rezeptname ?>" class="recipe-picture" itemprop="image"/>	<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+            <img src="images/<?php echo $BildnameohneEndung ?>resized.jpg" alt="<?php echo $Rezeptname ?>" class="recipe-picture" itemprop="image"/>	<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
           </div>
           <!-- Info -->
           <div class="col-md-4 pull-right wow lightSpeedIn">
