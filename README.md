@@ -5,7 +5,8 @@ Recipe book is a collection of several recipes made to be easily integrable with
 ![screenshot](recipes/images/icons/screenshot.png)
 
 ## Neues Rezept Json Template
-  - [neuesRezept.json](Rezepte/neuesRezept.json)
+  - [Trage hier dein neues Rezept ein und nenne die Datei um!](Rezepte/neuesRezept.json)
+  - [Vergiss nicht ein Bild für dein neues Rezept in diesen Ordner zu ziehen](hochgeladeneBilder) 	
 
 ## Dependencies
 
