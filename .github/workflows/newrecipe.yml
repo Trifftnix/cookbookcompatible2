@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: mfinelli/setup-imagemagick@v1
-      - run : for file_name in hochgeladeneBilder/*.jpg; do convert $file_name -resize '378x640^' -gravity Center -crop 378x640+0+0 $file_name; done
+      - run : for file_name in hochgeladeneBilder/*.jpg; do convert $file_name -resize '378x640^' -gravity Center -crop 378x640+0+0 "recipes/images/$file_name"; done
       #- run: convert recipes/images/Champignoncurry.jpg -resize '378x640^' -gravity Center -crop 378x640+0+0 recipes/images/Champignoncurryneu.jpg
       #- run: for file_name in recipes/images/*.jpg; do magick input.jp -resize 640x378 output.jpg
       #- uses: nanasess/setup-php@master
