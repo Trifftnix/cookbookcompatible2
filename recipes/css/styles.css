@@ -142,6 +142,7 @@ a:hover {
 }
 #logo img:hover {
 	color: var(--themecolor2);
+	transition: .1s;
 	margin-top: 16px;
 	height: 108px;
 }

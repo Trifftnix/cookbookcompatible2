@@ -199,8 +199,7 @@
         <!-- Author -->
         <div class="col-md-6 col-sm-12 text-center">
           <div class="footer-author">
-            Zusammengestellt von Trifftnix.
-			<!--<br><a href="indexdark.html"> Dark Mode</a>  -->
+            Zusammengestellt von <a href="https://github.com/Trifftnix">Trifftnix</a>.
           </div>
         </div>
       </div>
