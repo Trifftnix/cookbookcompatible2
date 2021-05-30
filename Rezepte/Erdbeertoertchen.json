@@ -11,8 +11,6 @@
 	"Schwierigkeit": "0,5",
 	"Portionen": "4",
 	"ZutatenEinkaufsliste": [
-		{	"Menge":"174g",
-			"Zutat":"glutenfreies Mehl"},
 		{	"Menge":"100g",
 			"Zutat":"gemahlene Mandeln"},
 		{	"Menge":"150ml",
