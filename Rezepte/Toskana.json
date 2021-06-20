@@ -29,6 +29,8 @@
 			"Zutat":"Zwiebel"},
 		{	"Menge":"1",
 			"Zutat":"Knoblauchzehe"},
+                {	"Menge":"200ml",
+			"Zutat":"Milch"},
 		{	"Menge":"etwas",
 			"Zutat":"Olivenöl, Italienische Kräuter, Salz, Pfeffer, Paprikapulver"}
 		],
