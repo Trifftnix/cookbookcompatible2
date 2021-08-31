@@ -31,6 +31,8 @@
 			"Zutat":"Zucker"},
 		{	"Menge":"1/2",
 			"Zutat":"Paprikapulver"}
+		{	"Menge":"500ml",
+			"Zutat":"Gemüsebrühe"},
 		],
 	"Zubereitungsschritte": [
 			"Die Kartoffeln schälen und in Würfel schneiden, ca. 1 cm groß. Die Paprikaschoten waschen und ebenfalls würfeln, etwa in der gleichen Größe. Zwiebel und Knoblauch schälen und fein hacken.",
