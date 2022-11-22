@@ -12,7 +12,7 @@ file_put_contents ("deployment/snacksrecipes.html", "");
 file_put_contents ("deployment/spicyrecipes.html", "");
 file_put_contents ("deployment/vegetarischrecipes.html", "");
 
-$neuesRezept = file_get_contents ("deployment/neuesRezept.json");
+$neuesRezept = file_get_contents ("Rezepte/neuesRezept.json");
 if (file_exists("Rezepte/neuesRezept.json") == FALSE) {
 	file_put_contents ("Rezepte/neuesRezept.json", $neuesRezept);
 }
