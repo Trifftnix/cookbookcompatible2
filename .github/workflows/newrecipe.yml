@@ -12,7 +12,9 @@ jobs:
       - uses: actions/checkout@v2
       - uses: mfinelli/setup-imagemagick@v1
       - run : for file_name in hochgeladeneBilder/*.jpg; do convert -auto-orient -resize '640x378^' -gravity Center -crop 640x378+0+0 "$file_name" -set filename:f '%t' "recipes/images/%[filename:f]resized.jpg"; done
-      - uses: nanasess/setup-php@master
+      - uses: nanasess/setup-php@v3
+        with:
+            php-version: '7.4'
       - run : php deployment/emptythefile.php
       - run: for file_name in Rezepte/*.json; do php deployment/rezeptcreator.php "$file_name"; done
       - run: for file_name in Rezepte/*.json; do php deployment/allrecipesintohtml.php "$file_name"; done
