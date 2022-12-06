@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: mfinelli/setup-imagemagick@v1
+      - uses: mfinelli/setup-imagemagick@v7
       - run : for file_name in hochgeladeneBilder/*.jpg; do convert -auto-orient -resize '640x378^' -gravity Center -crop 640x378+0+0 "$file_name" -set filename:f '%t' "recipes/images/%[filename:f]resized.jpg"; done
       - uses: nanasess/setup-php@v3
         with:
