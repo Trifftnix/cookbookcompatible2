@@ -4,7 +4,7 @@ on:
   # but only for the main branch
   push:
     branches:
-      - automatic-recipes-from-cookbook-nextcloud
+      - gh-pages
 jobs:
   convertrecipesintohtml:
     runs-on: ubuntu-latest
@@ -22,7 +22,7 @@ jobs:
       - uses: crazy-max/ghaction-github-pages@v2.3.0
         if: success()
         with:
-          target_branch: automatic-recipes-from-cookbook-nextcloud
+          target_branch: gh-pages
           build_dir: .
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
