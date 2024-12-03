@@ -1,0 +1,33 @@
+{
+    "@type": "Recipe",
+    "name": "Chili sin Carne Rezept \u2013 schnell & einfach",
+    "author": {
+        "@type": "Person",
+        "name": "Emmi"
+    },
+    "description": "Mein vegetarisches Chili con Carne kommt ganz ohne Fleisch aus. Es steht mit viel buntem Gem\u00fcse und roten Linsen in nur 30 Minuten auf dem Tisch.",
+    "datePublished": "2023-01-09T14:00:20+00:00",
+    "image": "https:\/\/emmikochteinfach.de\/wp-content\/uploads\/2023\/01\/oes-Chili-sin-Carne-schnell-und-einfach-1-500x500.jpg",
+    "recipeYield": 6,
+    "prepTime": "PT0H15M0S",
+    "cookTime": "PT0H15M0S",
+    "totalTime": "PT0H30M0S",
+    "recipeIngredient": [
+        {	"Menge":"125g",
+			"Zutat":"Butter"},
+		{	"Menge":"3",
+			"Zutat":"Eier"},
+		{	"Menge":"750g",
+			"Zutat":"Äpfel Gala/ Jonagold"}
+    ],
+    "recipeInstructions": [
+        "Die 250 g getrocknete rote Linsen gibst Du in ein Sieb, w\u00e4schst sie mit kaltem Wasser ab und l\u00e4sst sie abtropfen. Die Kidneybohnen gibst Du in ein weiteres Sieb und w\u00e4schst sie ab (so werden sie bek\u00f6mmlicher), den Mais kannst Du im selben Sieb abtropfen lassen. Die 2 Paprikaschoten und die 1 Peperoni w\u00e4schst Du ab, entkernst und schneidest sie in feine W\u00fcrfel. Die 1 Zwiebel und die 3 Knoblauchzehen sch\u00e4lst Du und w\u00fcrfelst sie fein. TIPP: Statt einer Peperoni kannst Du auch z.B. eine kleine Piri Piri Chilischote nehmen, wenn Du gerne h\u00f6llisch scharf isst.",
+        "3 EL Oliven\u00f6l erhitzt Du nun in einem gro\u00dfen Topf und l\u00e4sst darin die Zwiebelw\u00fcrfel kurz alleine and\u00fcnsten. Dann gibst Du die Knoblauch-, Peperoni- und Paprikaw\u00fcrfel hinein und l\u00e4sst alles gemeinsam 2-3 Minuten and\u00fcnsten.",
+        "Jetzt gibst Du noch die 250 g abgetropften roten Linsen hinein sowie 2 EL Tomatenmark, verr\u00fchrst alles gut miteinander und l\u00e4sst es kurz and\u00fcnsten.",
+        "Jetzt l\u00f6schst Du mit 750 ml Gem\u00fcsebr\u00fche ab und gibst die 400 g st\u00fcckigen und die 400 g passierten Tomaten dazu sowie die Kidneybohnen und den Mais. Au\u00dferdem w\u00fcrzt Du mit 2 TL Paprikapulver, 1,5 TL Kreuzk\u00fcmmel, 1 TL Salz sowie 1 Msp. Cayennepfeffer und 1 Prise Zucker.",
+        "Alles gut miteinander verr\u00fchren und mit halb ge\u00f6ffnetem Deckel bei mittlerer Hitze f\u00fcr 15 Minuten k\u00f6cheln lassen. Ab und zu umr\u00fchren. Zum Schluss noch einmal abschmecken.",
+        "Mit Petersilie oder Koriander sowie Limette und Cr\u00e9me Fra\u00eeche servieren. F\u00fcr mehr Sch\u00e4rfe bieten sich Chili-Flocken oder frisch aufgeschnittene Chilis an.",
+        "Ich w\u00fcnsche Dir mit meinem Chili sin Carne Rezept viel Freude und einen guten Appetit.",
+        "test <script async='async' src='//platform.getbring.com/widgets/import.js'></script><div data-bring-import style='display:none'><h3>test</h3><a href='https://www.getbring.com'>Bring! Einkaufsliste App f&uuml;r iPhone und Android</a></div>"
+    ],
+}
