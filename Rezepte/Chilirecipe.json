@@ -1,13 +1,13 @@
 {
     "@type": "Recipe",
-    "name": "Chili sin Carne Rezept \u2013 schnell & einfach",
+    "name": "Chili",
     "author": {
         "@type": "Person",
         "name": "Emmi"
     },
     "description": "Mein vegetarisches Chili con Carne kommt ganz ohne Fleisch aus. Es steht mit viel buntem Gem\u00fcse und roten Linsen in nur 30 Minuten auf dem Tisch.",
     "datePublished": "2023-01-09T14:00:20+00:00",
-    "image": "https:\/\/emmikochteinfach.de\/wp-content\/uploads\/2023\/01\/oes-Chili-sin-Carne-schnell-und-einfach-1-500x500.jpg",
+    "image": "Chili.jpg",
     "recipeYield": 6,
     "prepTime": "PT0H15M0S",
     "cookTime": "PT0H15M0S",
