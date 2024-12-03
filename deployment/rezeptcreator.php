@@ -28,13 +28,11 @@ $neueVariablen = implode("", $jsonarray);
 $neueVariablen= json_decode ($neueVariablen);
 //var_dump($neueVariablen);
 //Variablen
-$Rezeptname = $neueVariablen->Rezeptname;
+$Rezeptname = $neueVariablen->name;
 if ($Rezeptname != "") {
-	$BildnameohneEndung 	= $neueVariablen->BildnameohneEndung;
+	$BildnameohneEndung 	= $neueVariablen->image;
 	$Zeit 		= $neueVariablen->Zeit;
-	$Schwierigkeit = $neueVariablen->Schwierigkeit;
-	$Schwierigkeit = str_replace (",", ".", $Schwierigkeit);
-	$Schwierigkeit = round($Schwierigkeit*2)/2;
+	$Schwierigkeit = 1;		//schwierigkeit gibt es nicht mehr!
 
 	$Sterne = "";
 
@@ -53,20 +51,14 @@ if ($Rezeptname != "") {
 		$Sterne = $Sterne."<i class='fa fa-star-o' aria-hidden='true'></i>\n";
 	}
 
-	$Portionen 	= $neueVariablen->Portionen;
+	$Portionen 	= $neueVariablen->recipeYield;
 	$Zutaten = "\t";
-	foreach($neueVariablen->ZutatenEinkaufsliste as $item) {
+	foreach($neueVariablen->recipeIngredient as $item) {
 		$Zutaten = $Zutaten."<div itemprop='ingredients'><dt>".$item->Menge."</dt><dd>".$item->Zutat."</dd></div>\n\t\t\t\t";
 	};
-	$Zutaten2 = "\t";
-	foreach($neueVariablen->Zutatenschonvorhanden as $item) {
-		$Zutaten2 = $Zutaten2."<dt>".$item->Menge."</dt>	<dd>".$item->Zutat."</dd>\n\t\t\t\t";
-	};
-	if ($Zutaten2 != "\t") {
-		$Zutaten2 = "<dl class='ingredients-list-vermutlich'>\n\t\t\t\t	<dt> </dt>		<dd>vermutlich schon vorhanden:</dd>\n\t\t\t</dl>\n<dl class='ingredients-list-minor'>".$Zutaten2."\n\t\t\t</dl>";
-	}
+	
 	$Zubereitungsschritte ="";
-	foreach($neueVariablen->Zubereitungsschritte as $item) {
+	foreach($neueVariablen->recipeInstructions as $item) {
 		$Zubereitungsschritte = $Zubereitungsschritte."<li>".$item."</li>\n\t\t\t\t";
 	};
 
