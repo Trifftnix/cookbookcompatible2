@@ -22,7 +22,7 @@ jobs:
       - uses: crazy-max/ghaction-github-pages@v2.3.0
         if: success()
         with:
-          target_branch: gh-pages
+          target_branch: automatic-recipes-from-cookbook-nextcloud
           build_dir: .
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
