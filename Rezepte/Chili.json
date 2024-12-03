@@ -1,9 +1,5 @@
 {
-    "@type": "Recipe",
     "name": "Chili",
-    "author": {
-        "@type": "Person",
-        "name": "Emmi"
     },
     "description": "Mein vegetarisches Chili con Carne kommt ganz ohne Fleisch aus. Es steht mit viel buntem Gem\u00fcse und roten Linsen in nur 30 Minuten auf dem Tisch.",
     "datePublished": "2023-01-09T14:00:20+00:00",
