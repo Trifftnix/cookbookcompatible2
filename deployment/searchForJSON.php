@@ -24,7 +24,7 @@ function searchFilesWithExtension($dir, $extension) {
 }
 
 // Usage example:
-$directory = __DIR__ . '\\recipes';  // This ensures the path is based on the script's directory
+$directory = 'recipes';  // This ensures the path is based on the script's directory
 $extension = 'json'; // Example extension
 searchFilesWithExtension($directory, $extension);
 ?>

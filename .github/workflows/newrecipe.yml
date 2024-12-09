@@ -1,19 +1,46 @@
 name: newrecipe
+
 on:
   # Trigger the workflow on push or pull request,
   # but only for the main branch
   push:
     branches:
       - gh-pages
+
 jobs:
   convertrecipesintohtml:
     runs-on: ubuntu-latest
+    
     steps:
+      # Step 1: Checkout the code from the repository
       - uses: actions/checkout@v3
+      
+      # Step 2: Set up PHP (install PHP 8.2)
       - uses: nanasess/setup-php@v4
         with:
-            php-version: '8.2'
-      - run : php deployment/callallrecipesintohtml.php
+          php-version: '8.2'
+        
+      # Step 3: Cache PHP dependencies (e.g., Composer cache)
+      - name: Cache Composer dependencies
+        uses: actions/cache@v2
+        with:
+          path: ~/.composer/cache
+          key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-composer-
+
+      # Step 4: Install Composer (if you are using Composer for dependencies)
+      - name: Install Composer
+        run: curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+
+      # Step 5: Install dependencies via Composer (only if using Composer)
+      - name: Install Composer dependencies
+        run: composer install
+
+      # Step 6: Run the PHP script
+      - run: php deployment/callallrecipesintohtml.php
+
+      # Step 7: Push changes to GitHub Pages (optional)
       - uses: crazy-max/ghaction-github-pages@v2.3.0
         if: success()
         with:
