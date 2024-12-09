@@ -1,0 +1,30 @@
+{
+	"name": "Toskana Hackbällchen",
+	"image": "Toskana",
+	"recipeCategory": "Fleisch",
+	"totalTime": "PT0H45M0S",
+	"Schwierigkeit": "1,5",
+	"recipeYield": "3",
+	"recipeIngredient": [
+		{	"500g Hackfleisch"},
+		{	"6 EL Tomatenmark"},
+		{	"200ml Sahne"},
+	    {	"1 Mozarella"},
+		{	"1 Chiabatta"},
+		{	"2 Zucchini"}
+		{	"1 Zwiebel"},
+		{	"1 Knoblauchzehe"},
+        {	"200ml Milch"},
+		{	"etwas Olivenöl, Italienische Kräuter, Salz, Pfeffer, Paprikapulver"}
+		],
+	"recipeInstructions": [
+			"Zuerst wird das Hackfleisch mit etwa 2 gestrichenen Teelöffeln Salz, Pfeffer und Paprikapulver verknetet und zu Bällchen geformt. Die Bällchen sollten etwas größer sein als ein Tischtennisball.",
+			"Die Zwiebel und den Knoblauch in feine Würfel schneiden und den Ofen auf 200 Grad Ober-/Unterhitze vorheizen.",
+			"Jetzt werden die Bällchen bei voller Hitze in der Pfanne kurz von allen Seiten angebraten. Sie sollen auf keinen Fall durchgaren, nur von allen Seiten ein kleines bisschen Farbe bekommen. Dann in eine Auflaufform geben.",
+			"In jetzt leeren aber noch heißen Pfanne werden die Zwiebelwürfel angebraten, ggf. etwas Öl hinzugeben. Nach 3 Minuten den Knoblauch hinzugeben, noch eine Minute weiterbraten. Jetzt das Tomatenmark in die Pfanne geben und noch ca. 2 Minuten mit anbraten, dabei immer rühren. Das fühlt sich etwas komisch an und sieht matschig aus, aber ist für den Geschmack ganz wichtig!",
+			"Nun kommen die Milch und die Sahne in die Pfanne, jetzt gut umrühren. Dazu noch die Kräuter und 2 TL Paprikapulver. Die Pfanne könnt ihr dabei schon ausschalten. Wenn alle Zutaten gut miteinander verrührt sind, wird die Soße über die Bällchen gegossen.",
+			"Den Mozzarella in dünne Scheiben schneiden und auf den Bällchen verteilen. Nun ab in den Ofen für 20-25 Minuten.",
+			"Guten Appetit! Dazu passt: gebratene Zucchini & Chiabatta.",
+			"Das Rezept stammt aus <a href='www.feinkostpunks.de/fix-ohne-fix-hackballchen-toskana' target='_blank' rel='noopener noreferrer'>www.feinkostpunks.de/fix-ohne-fix-hackballchen-toskana</a>"
+		]
+}

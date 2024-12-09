@@ -1,0 +1,30 @@
+{
+	"name": "Champignoncurry",
+	"image": "Champignoncurry",
+	"recipeCategory": "Vegetarisch",
+	"totalTime": "PT0H35M0S",
+	"Schwierigkeit": "1",
+	"recipeYield": "3",
+	"recipeIngredient": [
+		{	"4 Tomaten"},
+		{	"400g Champignons"},
+		{	"5cm Ingwer"},	
+		{	"250g Erbsen TK"},
+		{	"400g Schafskäse"},
+		{	"200g Cashewkerne"},
+		{	"1 TL Garam Masala"},
+		{	"4 Nelken"},
+		{	"1 Lorbeerblatt"}
+		{	"1 Zwiebel"},
+		{	"1 TL Kreuzkümmel, Kardamom"},
+		{	"1 TL Paprika, Kurkuma, Chilipulver"},	
+		{	"5 EL Öl"}
+		],
+	"recipeInstructions": [
+			"Tipp: Wenn du nicht alle diese Gewürze hast, kannst du auch lediglich mit Garam Masala abschmecken.",
+			"Die Zwiebel schälen und hacken. Die Tomaten waschen, Stielansätze entfernen und die Tomaten klein schneiden. Die Champignons mit Küchenkrepp abreiben, die Stielenden abschneiden und die Pilze, je nach Größe, halbieren bzw. vierteln. Den Ingwer schälen und fein hacken.",
+			"Das Öl in einem schweren Topf erhitzen und die Zwiebeln darin kurz anschwitzen. Tomaten, Champignons und Erbsen hinzufügen. Den Ingwer und die sonstigen Gewürze dazugeben und alles unter gelegentlichem Rühren 10 Minuten köcheln lassen.",
+			"Den Schafskäse in Würfel schneiden. Zusammen mit den Cashewkernen in den Topf geben und alles 5 Minuten weitergaren. Mit Salz und Pfeffer abschmecken.",
+			"Guten Appetit! Das Rezept stammt aus dem <a href='https://www.naumann-goebel.de/produkt-details/das-ultimative-studentenkochbuch-9783815582138/show/' target='_blank' rel='noopener noreferrer'>Studentenkochbuch</a>."
+		]
+}

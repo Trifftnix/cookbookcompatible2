@@ -1,0 +1,23 @@
+{
+	"name": "Käsestangen",
+	"image": "Kaesestangen",
+	"recipeCategory": "Snacks",
+	"totalTime": "PT1H15M0S",
+	"Schwierigkeit": "1",
+	"recipeYield": "15",
+	"recipeIngredient": [
+		{	"100g Butter"},
+		{	"100g Quark"},
+		{	"65g geriebener Parmesan"},	
+		{	"2 Eier"},
+		{	"3 EL Reibekäse"}
+		{	"100g Mehl"},
+		{	"etwas Salz, Pfeffer, Paprika"}
+		],
+	"recipeInstructions": [
+			"100g Mehl, 100g kalte Butter in Flöckchen, 100g Quark, 1 Eigelb und 65g Parmesan zu einem festen Teig verkneten. Mit Salz, Pfeffer und Paprika würzen.",
+			"Gut durchkneten und ca. 0,5cm dick ausrollen. In Streifen (1cm breit, 10cm lang) schneiden und auf ein Backblech legen. 30 Min kühl stellen.",
+			"Den Backofen auf 180°C vorheizen. Die Käsestangen mit dem (zweiten) verquirlten Ei bestreichen und mit Reibekäse bestreuen. Die Käsestangen 15 Min backen.",
+			"Guten Appetit! Das Rezept stammt aus der <a href='https://www.naumann-goebel.de/produkt-details/die-studenten-kochbox-9783625139294/show/' target='_blank' rel='noopener noreferrer'>Studentenkochbox</a>."
+		]
+}

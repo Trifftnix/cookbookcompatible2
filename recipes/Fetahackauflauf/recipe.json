@@ -1,0 +1,31 @@
+{
+	"name": "Griechischer Feta-Hackauflauf",
+	"image": "FetaHackAuflauf",
+	"recipeCategory": "Fleisch",
+	"totalTime": "PT0H0M0S",
+	"Schwierigkeit": "1",
+	"recipeYield": "3",
+	"recipeIngredient": [
+		{	"250g Rinderhackfleisch"},
+		{	"2-3 Zucchini"},
+		{	"150g Feta"},	
+		{	"4 EL Tomatenmark"}
+		{	"200g Nudeln"},
+		{	"500ml Gemüsebrühe"},
+		{	"1 Zwiebel"},
+		{	"1 Knoblauchzehe"},
+		{	"1-2 EL Oregano"},
+		{	"etwas Salz, Pfeffer, Öl, Zucker"}
+		],
+	"recipeInstructions": [
+			"Den Ofen auf 200 Grad vorheizen.",
+			"Die Zucchini längs halbieren und dann in 0,5 cm dicke Scheiben schneiden. Die Zwiebel sehr fein hacken, den Knoblauch ebenso.",
+			"Das Öl in einer großen Pfanne erhitzen und die Zwiebeln mit dem Knoblauch darin glasig braten. Dann das Hack dazugeben und krümelig anbraten.",
+			"Nun das Tomatenmark hinzugeben, gut unterrühren und auch 1-2 Minuten mit anrösten. Es sollte richtig etwas anbraten, nicht nur heiß werden.",
+			"Jetzt die Zucchinischeiben hinzu und nochmal etwa 2 Minuten von allen Seiten mitbraten.Dann mit der Brühe ablöschen.",
+			"Mit Oregano, 1/2 TL Zucker, Salz und Pfeffer kräftig abschmecken.",
+			"Die Nudeln ungekocht in eine Auflaufform geben, die Gemüse-Hack-Soße darübergießen und alles einmal gut durchrühren. Dabei darauf achten, dass am Ende keine “nackigen” Nudeln aus dem Auflauf schauen, die werden natürlich hart.",
+			"Den Feta über den Auflauf bröseln und ab in den Ofen bei 200 Grad Ober-/Unterhitze für etwa 35 Minuten.",
+			"Guten Appetit! Das Rezept stammt aus <a href='https://feinkostpunks.de/fix-ohne-fix-griechischer-nudel-hackfleischauflauf-mit-zucchini-und-feta/' target='_blank' rel='noopener noreferrer'>https://feinkostpunks.de/fix-ohne-fix-griechischer-nudel-hackfleischauflauf-mit-zucchini-und-feta/</a>"
+		]
+}

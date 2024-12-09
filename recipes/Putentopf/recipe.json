@@ -1,0 +1,29 @@
+{
+	"name": "Putentopf mit Frischkäse",
+	"image": "Putentopf",
+	"recipeCategory": "Fleisch",
+	"totalTime": "PT0H0M0S",
+	"Schwierigkeit": "1",
+	"recipeYield": "4",
+	"recipeIngredient": [
+		{	"400g Putengeschnetzeltes"},
+		{	"300g Champions"},
+		{	"3 EL Frischkäse"},	
+		{	"2-3 Frühlingszwiebeln"},
+		{	"100ml Sahne"},
+		{	"2 EL gehackte Petersilie"}
+		{	"200g Nudeln"},
+		{	"500ml Gemüsebrühe"},
+		{	"1 Zwiebel"}
+		],
+	"recipeInstructions": [
+			"Die Champignons in Scheiben, die Zwiebel in feine Würfel schneiden.",
+			"Die Zwiebeln in einem großen Topf in etwas Fett glasig werden lassen, dann das Geschnetzelte hinzugeben und 2 Minuten rund herum von allen Seiten Anbraten. Damit es trotz Topf statt Pfanne brät und nicht im eigenen Saft schmort, sollte der Topf schön weit sein.",
+			"Nun die Champignons hinzugeben und nochmal 2 Minuten mitbraten.",
+			"Kräftig salzen und pfeffern, dann mit der Brühe und der Sahne/Kochsahne ablöschen. Gut umrühren, die Nudeln zugeben und bei geschlossenem Topf auf kleiner Flamme rund 15 Minuten köcheln lassen, bis die Nudeln gar sind. Dabei gelegentlich umrühren.",
+			"In der Zwischenzeit die Frühlingszwiebeln waschen , das Weiße und das Hellgrüne in feine Ringe schneiden.",
+			"Wenn die Nudeln gar sind, von der heißen Platte ziehen, Frischkäse und Frühlingszwiebeln einrühren und kurz heiß werden lassen. Wenn die Soße jetzt noch zu flüssig ist,mit 2 EL Wasser und 1 gestr. TL Speisestärke andicken und nochmal kurz erwärmen. bei kleinen Nudeln sollte das aber nicht notwendig sein.",
+			"Mit Salz, Pfeffer, Rauchsalz (ich nehme 3-4 Umdrehungen aus meiner Mühle) und 1/2 TL Zucker abschmecken, die Petersilie einrühren, fertig!",
+			"Guten Appetit! Das Rezept stammt aus <a href='https://feinkostpunks.de/fix-ohne-fix-puten-topf-mit-frischkase/' target='_blank' rel='noopener noreferrer'>https://feinkostpunks.de/fix-ohne-fix-puten-topf-mit-frischkase/</a>"
+		]
+}

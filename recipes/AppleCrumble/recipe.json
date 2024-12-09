@@ -1,0 +1,38 @@
+{
+	"name": "Apple Crumble",
+	"image": "AppleCrumble",
+	"recipeCategory": "Backen",
+	"totalTime": "PT0H40M0S",
+	"Schwierigkeit": "1",
+	"recipeYield": "5",
+	"recipeIngredient": [{
+			 "600g Äpfel, z.B. Cox Orange, Gala oder Jonagold"
+		},
+		{
+			 "100g Butter oder Magarine"
+		},
+		{
+			 "150g Weizenmehl"
+		},
+		{
+			 "100g Zucker"
+		},
+		{
+			 "1Pck. Vanillezucker"
+		},
+		{
+			 "etwas Vanillesoße"
+		}
+		{
+		"1Prise Salz"}
+	],
+	"recipeInstructions": [
+		"Für den Streuselteig Butter oder Margarine zerlassen. Form fetten. Backofen vorheizen, Backofen auf 180°C Umluft vorheizen",
+		"Äpfel schälen, achteln und in kleine Stücke schneiden. Das Obst in der Auflaufform verteilen",
+		"Mehl in einer Rührschüssel mit den übrigen Zutaten vermischen. Das Fett dazugeben und mit einem Löffel zu Streuseln verarbeiten. Die Streusel auf den Früchten verteilen. Die Form auf dem Rost in den Backofen schieben.",
+		"Backzeit: etwa 25 Min",
+		"Den Apple-Crumble auf einem Kuchenrost etwas abkühlen lassen.",
+		"Apple Crumble mit Vanillesoße servieren",
+		"Guten Appetit! Das Rezept stammt aus <a href='https://www.oetker.de/rezepte/r/apple-crumble' target='_blank' rel='noopener noreferrer'>https://www.oetker.de/rezepte/r/apple-crumble</a>."
+	]
+}

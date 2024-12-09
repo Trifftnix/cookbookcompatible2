@@ -9,12 +9,9 @@
     "cookTime": "PT0H15M0S",
     "totalTime": "PT0H30M0S",
     "recipeIngredient": [
-        {	"Menge":"125g",
-			"Zutat":"Butter"},
-		{	"Menge":"3",
-			"Zutat":"Eier"},
-		{	"Menge":"750g",
-			"Zutat":"Äpfel Gala/ Jonagold"}
+        {	"125g Butter"},
+		{	"3 Eier"},
+		{	"750g Äpfel Gala/ Jonagold"}
     ],
     "recipeInstructions": [
         "Die 250 g getrocknete rote Linsen gibst Du in ein Sieb, w\u00e4schst sie mit kaltem Wasser ab und l\u00e4sst sie abtropfen. Die Kidneybohnen gibst Du in ein weiteres Sieb und w\u00e4schst sie ab (so werden sie bek\u00f6mmlicher), den Mais kannst Du im selben Sieb abtropfen lassen. Die 2 Paprikaschoten und die 1 Peperoni w\u00e4schst Du ab, entkernst und schneidest sie in feine W\u00fcrfel. Die 1 Zwiebel und die 3 Knoblauchzehen sch\u00e4lst Du und w\u00fcrfelst sie fein. TIPP: Statt einer Peperoni kannst Du auch z.B. eine kleine Piri Piri Chilischote nehmen, wenn Du gerne h\u00f6llisch scharf isst.",

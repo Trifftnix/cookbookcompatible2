@@ -1,0 +1,27 @@
+{
+	"name": "Tacoauflauf",
+	"image": "Tacoauflauf",
+	"recipeCategory": "Fleisch",
+	"totalTime": "PT0H0M0S",
+	"Schwierigkeit": "0,5",
+	"recipeYield": "3-4",
+	"recipeIngredient": [
+		{	"500g Hackfleisch"},
+		{	"400g gehackte Tomaten"},
+		{	"170g Mais"},	
+		{	"400g Kidneybohnen"},
+		{	"1 Tüte Tortilla Chips"},
+		{	"etwas Maggi Texicana Salsa Sauce"},
+		{	"100ml Schmand"},
+		{	"200g geriebener Käse"}
+		{	"etwas Salz, Pfeffer, Öl"}
+		],
+	"recipeInstructions": [
+			"Das Hackfleisch in der Pfanne anbraten. Mit Salz und Pfeffer abschmecken.",
+			"Danach die Tomatenstücke, Mais und Bohnen hinzugeben und zusammen köcheln lassen.",
+			"Währenddessen den Boden einer Auflaufform mit Tortilla-Chips auslegen.",
+			"Auf die Schicht Tacos folgt eine Schicht aus der Pfanne und ein bisschen Salsa Sauce, dann wieder Tortilla-Chips, den zweiten Teil der Pfanne, dazu noch ein bisschen Salsa Sauce, Tacos, Schmand und natürlich den Käse darüber streuen.",
+			"Das ganze kurz in den Ofen stellen und wenn der Käse geschmolzen ist, dann ist es fertig.",
+			"Guten Appetit! Das Rezept ist eine Eigenkreation."
+		]
+}

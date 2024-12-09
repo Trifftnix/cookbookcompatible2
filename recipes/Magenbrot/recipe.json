@@ -1,0 +1,37 @@
+{
+	"name": "Magenbrot",
+	"image": "Magenbrot",
+	"recipeCategory": "Backen"
+	"totalTime": "PT48H0M0S",
+	"Schwierigkeit": "2",
+	"recipeYield": "",
+	"recipeIngredient": [
+		{	"50g Zitronat"},
+		{	"50g Orangeat"},
+		{	"2 TL Backnatron"},	
+		{	"1 Prise Zitronenschale"},
+		{	"30g Backkakao"},
+		{	"2 TL Lebkuchengewürz"},
+		{	"200g Puderzucker"},
+		{	"2 EL Zitronensaft"}
+		{	"50ml Wasser"},
+		{	"150g Zucker"},
+		{	"150 Honig"},
+		{	"550g Mehl"},
+		{	"1 TL Backpulver"},
+		{	"1 TL Zimt"},
+		{	"100ml Milch"}			
+		],
+	"recipeInstructions": [
+			"Für das Magenbrot kannst du zuerst ein einem kleinen Topf den Honig mit Wasser und Zucker erwärmen – aber nicht aufkochen. Der Zucker sollte sich im Honig lösen.",
+			"Hacke das Orangeat und Zitronat in sehr feine kleine Stücke – im elektrischen Multizerkleinerer geht das besonders einfach und fix.",
+			"Gib Mehl, Orangeat, Zitronat, Backpulver, Natron, Zitronenschale, Kakao, Lebkuchengewürz und Zimt in eine Rührschüssel und vermische alles miteinander.",
+			"Gib nun die Honig Mischung hinzu und knete alles zu einem Teig. Der Teig ist sehr fest, zum Schluss kannst du die Milch unterrühren.",
+			"Decke den Teig mit einer Folie (o.ä.) ab und stelle ihn für einige Stunden (am besten über Nacht) in den Kühlschrank.",
+			"Am nächsten Tag kannst du den Teig in 6 Portionen teilen. Forme daraus je eine Rolle mit einem Durchmesser von ca. 2 Zentimetern.",
+			"Lege die Teigrollen auf 2 Backblechen mit Abstand aus und backe diese nacheinander bei 180 Grad Ober-/Unterhitze für ca. 10-15 Minuten. Sie dürfen gerne noch etwas weich sein, wenn du sie aus dem Ofen holst.",
+			"Rühre nun direkt den Puderzucker (200g) mit 1-2 EL Kakao und 2 EL Zitronensaft an. Streiche diesen mit einem Pinsel auf die Teigstangen und schneide diese in Streifen. Wenn du den richtigen Winkel ansetzt, erhältst du hübsche Rauten.",
+			"Verstaue das Magenbrot sobald der Zuckerguss getrocknet ist in Keksdosen.",
+			"Das Rezept stammt von <a href='https://www.einfachmalene.de/magenbrot-wie-vom-jahrmarkt-einfach/' target='_blank' rel='noopener noreferrer'>https://www.einfachmalene.de/magenbrot-wie-vom-jahrmarkt-einfach/</a>. Das Magenbrot schmeckt erst nach einer Nacht so richtig gut!."
+		]
+}

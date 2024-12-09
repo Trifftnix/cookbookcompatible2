@@ -1,0 +1,30 @@
+{
+	"name": "Hähnchen süß-sauer",
+	"image": "haehnchensuesssauer",
+	"recipeCategory": "Fleisch",
+	"totalTime": "PT0H30M0S",
+	"Schwierigkeit": "1,0",
+	"recipeYield": "4",
+	"recipeIngredient": [
+		{	"2 Hähnchenbrustfilet"},
+		{	"0,5 Ananas"},
+		{	"1 rote Paprika"},
+		{	"3 Lauchzwiebel"}
+		{	"2 rote Zwiebel"},
+		{	"240g Reis"},
+		{	"3 EL Mehl"},
+		{	"2 EL Öl"},
+		{	"1 EL Tomatenmark"},
+		{	"2 EL Zucker"},
+		{	"3 EL Essig"},
+		{	"etwas Chilipulver"}
+		],
+	"recipeInstructions": [
+			"Die Hähnchenbrustfilets in Streifen schneiden. Salz, Pfeffer und das Mehl mischen, die Streifen darin wenden.",
+			"Die Zwiebeln schälen und in Spalten schneiden. Die Ananas schälen, den Strunk herausschneiden und das Fruchtfleisch in Stücke schneiden. Die Paprikaschote und die Lauchzwiebeln putzen und klein schneiden.",
+			"Wasser für Reis zum Kochen bringen und Reis parallel kochen",
+			"Das Öl in einer Pfanne erhitzen. Die Hähnchenstreifen darin rundherum ca. 3 Minuten anbraten, herausnehmen und beiseitestellen. Gemüse und Ananas in die Pfanne geben und bei starker Hitze 3–4 Minuten anbraten. Das Tomatenmark unterrühren. Alles mit Zucker bestreuen und unter Rühren karamellisieren lassen. Dann mit Essig und 200 ml Wasser ablöschen, etwas einkochen lassen.",
+			"Die Hähnchenstreifen wieder in die Pfanne geben und erhitzen. Mit Chili bestreut servieren.",
+			"Guten Appetit! Das Rezept stammt aus <a href='https://www.edeka.de/rezepte/rezept/haehnchen-suess-sauer.jsp' target='_blank' rel='noopener noreferrer'>https://www.edeka.de/rezepte/rezept/haehnchen-suess-sauer.jsp</a>."
+		]
+}

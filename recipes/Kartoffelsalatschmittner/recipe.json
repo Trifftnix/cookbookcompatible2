@@ -1,0 +1,30 @@
+{
+	"name": "Kartoffelsalat Schmittner'sche Art",
+	"image": "Kartoffelsalatschmittner",
+	"recipeCategory": "Vegetarisch",
+	"totalTime": "PT0H0M0S",
+	"Schwierigkeit": "1,0",
+	"recipeYield": "4",
+	"recipeIngredient": [
+		{	"500g Kartoffeln"},
+		{	"10 saure Gurken"},
+		{	"4 Eier"},
+		{	"etwas Radieschen, Tomaten, Erbsen, Gurken nach Belieben und Geschmack"},
+		{	"1 Zwiebel"},
+		{	"1 Tl Gustin (Mondamin, Maismehl, Kartoffelmehl)"},
+		{	"2 Tl Gemüsebrühe (Suppenbrühe)"},
+		{	"etwas Olivenöl"},
+		{	"etwas Essig (z.B. Himbeeressig, Weißweinessig, ...)"},
+		],
+	"recipeInstructions": [
+			"Zunächst die Kartoffeln putzen und dann in einem Topf mit Wasser für ca. 25 min kochen. (Zur Kontrolle die Kartoffel mit einer Gabel anpiksen, wenn es keinen Widerstand gibt, dann sind sie fertig.) Die Kartoffeln schälen.",
+			"Die Kartoffeln für ein paar Stunden abkühlen lassen.",
+			"Für die Soße etwas Olivenöl und eine kleingeschnittene Zwiebel in eine Pfanne geben. Einen Teelöffel Gustin oder Maismehl und zwei Teelöffel Gemüsebrühe hinzugeben. Dies verschmelzen lassen.",
+			"Danach Wasser hinzufügen (soll keine Suppe werden, aber auch nicht klumpig -> sämig)",
+			"Das ganze kalt werden lassen. In der Zwischenzeit die Kartoffeln in mundgerechte Stücke schneiden.",
+			"Die Soße über die Kartoffeln gießen, mit Salz, Pfeffer, ganz wenig Öl, ca. 2EL Essig abschmecken und kleingeschnittene saure Gurken zum Salat hinzugeben.",
+			"Man kann noch Radieschen, Tomaten, Eier (Erbsen und Gurken) hinzufügen.",
+			"Der Kartoffelsalat passt sehr gut zum Grillen, gebackenen Fisch, Fleischwurst oder ganz einfach Eiern von glücklichen Hühnern.",
+			"Guten Appetit! Das Rezept stammt von meiner Oma (und Uroma), vielen Dank dir nicht nur für das Rezept! Guten Appetit."
+		]
+}

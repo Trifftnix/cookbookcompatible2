@@ -1,0 +1,23 @@
+{
+	"name": "Kinderpunsch",
+	"image": "Kinderpunsch",
+	"recipeCategory": "Vegetarisch",
+	"totalTime": "PT0H30M0S",
+	"Schwierigkeit": "2",
+	"recipeYield": "",
+	"recipeIngredient": [
+		{	"250ml Apfelsaft"},
+		{	"250ml Orangensaft"},
+		{	"5 Nelken"},
+		{	"1 Zimtstange"}
+		{	"1L Früchtetee"},
+		{	"mehrere EL Zucker"},
+		{	"2 Tl Vanillin-Zucker"},
+		{	"1 Schuss Zitronensaft"}			
+		],
+	"recipeInstructions": [
+			"Für den alkoholfreien Kinderpunsch den Früchtetee in einen Topf geben, Apfel- und Orangensaft, Zitronensaft sowie Zimt, Nelken, Vanillin-Zucker und Zucker (nach Belieben) dazu geben, alles gut verrühren und kurz erhitzen.",
+			"Danach den Punsch vom Herd nehmen und für 30 Minuten ziehen lassen. Anschließend durch ein Sieb abgießen und in Tassen mit Orangenscheiben garniert servieren.",
+			"Das Rezept stammt von <a href='https://www.gutekueche.de/kinderpunsch-rezept-2743' target='_blank' rel='noopener noreferrer'>www.gutekueche.de/kinderpunsch-rezept-2743</a>."
+		]
+}

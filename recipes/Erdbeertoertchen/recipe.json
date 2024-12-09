@@ -1,0 +1,27 @@
+{
+	"name": "Erdbeertörtchen",
+	"image": "Erdbeertoertchen",
+	"recipeCategory": "Backen",
+	"totalTime": "PT0H35M0S",
+	"Schwierigkeit": "0,5",
+	"recipeYield": "4",
+	"recipeIngredient": [
+		{	"100g gemahlene Mandeln"},
+		{	"150ml Mandelmilch"},
+		{	"250g Erdbeeren"},
+		{	"200g Sprühsahne"}
+		{	"174g glutenfreies Mehl"},
+		{	"37g Puderzucker"},
+		{	"45g Butter"},
+		{	"2TL Backpulver"}
+		],
+	"recipeInstructions": [
+			"Eine Muffinform leicht einfetten und Backofen auf 200 Grad vorheizen.",
+			"Für den Boden alle Zutaten nach und nach in eine große Backschüssel geben (das Mehl und den Puderzucker sieben) und zu einem glatten Teig verarbeiten. Sollte der Teig zu fest sein, einen Schluck mehr Mandelmilch dazugeben. Falls zu feucht, etwas mehr Mehlmischung dazugeben. Teig gleichmäßig in die Muffinform verteilen (circa 1-2 EL pro Mulde) und mit feuchten Händen leicht andrücken.",
+			"In den Ofen schieben und 15-20 Minuten bei 200 Grad backen. Die Tortenböden sind fertig, sobald die Ränder schön goldbraun sind.",
+			"Aus dem Ofen nehmen und vollständig abkühlen lassen. Die Erdbeeren waschen, putzen und vierteln",
+			"Törtchen Böden aus der Muffinform lösen (einfach umdrehen und einmal kräftig mit der flachen Hand auf die Rückseite klopfen). Die Sahne gleichmäßig auf den Törtchen Böden verteilen und mit den geviertelten Erdbeeren garnieren.",
+			"Möglichst sofort und frisch essen, ansonsten maximal einen Tag im Kühlschrank aufbewahren.",
+			"Guten Appetit! Das Rezept stammt aus <a href='https://www.veganevibes.de/schnelle-erdbeer-toertchen-mit-kokosnusssahne-glutenfrei/' target='_blank' rel='noopener noreferrer'>www.veganevibes.de/schnelle-erdbeer-toertchen-mit-kokosnusssahne-glutenfrei/</a>."
+		]
+}
