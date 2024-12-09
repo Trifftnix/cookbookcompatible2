@@ -1,7 +1,7 @@
 <?php
 
 $deploymentprefix2 = "";
-$prefixDeploymentFolder
+$prefixDeploymentFolder = "deployment/";
 
 
 $allrecipes = file_get_contents($prefixDeploymentFolder."allrecipes.html");
