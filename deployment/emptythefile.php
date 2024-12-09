@@ -2,18 +2,17 @@
 
 $content = "";
 
-$prefixForFiles = "deployment/";
-$prefixForFiles = "";				// SPÄTER für github wieder diese Zeile löschen
+$prefixDeploymentFolder = "deployment/";
 
-$allrecipes=  $prefixForFiles."allrecipes.html";
+$allrecipes=  $prefixDeploymentFolder."allrecipes.html";
 file_put_contents ($allrecipes, $content);
 
-file_put_contents ($prefixForFiles."backenrecipes.html", "");
-file_put_contents ($prefixForFiles."fleischrecipes.html", "");
-file_put_contents ($prefixForFiles."fischrecipes.html", "");
-file_put_contents ($prefixForFiles."snacksrecipes.html", "");
-file_put_contents ($prefixForFiles."spicyrecipes.html", "");
-file_put_contents ($prefixForFiles."vegetarischrecipes.html", "");
+file_put_contents ($prefixDeploymentFolder."backenrecipes.html", "");
+file_put_contents ($prefixDeploymentFolder."fleischrecipes.html", "");
+file_put_contents ($prefixDeploymentFolder."fischrecipes.html", "");
+file_put_contents ($prefixDeploymentFolder."snacksrecipes.html", "");
+file_put_contents ($prefixDeploymentFolder."spicyrecipes.html", "");
+file_put_contents ($prefixDeploymentFolder."vegetarischrecipes.html", "");
 
 /*									// Funktion wieder einführen!					
 $neuesRezept = file_get_contents ("Rezepte/neuesRezept.json");

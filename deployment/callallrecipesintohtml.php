@@ -1,8 +1,9 @@
 <?php
 $prefixdeployment = "";
-include "emptythefile.php";
+$prefixDeploymentFolder = "deployment/";
+include $prefixDeploymentFolder."emptythefile.php";
 
-include "searchForJSON.php";
+include $prefixDeploymentFolder."searchForJSON.php";
 
-include "indexhtmlcreator.php";
+include $prefixDeploymentFolder."indexhtmlcreator.php";
 ?>
