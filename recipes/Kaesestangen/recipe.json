@@ -1,18 +1,17 @@
-{
-	"name": "Käsestangen",
+{   "name": "Käsestangen",
 	"image": "Kaesestangen",
 	"recipeCategory": "Snacks",
 	"totalTime": "PT1H15M0S",
 	"Schwierigkeit": "1",
 	"recipeYield": "15",
 	"recipeIngredient": [
-		{	"100g Butter"},
-		{	"100g Quark"},
-		{	"65g geriebener Parmesan"},	
-		{	"2 Eier"},
-		{	"3 EL Reibekäse"}
-		{	"100g Mehl"},
-		{	"etwas Salz, Pfeffer, Paprika"}
+			"100g Butter",
+			"100g Quark",
+			"65g geriebener Parmesan",	
+			"2 Eier",
+			"3 EL Reibekäse",
+			"100g Mehl",
+			"etwas Salz, Pfeffer, Paprika"
 		],
 	"recipeInstructions": [
 			"100g Mehl, 100g kalte Butter in Flöckchen, 100g Quark, 1 Eigelb und 65g Parmesan zu einem festen Teig verkneten. Mit Salz, Pfeffer und Paprika würzen.",

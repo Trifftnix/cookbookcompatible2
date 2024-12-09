@@ -1,16 +1,15 @@
-{
-	"name": "Mousse au Chocolat",
+{   "name": "Mousse au Chocolat",
 	"image": "MousseauChocolat",
 	"recipeCategory": "Snacks",
 	"totalTime": "PT0H30M0S",
 	"Schwierigkeit": "2",
 	"recipeYield": "4",
 	"recipeIngredient": [
-		{	"3 Eier"},
-		{	"200ml Sahne"},
-		{	"50g Butter"},	
-		{	"200g Schokolade mit 70% Kakao"}
-		{	"50g Zucker"}
+			"3 Eier",
+			"200ml Sahne",
+			"50g Butter",	
+			"200g Schokolade mit 70% Kakao",
+			"50g Zucker"
 		],
 	"recipeInstructions": [
 			"Die Eier trennen: Dafür das Ei in der Mitte auf einen dünnen Schüsselrand schlagen, sodass es einen Riss bekommt. Das Ei vorsichtig zu 2 Hälften auseinanderbrechen. Das Eigelb von einer Schale in die andere gießen, sodass das Eigelb in der Schale bleibt und das Eiweiß in die Schüssel läuft.",

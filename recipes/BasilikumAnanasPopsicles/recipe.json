@@ -1,23 +1,21 @@
-{
-	"name": "Basilikum-Ananas-Popsicles",
+{   "name": "Basilikum-Ananas-Popsicles",
 	"image": "BasilikumAnanasPopsicles",
 	"recipeCategory": "Snacks",
 	"totalTime": "PT0H15M0S",
 	"Schwierigkeit": "1,0",
 	"recipeYield": "4",
 	"recipeIngredient": [
-		{	"360g Ananas"},
-		{	"2 EL Limettensaft"},
-		{	"360ml Grüner Smoothie"},
-		{	"4 Stängel Basilikum"},
-		{	"2 EL Ahornsirup"}
-		{	"min. 4 Holzstiele"},
-		{	"min. 4 Eisförmchen"}
+			"360g Ananas",
+			"2 EL Limettensaft",
+			"360ml Grüner Smoothie",
+			"4 Stängel Basilikum",
+			"2 EL Ahornsirup",
+			"min. 4 Holzstiele",
+			"min. 4 Eisförmchen"
 		],
 	"recipeInstructions": [
 			"Die Ananasstücke zusammen mit dem Limettensaft im Standmixer pürieren, bis ein Ananas-Saft entsteht.",
 			"Dann den grünen Smoothie zusammen mit den Basilikum-Blättern und dem Ahornsirup cremig pürieren.",
 			"Die Eisformen kurz mit kalten Wasser ausspülen, diese dann zuerst mit dem Ananas-Saft befüllen und anschließend den pürierten Basilikum-Smoothie hinzufügen.",
 			"Guten Appetit! Das Rezept stammt aus <a href='https://www.edeka.de/rezepte/rezept/basilikum-ananas-popsicles.jsp' target='_blank' rel='noopener noreferrer'>https://www.edeka.de/rezepte/rezept/basilikum-ananas-popsicles.jsp</a>."
-		]
-}
+		]    }

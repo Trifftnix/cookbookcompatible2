@@ -1,20 +1,19 @@
-{
-	"name": "Bananenbrot",
+{   "name": "Bananenbrot",
 	"image": "Bananenbrot",
 	"recipeCategory": "Backen",
 	"totalTime": "PT0H20M0S",
 	"Schwierigkeit": "1,0",
 	"recipeYield": "4",
 	"recipeIngredient": [
-		{	"3 reife Bananen"},
-		{	"80 ml Sonnenblumenöl"},
-		{	"100g brauner Zucker"},
-		{	"2 Eier"},
-		{	"200g Mehl"}
-		{	"3 Tl Backpulver"},
-		{	"1 Prise Salz"},
-		{	"1 Pck. Vanillezucker"},
-		{	"1 Prise Zimt"}
+			"3 reife Bananen",
+			"80 ml Sonnenblumenöl",
+			"100g brauner Zucker",
+			"2 Eier",
+			"200g Mehl",
+			"3 Tl Backpulver",
+			"1 Prise Salz",
+			"1 Pck. Vanillezucker",
+			"1 Prise Zimt"
 		],
 	"recipeInstructions": [
 			"Ofen auf 180 Grad Ober-/Unterhitze (Umluft: 160 Grad) vorheizen. Kastenform (Innenmaße 23 x 10 cm) gut einfetten. Bananen mit einer Gabel in einer Schüssel zerdrücken.",
@@ -22,5 +21,4 @@
 			"Teig in die Form geben und im vorgeheizten Ofen etwa 55 Minuten backen.",
 			"Das Bananenbrot nach dem Backen vollständig auskühlen lassen, erst dann aus der Form nehmen. Das Bananenbrot ergibt ca. 10 Stücke.",
 			"Guten Appetit! Das Rezept stammt aus <a href='https://www.einfachbacken.de/rezepte/bananenbrot' target='_blank' rel='noopener noreferrer'>https://www.einfachbacken.de/rezepte/bananenbrot</a>."
-		]
-}
+		]    }

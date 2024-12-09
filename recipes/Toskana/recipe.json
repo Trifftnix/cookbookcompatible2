@@ -1,21 +1,20 @@
-{
-	"name": "Toskana Hackbällchen",
+{   "name": "Toskana Hackbällchen",
 	"image": "Toskana",
 	"recipeCategory": "Fleisch",
 	"totalTime": "PT0H45M0S",
 	"Schwierigkeit": "1,5",
 	"recipeYield": "3",
 	"recipeIngredient": [
-		{	"500g Hackfleisch"},
-		{	"6 EL Tomatenmark"},
-		{	"200ml Sahne"},
-	    {	"1 Mozarella"},
-		{	"1 Chiabatta"},
-		{	"2 Zucchini"}
-		{	"1 Zwiebel"},
-		{	"1 Knoblauchzehe"},
-        {	"200ml Milch"},
-		{	"etwas Olivenöl, Italienische Kräuter, Salz, Pfeffer, Paprikapulver"}
+			"500g Hackfleisch",
+			"6 EL Tomatenmark",
+			"200ml Sahne",
+	    	"1 Mozarella",
+			"1 Chiabatta",
+			"2 Zucchini",
+			"1 Zwiebel",
+			"1 Knoblauchzehe",
+        	"200ml Milch",
+			"etwas Olivenöl, Italienische Kräuter, Salz, Pfeffer, Paprikapulver"
 		],
 	"recipeInstructions": [
 			"Zuerst wird das Hackfleisch mit etwa 2 gestrichenen Teelöffeln Salz, Pfeffer und Paprikapulver verknetet und zu Bällchen geformt. Die Bällchen sollten etwas größer sein als ein Tischtennisball.",
@@ -26,5 +25,4 @@
 			"Den Mozzarella in dünne Scheiben schneiden und auf den Bällchen verteilen. Nun ab in den Ofen für 20-25 Minuten.",
 			"Guten Appetit! Dazu passt: gebratene Zucchini & Chiabatta.",
 			"Das Rezept stammt aus <a href='www.feinkostpunks.de/fix-ohne-fix-hackballchen-toskana' target='_blank' rel='noopener noreferrer'>www.feinkostpunks.de/fix-ohne-fix-hackballchen-toskana</a>"
-		]
-}
+		]    }

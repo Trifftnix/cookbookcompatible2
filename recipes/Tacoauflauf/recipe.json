@@ -1,20 +1,19 @@
-{
-	"name": "Tacoauflauf",
+{   "name": "Tacoauflauf",
 	"image": "Tacoauflauf",
 	"recipeCategory": "Fleisch",
 	"totalTime": "PT0H0M0S",
 	"Schwierigkeit": "0,5",
 	"recipeYield": "3-4",
 	"recipeIngredient": [
-		{	"500g Hackfleisch"},
-		{	"400g gehackte Tomaten"},
-		{	"170g Mais"},	
-		{	"400g Kidneybohnen"},
-		{	"1 Tüte Tortilla Chips"},
-		{	"etwas Maggi Texicana Salsa Sauce"},
-		{	"100ml Schmand"},
-		{	"200g geriebener Käse"}
-		{	"etwas Salz, Pfeffer, Öl"}
+			"500g Hackfleisch",
+			"400g gehackte Tomaten",
+			"170g Mais",	
+			"400g Kidneybohnen",
+			"1 Tüte Tortilla Chips",
+			"etwas Maggi Texicana Salsa Sauce",
+			"100ml Schmand",
+			"200g geriebener Käse",
+			"etwas Salz, Pfeffer, Öl"
 		],
 	"recipeInstructions": [
 			"Das Hackfleisch in der Pfanne anbraten. Mit Salz und Pfeffer abschmecken.",

@@ -1,20 +1,19 @@
-{
-	"name": "Crispy Chickenburger",
+{   "name": "Crispy Chickenburger",
 	"image": "Chickenburger",
 	"recipeCategory": "Fleisch",
 	"totalTime": "PT0H25M0S",
 	"Schwierigkeit": "1",
 	"recipeYield": "4 Burger",
 	"recipeIngredient": [
-		{	"2 Eier"},
-		{	"350g Cornflakes (ohne Zucker)"},
-		{	"1 Lollo Bionda Salat"},
-		{	"400g Hähnchenschnitzel"},
-		{	"2 Tomaten"},
-		{	"4 Burgerbrötchen"}
-		{	"etwas Mehl"},
-		{	"etwas Mayonnaise"},
-		{	"etwas Ketchup"}
+			"2 Eier",
+			"350g Cornflakes (ohne Zucker)",
+			"1 Lollo Bionda Salat",
+			"400g Hähnchenschnitzel",
+			"2 Tomaten",
+			"4 Burgerbrötchen",
+			"etwas Mehl",
+			"etwas Mayonnaise",
+			"etwas Ketchup"
 		],
 	"recipeInstructions": [
 			"Für die knusprige Panade werden drei Teller vorbereitet. In den ersten kommt das Mehl, in den zweiten werden die Eier mit etwas Knoblauch, Salz und Pfeffer verquirlt.",
@@ -23,5 +22,4 @@
 			"Bei schwacher bis mittlerer Hitze, werden die Schnitzel anschließend knusprig angebraten. Richtig lecker werden die Burger, wenn die aufgeschnittenen Brötchen kurz in der Pfanne angebraten und damit karamellisiert werden.",
 			"Die Brötchen bzw. Buns werden aufgeschnitten und beide Hälften mit Mayonnaise und Ketchup bestrichen. Anschließend kommen das Crispy Chicken, Tomatenschreiben und Salat darauf und fertig ist der Crispy Chicken Burger.",
 			"Guten Appetit! Das Rezept stammt aus <a href='https://amerikanisch-kochen.de/crispy-chicken-burger/5120' target='_blank' rel='noopener noreferrer'>www.amerikanisch-kochen.de/crispy-chicken-burger/5120</a>."
-		]
-}
+		]    }

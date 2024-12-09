@@ -1,19 +1,18 @@
-{
-	"name": "Hähnchen mit Zitronenbutter",
+{   "name": "Hähnchen mit Zitronenbutter",
 	"image": "HaehnchenmitZitronenbutter",
 	"recipeCategory": "Fleisch",
 	"totalTime": "PT0H25M0S",
 	"Schwierigkeit": "1,5",
 	"recipeYield": "2",
 	"recipeIngredient": [
-		{	"4 Hähnchenbrustfilets"},
-		{	"10 EL Butter"},
-		{	"1/2 Bd Petersilie"},	
-		{	"1 TL getr. Estragon"},
-		{	"5 EL Zitronensaft"}
-		{	"1 EL Paprikapulver"},
-		{	"50g Mehl"},
-		{	"2 Tassen Reis"},
+			"4 Hähnchenbrustfilets",
+			"10 EL Butter",
+			"1/2 Bd Petersilie",	
+			"1 TL getr. Estragon",
+			"5 EL Zitronensaft",
+			"1 EL Paprikapulver",
+			"50g Mehl",
+			"2 Tassen Reis",
 		],
 	"recipeInstructions": [
 			"Die Hähnchenbrustfilets von Haut und Sehnen befreien und mit Salz, Pfeffer und edelsüßem Paprikapulver einreiben.",

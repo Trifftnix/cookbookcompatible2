@@ -1,24 +1,23 @@
-{
-	"name": "Champignoncurry",
+{   "name": "Champignoncurry",
 	"image": "Champignoncurry",
 	"recipeCategory": "Vegetarisch",
 	"totalTime": "PT0H35M0S",
 	"Schwierigkeit": "1",
 	"recipeYield": "3",
 	"recipeIngredient": [
-		{	"4 Tomaten"},
-		{	"400g Champignons"},
-		{	"5cm Ingwer"},	
-		{	"250g Erbsen TK"},
-		{	"400g Schafskäse"},
-		{	"200g Cashewkerne"},
-		{	"1 TL Garam Masala"},
-		{	"4 Nelken"},
-		{	"1 Lorbeerblatt"}
-		{	"1 Zwiebel"},
-		{	"1 TL Kreuzkümmel, Kardamom"},
-		{	"1 TL Paprika, Kurkuma, Chilipulver"},	
-		{	"5 EL Öl"}
+			"4 Tomaten",
+			"400g Champignons",
+			"5cm Ingwer",	
+			"250g Erbsen TK",
+			"400g Schafskäse",
+			"200g Cashewkerne",
+			"1 TL Garam Masala",
+			"4 Nelken",
+			"1 Lorbeerblatt",
+			"1 Zwiebel",
+			"1 TL Kreuzkümmel, Kardamom",
+			"1 TL Paprika, Kurkuma, Chilipulver",	
+			"5 EL Öl"
 		],
 	"recipeInstructions": [
 			"Tipp: Wenn du nicht alle diese Gewürze hast, kannst du auch lediglich mit Garam Masala abschmecken.",

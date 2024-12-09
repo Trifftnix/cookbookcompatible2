@@ -1,20 +1,19 @@
-{
-	"name": "Putentopf mit Frischkäse",
+{   "name": "Putentopf mit Frischkäse",
 	"image": "Putentopf",
 	"recipeCategory": "Fleisch",
 	"totalTime": "PT0H0M0S",
 	"Schwierigkeit": "1",
 	"recipeYield": "4",
 	"recipeIngredient": [
-		{	"400g Putengeschnetzeltes"},
-		{	"300g Champions"},
-		{	"3 EL Frischkäse"},	
-		{	"2-3 Frühlingszwiebeln"},
-		{	"100ml Sahne"},
-		{	"2 EL gehackte Petersilie"}
-		{	"200g Nudeln"},
-		{	"500ml Gemüsebrühe"},
-		{	"1 Zwiebel"}
+			"400g Putengeschnetzeltes",
+			"300g Champions",
+			"3 EL Frischkäse",	
+			"2-3 Frühlingszwiebeln",
+			"100ml Sahne",
+			"2 EL gehackte Petersilie",
+			"200g Nudeln",
+			"500ml Gemüsebrühe",
+			"1 Zwiebel"
 		],
 	"recipeInstructions": [
 			"Die Champignons in Scheiben, die Zwiebel in feine Würfel schneiden.",

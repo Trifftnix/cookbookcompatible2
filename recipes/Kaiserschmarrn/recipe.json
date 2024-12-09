@@ -1,19 +1,18 @@
-{
-	"name": "Kaiserschmarrn",
+{   "name": "Kaiserschmarrn",
 	"image": "Kaiserschmarrn",
 	"recipeCategory": "Vegetarisch",
 	"totalTime": "PT0H0M0S",
 	"Schwierigkeit": "2",
 	"recipeYield": "2-3",
 	"recipeIngredient": [
-		{	"6 Eier"},
-		{	"(100g) gehobelte Mandeln"},
-		{	"(250g) Rosinen"},	
-		{	"(500g) Apfelmus"}
-		{	"6 EL Mehl"},
-		{	"6 EL Zucker"},
-		{	"etwas Milch"},
-		{	"einige Butter"}
+			"6 Eier",
+			"(100g) gehobelte Mandeln",
+			"(250g) Rosinen",	
+			"(500g) Apfelmus",
+			"6 EL Mehl",
+			"6 EL Zucker",
+			"etwas Milch",
+			"einige Butter"
 		],
 	"recipeInstructions": [
 			"Die Eier trennen. Das Eiweiß mit dem Rührgerät zu einem steifen Eischnee schlagen.",
@@ -23,5 +22,4 @@
 			"Einen Esslöffel Butter und etwas Zucker zum Schmarrn geben, es karamelisieren lassen und nochmals kurz durchrühren.",
 			"Den Kaiserschmarrn zusammen mit Apfelmus (oder Puderzucker, Zimt und Zucker, Zwetschgenkompott, ...) servieren.",
 			"Das Rezept stammt aus dem <a href='https://blv.de/essen-trinken/themenkochbuecher/2038/das-original-huetten-kochbuch' target='_blank' rel='noopener noreferrer'>Original-Hütten-Kochbuch</a>."
-		]
-}
+		]    }

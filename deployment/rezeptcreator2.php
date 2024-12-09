@@ -36,25 +36,21 @@ if ($Rezeptname != "") {
 	
 	$Zeitinterval = new DateInterval($neueVariablen->totalTime);		//ISO8601 Zeitformat akzeptieren
 	$Zeit = $Zeitinterval->format('%h:%i h');							// Auf z.B. 0:35h  formatieren
-	echo $Zeit;
 		
 	
 	$Zutaten = "\t";
 	foreach($neueVariablen->recipeIngredient as $item) {
 		$Zutaten = $Zutaten."<div itemprop='ingredients'><dt></dt><dd>".$item."</dd></div>\n\t\t\t\t";
 	};
-	echo $Zutaten;
 	$Zubereitungsschritte ="";
 	foreach($neueVariablen->recipeInstructions as $item) {
 		$Zubereitungsschritte = $Zubereitungsschritte."<li>".$item."</li>\n\t\t\t\t";
 	};
-	echo $Zubereitungsschritte;
 
 	ob_start();
 	include 'deployment/recipeTemplate.php';
 	$content = ob_get_contents();
 	$template=  "recipes/".$Rezeptname."/recipe.html";
-	echo $template;
 	file_put_contents ($template, $content);
 
 	ob_end_clean();	

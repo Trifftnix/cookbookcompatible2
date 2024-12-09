@@ -1,23 +1,22 @@
-{
-	"name": "Lasagne",
+{   "name": "Lasagne",
 	"image": "Lasagne",
 	"recipeCategory": "Fleisch",
 	"totalTime": "PT1H10M0S",
 	"Schwierigkeit": "2,5",
 	"recipeYield": "4",
 	"recipeIngredient": [
-		{	"1 Karotte"},
-		{	"400g Hackfleisch"},
-		{	"600g Tomatenstücke"},	
-		{	"500ml  Weißwein"},
-		{	"500g Lasagneblätter"},
-		{	"300g geriebener Cheddar o. Käse"}
-		{	"1 Zwiebel"},
-		{	"2 EL Olivenöl"},
-		{	"1 TL Thymian"},
-		{	"2 EL Butter"},
-		{	"4 EL Mehl"},
-		{	"150ml Milch"}
+			"1 Karotte",
+			"400g Hackfleisch",
+			"600g Tomatenstücke",	
+			"500ml  Weißwein",
+			"500g Lasagneblätter",
+			"300g geriebener Cheddar o. Käse",
+			"1 Zwiebel",
+			"2 EL Olivenöl",
+			"1 TL Thymian",
+			"2 EL Butter",
+			"4 EL Mehl",
+			"150ml Milch"
 		],
 	"recipeInstructions": [
 			"Zwiebel und Möhre schälen und hacken bzw. würfeln. Das Öl in einer Pfanne erhitzen und die Zwiebel darin glasig dünsten. Möhre und Hack hinzufügen und gut anbraten, bis das Fleisch krümelig wird. Thymian und Tomaten unterrühren und mit Salz und Pfeffer abschmecken.",

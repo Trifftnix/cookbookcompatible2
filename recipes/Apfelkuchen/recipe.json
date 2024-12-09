@@ -1,19 +1,18 @@
-{
-	"name": "Apfelkuchen",
+{   "name": "Apfelkuchen",
 	"image": "Apfelkuchen",
 	"recipeCategory": "Backen",
 	"totalTime": "PT0H50M0S",
 	"Schwierigkeit": "0,5",
 	"recipeYield": "4",
 	"recipeIngredient": [
-		{	"125g Butter"},
-		{	"3 Eier"},
-		{	"750g Äpfel Gala/ Jonagold"}
-		{	"125g Zucker"},
-		{	"1 Vanillinzucker"},
-		{	"200g Mehl"},
-		{	"1 Backpulver"},
-		{	"2 EL Milch"}
+			"125g Butter",
+			"3 Eier",
+			"750g Äpfel Gala/ Jonagold",
+			"125g Zucker",
+			"1 Vanillinzucker",
+			"200g Mehl",
+			"1 Backpulver",
+			"2 EL Milch"
 		],
 	"recipeInstructions": [
 			"Mit einem Rührgerät 125g Butter auf höchster Stufe etwa 1/2 Minute geschmeidig rühren, nach und nach 125g Zucker, 1 Päckchen Vanillinzucker und etwas Salz unterrühren, bis eine gebundene Masse entstanden ist.",
@@ -22,5 +21,4 @@
 			"Für den Belag 750g Äpfel schälen, vierteln, entkernen und mehrmals der Länge nach einritzen. Danach die Äpfelstücke kranzförmig auf den Teig legen.",
 			"Das ganze nun bei 180°C im Ofen für 40 Minuten backen (ich glaube die Zeit ist zu lang!) Ob der Kuchen fertig ist, kann man mit einem Schaschlikstab testen und wenn keine Teigreste mehr an ihm hängen bleiben, ist er fertig. ",
 			"Guten Appetit! Das Rezept stammt von <a href='https://www.oetker.at/at-de/rezepte/r/apfelkuchen' target='_blank' rel='noopener noreferrer'>Dr. Oetker.</a>"
-		]
-}
+		]    }

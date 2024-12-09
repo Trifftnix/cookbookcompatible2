@@ -1,26 +1,25 @@
-{
-	"name": "Magenbrot",
+{   "name": "Magenbrot",
 	"image": "Magenbrot",
-	"recipeCategory": "Backen"
+	"recipeCategory": "Backen",
 	"totalTime": "PT48H0M0S",
 	"Schwierigkeit": "2",
 	"recipeYield": "",
 	"recipeIngredient": [
-		{	"50g Zitronat"},
-		{	"50g Orangeat"},
-		{	"2 TL Backnatron"},	
-		{	"1 Prise Zitronenschale"},
-		{	"30g Backkakao"},
-		{	"2 TL Lebkuchengewürz"},
-		{	"200g Puderzucker"},
-		{	"2 EL Zitronensaft"}
-		{	"50ml Wasser"},
-		{	"150g Zucker"},
-		{	"150 Honig"},
-		{	"550g Mehl"},
-		{	"1 TL Backpulver"},
-		{	"1 TL Zimt"},
-		{	"100ml Milch"}			
+			"50g Zitronat",
+			"50g Orangeat",
+			"2 TL Backnatron",	
+			"1 Prise Zitronenschale",
+			"30g Backkakao",
+			"2 TL Lebkuchengewürz",
+			"200g Puderzucker",
+			"2 EL Zitronensaft",
+			"50ml Wasser",
+			"150g Zucker",
+			"150 Honig",
+			"550g Mehl",
+			"1 TL Backpulver",
+			"1 TL Zimt",
+			"100ml Milch"			
 		],
 	"recipeInstructions": [
 			"Für das Magenbrot kannst du zuerst ein einem kleinen Topf den Honig mit Wasser und Zucker erwärmen – aber nicht aufkochen. Der Zucker sollte sich im Honig lösen.",
@@ -33,5 +32,4 @@
 			"Rühre nun direkt den Puderzucker (200g) mit 1-2 EL Kakao und 2 EL Zitronensaft an. Streiche diesen mit einem Pinsel auf die Teigstangen und schneide diese in Streifen. Wenn du den richtigen Winkel ansetzt, erhältst du hübsche Rauten.",
 			"Verstaue das Magenbrot sobald der Zuckerguss getrocknet ist in Keksdosen.",
 			"Das Rezept stammt von <a href='https://www.einfachmalene.de/magenbrot-wie-vom-jahrmarkt-einfach/' target='_blank' rel='noopener noreferrer'>https://www.einfachmalene.de/magenbrot-wie-vom-jahrmarkt-einfach/</a>. Das Magenbrot schmeckt erst nach einer Nacht so richtig gut!."
-		]
-}
+		]    }

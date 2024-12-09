@@ -1,16 +1,15 @@
-{
-	"name": "Pesto-Hähnchen in Blätterteig",
+{   "name": "Pesto-Hähnchen in Blätterteig",
 	"image": "PestoHaehnchen",
 	"recipeCategory": "Fleisch",
 	"totalTime": "PT0H45M0S",
 	"Schwierigkeit": "2",
 	"recipeYield": "4",
 	"recipeIngredient": [
-		{	"320g Blätterteig"},
-		{	"4 Hähnchenbrustfilet"},
-		{	"4 TL Pesto"},
-		{	"400g kleine Rispentomaten"},
-		{	"400g grüne Bohnen"},
+			"320g Blätterteig",
+			"4 Hähnchenbrustfilet",
+			"4 TL Pesto",
+			"400g kleine Rispentomaten",
+			"400g grüne Bohnen"
 		],
 	"recipeInstructions": [
 			"Den Backofen auf 220 °C vorheizen. Den Blätterteig entrollen, der Länge nach halbieren und jede Hälfte quer in acht gleich große Streifen schneiden.",
@@ -21,5 +20,4 @@
 			"Das Fleisch und die Hälfte der Tomaten auf ein Brett legen, die restlichen Tomaten in der Form zerdrücken, die Stängel wegwerfen.",
 			"Die Bohnen abgießen, in den zerdrückten Tomaten wenden, abschmecken und auf Teller verteilen. Die Hähnchenbrustfilets schräg in Scheiben schneiden, zusammen mit den restlichen Tomaten auf den Bohnen anrichten und servieren.",
 			"Guten Appetit! Das Rezept stammt aus <a href='https://www.dorlingkindersley.de/buch/jamie-oliver-jamies-5-zutaten-kueche-9783831034215' target='_blank' rel='noopener noreferrer'>Jamies 5 Zutaten Küche vom Verlag DK</a>."
-		]
-}
+		]    }

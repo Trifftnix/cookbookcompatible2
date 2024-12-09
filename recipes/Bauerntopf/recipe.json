@@ -1,21 +1,20 @@
-{
-	"name": "Bauerntopf",
+{   "name": "Bauerntopf",
 	"image": "Bauerntopf",
 	"recipeCategory": "Fleisch",
 	"totalTime": "PT0H0M0S",
 	"Schwierigkeit": "1",
 	"recipeYield": "4",
 	"recipeIngredient": [
-		{	"300g Hackfleisch"},
-		{	"2 Paprika"},
-		{	"500g Kartoffeln"},	
-		{	"6 EL Tomatenmark"},
-		{	"etwas Creme Fraiche oder saure Sahne"}
-		{	"1 TL Thymian"},
-		{	"1 TL Majoran"},
-		{	"1 TL Zucker"},
-		{	"1/2 TL Paprikapulver"},
-		{	"500ml Gemüsebrühe"}
+			"300g Hackfleisch",
+			"2 Paprika",
+			"500g Kartoffeln",	
+			"6 EL Tomatenmark",
+			"etwas Creme Fraiche oder saure Sahne",
+			"1 TL Thymian",
+			"1 TL Majoran",
+			"1 TL Zucker",
+			"1/2 TL Paprikapulver",
+			"500ml Gemüsebrühe"
 		],
 	"recipeInstructions": [
 			"Die Kartoffeln schälen und in Würfel schneiden, ca. 1 cm groß. Die Paprikaschoten waschen und ebenfalls würfeln, etwa in der gleichen Größe. Zwiebel und Knoblauch schälen und fein hacken.",

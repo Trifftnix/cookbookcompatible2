@@ -1,23 +1,22 @@
-{
-	"name": "Chili Beef Lettuce",
+{   "name": "Chili Beef Lettuce",
 	"image": "ChiliBeefLettuce",
 	"recipeCategory": "Fleisch",
 	"totalTime": "PT0H30M0S",
 	"Schwierigkeit": "2",
 	"recipeYield": "4",
 	"recipeIngredient": [
-		{	"400g Hackfleisch"},
-		{	"einiges Sesamöl"},
-		{	"5cm Ingwerwurzel"},	
-		{	"1-2 Chilischoten"},
-		{	"2 EL Fischsauce"},
-		{	"1 EL Sojasauce"},
-		{	"1 Limette"},
-		{	"3 Frühlingszwiebeln"},
-		{	"2 kleine Romanasalatherzen"},
-		{	"1 kl. Bündel Korianderblätter"}
-		{	"2 Knoblauchzehen"},
-		{	"1 EL brauner Zucker"}
+			"400g Hackfleisch",
+			"einiges Sesamöl",
+			"5cm Ingwerwurzel",	
+			"1-2 Chilischoten",
+			"2 EL Fischsauce",
+			"1 EL Sojasauce",
+			"1 Limette",
+			"3 Frühlingszwiebeln",
+			"2 kleine Romanasalatherzen",
+			"1 kl. Bündel Korianderblätter",
+			"2 Knoblauchzehen",
+			"1 EL brauner Zucker"
 		],
 	"recipeInstructions": [
 			"Eine große Bratpfanne erhitzen und etwas Öl hineingeben. Rinder- und Schweinehack mischen. Mit Salz und Pfeffer würzen und gut mischen, um sicherzustellen, dass die Gewürze gleichmäßig verteilt sind. Das Hackfleisch in der heißen Pfanne 5–7 Minuten braten, bis es knusprig braun und zu einer feinen Konsistenz zerfallen ist. Das knusprige Hack in einem Sieb abtropfen lassen – so bleibt es knusprig. Beiseite legen.",

@@ -1,20 +1,19 @@
-{
-	"name": "Kartoffelsalat Schmittner'sche Art",
+{   "name": "Kartoffelsalat Schmittner'sche Art",
 	"image": "Kartoffelsalatschmittner",
 	"recipeCategory": "Vegetarisch",
 	"totalTime": "PT0H0M0S",
 	"Schwierigkeit": "1,0",
 	"recipeYield": "4",
 	"recipeIngredient": [
-		{	"500g Kartoffeln"},
-		{	"10 saure Gurken"},
-		{	"4 Eier"},
-		{	"etwas Radieschen, Tomaten, Erbsen, Gurken nach Belieben und Geschmack"},
-		{	"1 Zwiebel"},
-		{	"1 Tl Gustin (Mondamin, Maismehl, Kartoffelmehl)"},
-		{	"2 Tl Gemüsebrühe (Suppenbrühe)"},
-		{	"etwas Olivenöl"},
-		{	"etwas Essig (z.B. Himbeeressig, Weißweinessig, ...)"},
+			"500g Kartoffeln",
+			"10 saure Gurken",
+			"4 Eier",
+			"etwas Radieschen, Tomaten, Erbsen, Gurken nach Belieben und Geschmack",
+			"1 Zwiebel",
+			"1 Tl Gustin (Mondamin, Maismehl, Kartoffelmehl)",
+			"2 Tl Gemüsebrühe (Suppenbrühe)",
+			"etwas Olivenöl",
+			"etwas Essig (z.B. Himbeeressig, Weißweinessig, ...)"
 		],
 	"recipeInstructions": [
 			"Zunächst die Kartoffeln putzen und dann in einem Topf mit Wasser für ca. 25 min kochen. (Zur Kontrolle die Kartoffel mit einer Gabel anpiksen, wenn es keinen Widerstand gibt, dann sind sie fertig.) Die Kartoffeln schälen.",
@@ -26,5 +25,4 @@
 			"Man kann noch Radieschen, Tomaten, Eier (Erbsen und Gurken) hinzufügen.",
 			"Der Kartoffelsalat passt sehr gut zum Grillen, gebackenen Fisch, Fleischwurst oder ganz einfach Eiern von glücklichen Hühnern.",
 			"Guten Appetit! Das Rezept stammt von meiner Oma (und Uroma), vielen Dank dir nicht nur für das Rezept! Guten Appetit."
-		]
-}
+		]    }

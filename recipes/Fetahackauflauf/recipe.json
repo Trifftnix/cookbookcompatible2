@@ -1,21 +1,20 @@
-{
-	"name": "Griechischer Feta-Hackauflauf",
+{   "name": "Griechischer Feta-Hackauflauf",
 	"image": "FetaHackAuflauf",
 	"recipeCategory": "Fleisch",
 	"totalTime": "PT0H0M0S",
 	"Schwierigkeit": "1",
 	"recipeYield": "3",
 	"recipeIngredient": [
-		{	"250g Rinderhackfleisch"},
-		{	"2-3 Zucchini"},
-		{	"150g Feta"},	
-		{	"4 EL Tomatenmark"}
-		{	"200g Nudeln"},
-		{	"500ml Gemüsebrühe"},
-		{	"1 Zwiebel"},
-		{	"1 Knoblauchzehe"},
-		{	"1-2 EL Oregano"},
-		{	"etwas Salz, Pfeffer, Öl, Zucker"}
+			"250g Rinderhackfleisch",
+			"2-3 Zucchini",
+			"150g Feta",	
+			"4 EL Tomatenmark",
+			"200g Nudeln",
+			"500ml Gemüsebrühe",
+			"1 Zwiebel",
+			"1 Knoblauchzehe",
+			"1-2 EL Oregano",
+			"etwas Salz, Pfeffer, Öl, Zucker"
 		],
 	"recipeInstructions": [
 			"Den Ofen auf 200 Grad vorheizen.",

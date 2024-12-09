@@ -1,16 +1,15 @@
-{
-	"name": "Gratin mit Schweinefilet",
+{   "name": "Gratin mit Schweinefilet",
 	"image": "GratinmitSchweinefilet",
 	"recipeCategory": "Fleisch",
 	"totalTime": "PT0H30M0S",
 	"Schwierigkeit": "2",
 	"recipeYield": "3",
 	"recipeIngredient": [
-		{	"800g Kartoffeln"},
-		{	"400g Schweinefilet"},
-		{	"2 Salbeizweige"},	
-		{	"120g Cheddar"},
-		{	"4 Scheiben luftgetrockneter Schinken"}		
+			"800g Kartoffeln",
+			"400g Schweinefilet",
+			"2 Salbeizweige",	
+			"120g Cheddar",
+			"4 Scheiben luftgetrockneter Schinken"		
 		],
 	"recipeInstructions": [
 			"Die Kartoffeln abbürsten und in 3cm große Stücke schneiden. In reichlich kochendem Salzwasser zugedeckt etwa 12 Minuten garen. Inzwischen einen flachen backofenfesten Schmortopf bei hoher Temperatur erhitzen.",
@@ -19,5 +18,4 @@
 			"10 Minuten unter dem Grill überbacken. Die Schinkenscheiben um das Fleisch verteilen und alles mit den knusprigen Salbeiblättern bestreuen. Das Ganze weitere 2 Minuten gratinieren, oder bis das Fleisch so gegart ist, wie Sie es mögen.",
 			"Das Filet 2 Minuten ruhen lassen, dann in Scheiben schneiden und servieren.",
 			"Guten Appetit! Das Rezept stammt aus <a href='https://www.dorlingkindersley.de/buch/jamie-oliver-jamies-5-zutaten-kueche-9783831034215' target='_blank' rel='noopener noreferrer'>Jamies 5 Zutatenküche vom Verlag DK</a>"
-		]
-}
+		]    }
