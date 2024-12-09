@@ -51,6 +51,7 @@ if ($Rezeptname != "") {
 	include 'deployment/recipeTemplate.php';
 	$content = ob_get_contents();
 	$template=  "recipes/".$Rezeptname."/recipe.html";
+	echo $template;
 	file_put_contents ($template, $content);
 
 	ob_end_clean();	

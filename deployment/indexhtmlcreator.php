@@ -15,7 +15,7 @@ $content = "";
 $allrecipes ="";
 
 
-$allrecipes = file_get_contents($$prefixDeploymentFolder."snacksrecipes.html");
+$allrecipes = file_get_contents($prefixDeploymentFolder."snacksrecipes.html");
 ob_start();
 include $prefixDeploymentFolder.'indextemplate.php';
 $content = ob_get_contents();
@@ -26,7 +26,7 @@ $content = "";
 $allrecipes ="";
 	
 
-$allrecipes = file_get_contents($$prefixDeploymentFolder."backenrecipes.html");
+$allrecipes = file_get_contents($prefixDeploymentFolder."backenrecipes.html");
 ob_start();
 include $prefixDeploymentFolder.'indextemplate.php';
 $content = ob_get_contents();
@@ -37,7 +37,7 @@ $content = "";
 $allrecipes ="";
 
 
-$allrecipes = file_get_contents($$prefixDeploymentFolder."fleischrecipes.html");
+$allrecipes = file_get_contents($prefixDeploymentFolder."fleischrecipes.html");
 ob_start();
 include $prefixDeploymentFolder.'indextemplate.php';
 $content = ob_get_contents();
@@ -48,7 +48,7 @@ $content = "";
 $allrecipes ="";
 
 
-$allrecipes = file_get_contents($$prefixDeploymentFolder."fischrecipes.html");
+$allrecipes = file_get_contents($prefixDeploymentFolder."fischrecipes.html");
 ob_start();
 include $prefixDeploymentFolder.'indextemplate.php';
 $content = ob_get_contents();
@@ -59,7 +59,7 @@ $content = "";
 $allrecipes ="";
 
 
-$allrecipes = file_get_contents($$prefixDeploymentFolder."spicyrecipes.html");
+$allrecipes = file_get_contents($prefixDeploymentFolder."spicyrecipes.html");
 ob_start();
 include $prefixDeploymentFolder.'indextemplate.php';
 $content = ob_get_contents();
@@ -70,7 +70,7 @@ $content = "";
 $allrecipes ="";
 
 
-$allrecipes = file_get_contents($$prefixDeploymentFolder."vegetarischrecipes.html");
+$allrecipes = file_get_contents($prefixDeploymentFolder."vegetarischrecipes.html");
 ob_start();
 include $prefixDeploymentFolder.'indextemplate.php';
 $content = ob_get_contents();
