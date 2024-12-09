@@ -1,0 +1,31 @@
+{
+	"Rezeptname": "Milchreis",
+	"BildnameohneEndung": "Milchreis",
+	"backen"	: "nein",
+	"fleisch"	: "nein",
+	"fisch"		: "nein",
+	"snacks"	: "nein",
+	"spicy"		: "nein",
+	"vegetarisch"	: "ja",
+	"Zeit": " h",
+	"Schwierigkeit": "1,5",
+	"Portionen": "",
+	"ZutatenEinkaufsliste": [
+		{	"Menge":"250g",
+			"Zutat":"Milchreis"}
+		],
+	"Zutatenschonvorhanden": [
+		{	"Menge":"1L",
+			"Zutat":"Milch"},
+		{	"Menge":"1Pk",
+			"Zutat":"Vanillezucker"},
+		{	"Menge":"etwas",
+			"Zutat":"Salz"}
+		],
+	"Zubereitungsschritte": [
+			"Die Milch zusammen mit einer Prise Salz und einem Päckchen Vanillezucker in einen Topf geben und kurz aufkochen lassen.",
+			"Danach den Milchreis zur Milch hinzufügen und noch einmal aufkochen. Anschließend bei niedriger Hitze den Milchreis ca. 20 Minuten garen lassen, bis der Reis weich ist. Nicht vergessen dabei zu rühren, damit nichts anbrennt!",
+			"Milchreis schmeckt sehr lecker mit Zimt und Zucker, Kirschen, Apfelmus oder anderen Früchten der Saison.",
+			"Guten Appetit! Das Rezept stammt aus <a href='https://www.gutekueche.at/einfacher-milchreis-rezept-4628' target='_blank' rel='noopener noreferrer'>www.gutekueche.at/einfacher-milchreis-rezept-4628</a>."
+		]
+}

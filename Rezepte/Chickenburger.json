@@ -1,0 +1,43 @@
+{
+	"Rezeptname": "Crispy Chickenburger",
+	"BildnameohneEndung": "Chickenburger",
+	"backen"	: "nein",
+	"fleisch"	: "ja",
+	"fisch"		: "nein",
+	"snacks"	: "nein",
+	"spicy"		: "nein",
+	"vegetarisch"	: "nein",
+	"Zeit": " 0:25 h",
+	"Schwierigkeit": "1",
+	"Portionen": "4 Burger",
+	"ZutatenEinkaufsliste": [
+		{	"Menge":"2",
+			"Zutat":"Eier"},
+		{	"Menge":"350g",
+			"Zutat":"Cornflakes (ohne Zucker)"},
+		{	"Menge":"1",
+			"Zutat":"Lollo Bionda Salat"},
+		{	"Menge":"400g",
+			"Zutat":"Hähnchenschnitzel"},
+		{	"Menge":"2",
+			"Zutat":"Tomaten"},
+		{	"Menge":"4",
+			"Zutat":"Burgerbrötchen"}
+		],
+	"Zutatenschonvorhanden": [
+		{	"Menge":"etwas",
+			"Zutat":"Mehl"},
+		{	"Menge":"etwas",
+			"Zutat":"Mayonnaise"},
+		{	"Menge":"etwas",
+			"Zutat":"Ketchup"}
+		],
+	"Zubereitungsschritte": [
+			"Für die knusprige Panade werden drei Teller vorbereitet. In den ersten kommt das Mehl, in den zweiten werden die Eier mit etwas Knoblauch, Salz und Pfeffer verquirlt.",
+			"In den dritten Teller werden die (möglichst ungesüßten) Cornflakes grob zerkleinert. Man kann sie entweder in einem Frischhaltebeutel mit einem Nudelholz zerkleinern, oder man nimmt dafür einen Mixer.",
+			"Dann wird das Fleisch paniert, dazu wälzt ihr es zunächst in Mehl, dann gebt ihr es in das verquirlte Ei und als letztes wälzt ihr es in den Cornflakes.",
+			"Bei schwacher bis mittlerer Hitze, werden die Schnitzel anschließend knusprig angebraten. Richtig lecker werden die Burger, wenn die aufgeschnittenen Brötchen kurz in der Pfanne angebraten und damit karamellisiert werden.",
+			"Die Brötchen bzw. Buns werden aufgeschnitten und beide Hälften mit Mayonnaise und Ketchup bestrichen. Anschließend kommen das Crispy Chicken, Tomatenschreiben und Salat darauf und fertig ist der Crispy Chicken Burger.",
+			"Guten Appetit! Das Rezept stammt aus <a href='https://amerikanisch-kochen.de/crispy-chicken-burger/5120' target='_blank' rel='noopener noreferrer'>www.amerikanisch-kochen.de/crispy-chicken-burger/5120</a>."
+		]
+}

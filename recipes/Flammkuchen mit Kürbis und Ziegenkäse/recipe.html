@@ -8,7 +8,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   
-  <title><?php echo $Rezeptname ?> | Kochbuch</title>	<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+  <title>Flammkuchen mit Kürbis und Ziegenkäse | Kochbuch</title>	<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
 
   <!-- Favicon
   ============ -->
@@ -84,7 +84,7 @@
       <div class="row">
         <!-- Title -->
         <div class="col-12">
-          <h2 itemprop="name"><?php echo $Rezeptname ?></h2>	<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+          <h2 itemprop="name">Flammkuchen mit Kürbis und Ziegenkäse</h2>	<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
         </div>
       </div>
       <div class="row vertical-align">
@@ -103,7 +103,7 @@
                   <i class="fa fa-clock-o" aria-hidden="true"></i>
                 </div>
                 <div class="col-6">Zeit</div>
-                <div class="col-4" itemprop="prepTime"><?php echo $Zeit ?></div>	<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+                <div class="col-4" itemprop="prepTime">1:40 h</div>	<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
               </div>
               <!-- Difficulty -->
               <div class="row">
@@ -120,7 +120,7 @@
                   <i class="fa fa-users" aria-hidden="true"></i>
                 </div>
                 <div class="col-6">Portionen</div>
-                <div class="col-4"><?php echo $Portionen ?></div>								<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+                <div class="col-4">6</div>								<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
               </div>
             </div>
           </div>
@@ -132,10 +132,31 @@
           <div class="recipe-ingredients">
             <h3>Zutaten</h3>
             <dl class="ingredients-list">
-			  <?php echo $Zutaten ?>															<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+			  	<div itemprop='ingredients'><dt></dt><dd>280 g Weizenmehl (Type 550)</dd></div>
+				<div itemprop='ingredients'><dt></dt><dd>120 g Roggenmehl (Type 1150)</dd></div>
+				<div itemprop='ingredients'><dt></dt><dd>Salz</dd></div>
+				<div itemprop='ingredients'><dt></dt><dd>1 Päckchen Trockenhefe</dd></div>
+				<div itemprop='ingredients'><dt></dt><dd>1 EL Olivenöl</dd></div>
+				<div itemprop='ingredients'><dt></dt><dd>Mehl zum Arbeiten</dd></div>
+				<div itemprop='ingredients'><dt></dt><dd>1 kg Kürbis (z. B. Moschus oder Hokkaidokürbis, geputzt ca. 750 g)</dd></div>
+				<div itemprop='ingredients'><dt></dt><dd>2 rote Zwiebeln</dd></div>
+				<div itemprop='ingredients'><dt></dt><dd>1 rote Chilischote</dd></div>
+				<div itemprop='ingredients'><dt></dt><dd>4 Zweige Thymian</dd></div>
+				<div itemprop='ingredients'><dt></dt><dd>1 Zweig Rosmarin</dd></div>
+				<div itemprop='ingredients'><dt></dt><dd>6 EL Olivenöl</dd></div>
+				<div itemprop='ingredients'><dt></dt><dd>Salz</dd></div>
+				<div itemprop='ingredients'><dt></dt><dd>Pfeffer</dd></div>
+				<div itemprop='ingredients'><dt></dt><dd>75 ml Gemüsebrühe</dd></div>
+				<div itemprop='ingredients'><dt></dt><dd>150 g Ziegenfrischkäse</dd></div>
+				<div itemprop='ingredients'><dt></dt><dd>120 g Crème fraîche</dd></div>
+				<div itemprop='ingredients'><dt></dt><dd>100 g Sahne</dd></div>
+				<div itemprop='ingredients'><dt></dt><dd>frisch geriebene Muskatnuss</dd></div>
+																			<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
             
 			</dl>
-			<!-- <?php echo $Zutaten2 ?>-->
+			<!-- <br />
+<b>Warning</b>:  Undefined variable $Zutaten2 in <b>D:\Xampp\htdocs\deployment\recipeTemplate.php</b> on line <b>138</b><br />
+-->
 						  
 			</dl>
           </div>
@@ -147,8 +168,11 @@
           <div class="recipe-directions">
             <h3>Zubereitung</h3>					<!-- HIER ETWAS ÄNDERN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
             <ol>
-				<?php echo $Zubereitungsschritte ?>
-            
+				<li>Für den Teig beide Mehlsorten in einer Rührschüssel mit 1 TL Salz und der Hefe mischen. Ca. ¼ l lauwarmes Wasser und das Öl verrühren, dazugeben und mit den Knethaken des Handrührgeräts unterkneten. Alles mit dem Handrührgerät oder von Hand 5 Min. kräftig zu einem glatten, elastischen Teig kneten. Den Teig in eine mit Mehl ausgestäubte Schüssel geben, mit einem Küchentuch abdecken und an einem warmen Ort ca. 45 Min. gehen lassen.</li>
+				<li>Inzwischen für den Belag den Kürbis schälen (Hokkaidokürbis muss nicht geschält werden), Kerne und faseriges Fleisch entfernen und das Fruchtfleisch in ca. 1 cm große Würfel schneiden. Zwiebeln schälen, halbieren und längs in dünne Streifen schneiden. Die Chilischote längs halbieren und die Kerne entfernen, die Hälften waschen und fein hacken. Die Kräuter abbrausen und trocken schütteln, die Blättchen bzw. Nadeln abzupfen und grob hacken.</li>
+				<li>In einer großen beschichteten Pfanne 3 EL Öl erhitzen, darin den Kürbis bei großer Hitze unter Rühren 2 Min. anbraten. Zwiebeln, Chili und Kräuter hinzufügen, salzen, pfeffern und bei mittlerer Hitze weitere 2-3 Min. braten. Mit Brühe ablöschen und unter Rühren braten, bis die Brühe völlig verdampft ist, dann vom Herd nehmen und abkühlen lassen. Den Ziegenkäse mit einer Gabel zerdrücken und mit Crème fraîche und Sahne glatt rühren. Mit Salz, Pfeffer und Muskatnuss würzen.</li>
+				<li>Den Backofen auf 230° (Umluft 210°) vorheizen. Den Teig auf einer bemehlten Arbeitsfläche nochmals gut durchkneten und in 3 Portionen teilen. Jede Portion zu einem länglichen, möglichst dünnen Fladen ausrollen. Die Fladen jeweils auf ein mit Backpapier ausgelegtes Blech legen und gleichmäßig mit der Creme bestreichen. Die Kürbismischung darauf verteilen und jeweils mit ca. 1 EL Öl beträufeln. Die Fladen nacheinander im Ofen (unten) in 12-15 Min. goldbraun backen. In Stücke schneiden und heiß servieren.</li>
+				            
 			</ol>
           </div>
         </div>

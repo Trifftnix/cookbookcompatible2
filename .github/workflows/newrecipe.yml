@@ -15,10 +15,7 @@ jobs:
       - uses: nanasess/setup-php@v3
         with:
             php-version: '7.4'
-      - run : php deployment/emptythefile.php
-      - run: for file_name in Rezepte/*.json; do php deployment/rezeptcreator.php "$file_name"; done
-      - run: for file_name in Rezepte/*.json; do php deployment/allrecipesintohtml.php "$file_name"; done
-      - run: php deployment/indexhtmlcreator.php
+      - run : php deployment/callallrecipesintohtml.php
       - uses: crazy-max/ghaction-github-pages@v2.3.0
         if: success()
         with:

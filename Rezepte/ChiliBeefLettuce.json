@@ -1,0 +1,49 @@
+{
+	"Rezeptname": "Chili Beef Lettuce",
+	"BildnameohneEndung": "ChiliBeefLettuce",
+	"backen"	: "nein",
+	"fleisch"	: "ja",
+	"fisch"		: "nein",
+	"snacks"	: "nein",
+	"spicy"		: "ja",
+	"vegetarisch":"nein",
+	"Zeit": " 0:30 h",
+	"Schwierigkeit": "2",
+	"Portionen": "4",
+	"ZutatenEinkaufsliste": [
+		{	"Menge":"400g",
+			"Zutat":"Hackfleisch"},
+		{	"Menge":"einiges",
+			"Zutat":"Sesamöl"},
+		{	"Menge":"5cm",
+			"Zutat":"Ingwerwurzel"},	
+		{	"Menge":"1-2",
+			"Zutat":"Chilischoten"},
+		{	"Menge":"2 EL",
+			"Zutat":"Fischsauce"},
+		{	"Menge":"1 EL",
+			"Zutat":"Sojasauce"},
+		{	"Menge":"1",
+			"Zutat":"Limette"},
+		{	"Menge":"3",
+			"Zutat":"Frühlingszwiebeln"},
+		{	"Menge":"2",
+			"Zutat":"kleine Romanasalatherzen"},
+		{	"Menge":"1 kl. Bündel",
+			"Zutat":"Korianderblätter"}
+		],
+	"Zutatenschonvorhanden": [
+		{	"Menge":"2",
+			"Zutat":"Knoblauchzehen"},
+		{	"Menge":"1 EL",
+			"Zutat":"brauner Zucker"}
+		],
+	"Zubereitungsschritte": [
+			"Eine große Bratpfanne erhitzen und etwas Öl hineingeben. Rinder- und Schweinehack mischen. Mit Salz und Pfeffer würzen und gut mischen, um sicherzustellen, dass die Gewürze gleichmäßig verteilt sind. Das Hackfleisch in der heißen Pfanne 5–7 Minuten braten, bis es knusprig braun und zu einer feinen Konsistenz zerfallen ist. Das knusprige Hack in einem Sieb abtropfen lassen – so bleibt es knusprig. Beiseite legen.",
+			"Wischen Sie die Pfanne aus und fügen Sie einen Esslöffel geröstetes Sesamöl hinzu. Knoblauch, Ingwer und Chili dazugeben. Mit einer Prise Salz und dem Zucker 2 Minuten braten. Fügen Sie das abgetropfte Hackfleisch hinzu und rühren Sie um, um es zu mischen. ",
+			"Die Fischsauce zugeben und erhitzen. Limettenschale und -saft unterrühren, dann die Frühlingszwiebeln hinzufügen und 30 Sekunden rühren. Schalten Sie die Kochplatte aus",
+			"Alle Zutaten für das Dressing miteinander verrühren und nach Geschmack abschmecken. (1 EL Sojasauce, Saft von ½ Limette, 1 TL Sesamöl, ½ in dünne Scheiben geschnittene rote Chili, ein kleines Bündel gehackter Korianderblätter, 1–2 TL Fischsauce nach Geschmack, 1 TL brauner Zucker, 1 EL Olivenöl)",
+			"Zum Servieren etwas von der Hackfleischmischung in die Salatblätter geben, mit etwas Dressing beträufeln und servieren.",
+			"Guten Appetit! Das Rezept stammt aus dem <a href='https://www.gordonramsay.com/gr/recipes/chilli-beef-lettuce-wraps/' target='_blank' rel='noopener noreferrer'>https://www.gordonramsay.com/gr/recipes/chilli-beef-lettuce-wraps/</a>."
+		]
+}

@@ -1,0 +1,49 @@
+{
+	"Rezeptname": "Köttbullar",
+	"BildnameohneEndung": "Koettbullar",
+	"backen"	: "nein",
+	"fleisch"	: "ja",
+	"fisch"		: "nein",
+	"snacks"	: "nein",
+	"spicy"		: "nein",
+	"vegetarisch":"nein",
+	"Zeit": "0:35 h",
+	"Schwierigkeit": "2",
+	"Portionen": "4",
+	"ZutatenEinkaufsliste": [
+		{	"Menge":"500g",
+			"Zutat":"Hackfleisch"},
+		{	"Menge":"1",
+			"Zutat":"Ei"},
+		{	"Menge":"300ml",
+			"Zutat":"Sahne"},	
+		{	"Menge":"125g",
+			"Zutat":"Preiselbeeren"}
+		],
+	"Zutatenschonvorhanden": [
+		{	"Menge":"2",
+			"Zutat":"Zwiebeln"},
+		{	"Menge":"300ml",
+			"Zutat":"Fleischbrühe/ Gemüsefond"},
+		{	"Menge":"1 EL",
+			"Zutat":"Butter"},
+		{	"Menge":"3 EL",
+			"Zutat":"Paniermehl od. Brösel"},
+		{	"Menge":"2 Tl",
+			"Zutat":"Speisestärke"},
+		{	"Menge":"1 Tl",
+			"Zutat":"Sojasauce"},
+		{	"Menge":"1 Msp.",
+			"Zutat":"gemahlener Piment"},	
+		{	"Menge":"etwas",
+			"Zutat":"Salz, Öl, Pfeffer"}
+		],
+	"Zubereitungsschritte": [
+			"Zwiebel schälen und fein würfel. Zwiebeln mit 1 Teelöffel Butter und mit dem Zucker in einer Pfanne goldbraun karamellisieren und abkühlen lassen.",
+			"Den Backofen auf 80°C vorheizen",
+			"Die Sahne mit Paniermehl/ Brösel und Speisestärke verrühren. Das Hackfleisch mit Sahnemischung, Ei und Zwiebeln vermischen und mit Salz und Pfeffer würzen. Aus der Masse mit feuchten Händen ca. 3 Zentimeter große Bällchen formen und in 1 Esslöffel heißem Butterschmalz nacheinander rundherum goldbraun braten. Sie brauchen nicht komplett durchzugaren, weil sie anschließend noch in der Sauce garen. Fertig gebrateten Bällchen aus der Pfanne nehmen und beiseitestellen, Bratensatz aufbewahren.",
+			"Zu dem Bratensatz in der Pfanne Butter für die Sauce geben, das Mehl einrühren und beides leicht bräunen. Brühe oder Fond und Sahne angießen, Piment und Sojasauce zugeben, die Fleischbällchen wieder in die Pfanne geben und alles 20 Minuten köcheln lassen. Mit Salz und Pfeffer abschmecken.",
+			"Die Kartoffeln währenddessen kochen.",
+			"Guten Appetit!. Das Rezept stammt aus dem Buch<a href='https://www.naumann-goebel.de/produkt-details/skandinavische-kueche-9783815554586/show/' target='_blank' rel='noopener noreferrer'>Skandinavische Küche von Simone Filipowsky</a> aus dem Naumann&Göbel Verlag."
+		]
+}
