@@ -51,10 +51,10 @@ if ($Rezeptname != "") {
 	echo $Zubereitungsschritte;
 
 	ob_start();
-	include 'recipeTemplate.php';
+	include 'deployment/recipeTemplate.php';
 	$content = ob_get_contents();
-	$template=  "../recipes/".$Rezeptname."/recipe.html";
-	echo ("../recipes/".$Rezeptname."/recipe.html");
+	$template=  "recipes/".$Rezeptname."/recipe.html";
+	echo $template;
 	file_put_contents ($template, $content);
 
 	ob_end_clean();	

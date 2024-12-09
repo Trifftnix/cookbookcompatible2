@@ -4,7 +4,7 @@ $deploymentprefix2 = "";
 $prefixDeploymentFolder
 
 
-$allrecipes = file_get_contents($$prefixDeploymentFolder."allrecipes.html");
+$allrecipes = file_get_contents($prefixDeploymentFolder."allrecipes.html");
 ob_start();
 include $$prefixDeploymentFolder.'indextemplate.php';
 $content = ob_get_contents();
