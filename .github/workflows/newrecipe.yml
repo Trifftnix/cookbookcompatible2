@@ -29,14 +29,6 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-composer-
 
-      # Step 4: Install Composer (if you are using Composer for dependencies)
-      - name: Install Composer
-        run: curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
-
-      # Step 5: Install dependencies via Composer (only if using Composer)
-      - name: Install Composer dependencies
-        run: composer install
-
       # Step 6: Run the PHP script
       - run: php deployment/callallrecipesintohtml.php
 
