@@ -74,7 +74,6 @@ if ($Rezeptname != "") {
 		$snacksrecipes= file_get_contents($fileprefixold."snacksrecipes.html");
 		$snacksrecipes= $snacksrecipes.$neueRezeptzeile;
 		file_put_contents ($fileprefixold."snacksrecipes.html", $snacksrecipes);
-		echo "SNACKKKSSS!!";
 	}
 	if ($Rezeptkategorie == "Spicy") {
 		$spicyrecipes= file_get_contents($fileprefixold."spicyrecipes.html");

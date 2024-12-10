@@ -15,7 +15,7 @@ function searchFilesWithExtension($dir, $extension) {
             $filePath = $file->getRealPath();  // Get the full file path            
             // Use file_get_contents to read the file content
             $neueVariablen = file_get_contents($filePath);
-			echo $filePath;
+			//echo $filePath;
 			include "deployment/rezeptcreator2.php";
 			$neueVariablen = file_get_contents($filePath);
 			include "allrecipesintohtml.php";
