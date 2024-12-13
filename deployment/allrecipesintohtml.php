@@ -1,6 +1,6 @@
 <?php
 
-$allrecipes= file_get_contents("allrecipes.html");
+$allrecipes= file_get_contents("deployment/allrecipes.html");
 
 
 
